@@ -1,0 +1,11 @@
+(
+    version: "1",
+    name: "pygame",
+    author: "pknessness",
+    description: Some("Pygame Documentation"),
+    domains: [],
+    urls: [
+        "https://www.pygame.org/docs/ref/",
+        "https://devdocs.io/pygame/"
+    ]
+)

@@ -1,0 +1,10 @@
+(
+    version: "1",
+    name: "snap",
+    author: "pknessness",
+    description: Some("Indexes snapcraft, the app store for linux."),
+    domains: ["snapcraft.io"],
+    urls: [],
+	is_enabled: true,
+)
+

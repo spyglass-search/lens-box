@@ -1,0 +1,11 @@
+(
+    version: "1",
+    name: "luigis_mansion",
+    author: "pknessness",
+    description: Some("Luigi's Mansion Walkthrough"),
+    domains: [],
+    urls: [
+        "https://www.ign.com/wikis/luigis-mansion/"
+    ],
+	is_enabled: true,
+)

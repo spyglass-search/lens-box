@@ -1,0 +1,10 @@
+(
+    version: "1",
+    name: "gentoo",
+    author: "pknessness",
+    description: Some("Gentoo Documentation"),
+    domains: [],
+    urls: ["https://wiki.gentoo.org/wiki/"],
+	is_enabled: true,
+)
+
