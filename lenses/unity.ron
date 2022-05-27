@@ -1,0 +1,11 @@
+(
+    version: "1",
+    name: "unity",
+    author: "oparaskos",
+    description: Some("Unity targeted websites"),
+    domains: [
+        "docs.unity3d.com",
+        "openupm.com",
+    ],
+    urls: []
+)

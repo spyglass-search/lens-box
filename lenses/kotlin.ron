@@ -1,0 +1,12 @@
+(
+    version: "1",
+    name: "kotlin",
+    author: "oparaskos",
+    description: Some("Kotlin reference material."),
+    domains: [],
+    urls: [
+        "https://kotlinlang.org/docs/",
+        "https://docs.spring.io/spring-framework/docs/current/kdoc-api/",
+        "https://gradle.github.io/kotlin-dsl-docs/api/"
+    ]
+)

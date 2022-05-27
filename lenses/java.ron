@@ -1,0 +1,17 @@
+(
+    version: "1",
+    name: "java",
+    author: "oparaskos",
+    description: Some("Java reference material."),
+    domains: [],
+    urls: [
+        "https://docs.oracle.com/en/java/javase/18/docs/api",
+        "https://docs.oracle.com/javase/8/docs/api/",
+        "https://github.com/FasterXML/jackson-docs/tree/master/",
+        "https://github.com/FasterXML/jackson-docs/wiki",
+        "https://docs.spring.io/spring-framework/docs/current/javadoc-api/",
+        "https://logging.apache.org/log4j/",
+        "https://commons.apache.org",
+        "https://docs.gradle.org/current/javadoc/"
+    ]
+)
