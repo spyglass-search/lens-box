@@ -2,18 +2,18 @@
     (
         name: "factorio",
         author: "a5huynh",
-        description: "Factorio wiki & subreddit. Factorio is a game in which you build and maintain factories."
+        description: "Factorio wiki & subreddit. Factorio is a game in which you build and maintain factories.",
         sha: "35c1fe194c46151f2bf1ab553a21b4cf722ff4ca",
         html_url: "https://github.com/spyglass-search/lens-box/blob/main/lenses/factorio.ron",
-        download_url: "https://raw.githubusercontent.com/spyglass-search/lens-box/main/lenses/factorio.ron"
+        download_url: "https://raw.githubusercontent.com/spyglass-search/lens-box/main/lenses/factorio.ron",
     ),
     (
         name: "gentoo",
         author: "pknessness",
-        description: "Gentoo Documentation"
+        description: "Gentoo Documentation",
         sha: "122573a2a707f78db063d63220902f8f92da0267",
         html_url: "https://github.com/spyglass-search/lens-box/blob/main/lenses/gentoo.ron",
-        download_url: "https://raw.githubusercontent.com/spyglass-search/lens-box/main/lenses/gentoo.ron"
+        download_url: "https://raw.githubusercontent.com/spyglass-search/lens-box/main/lenses/gentoo.ron",
     ),
     (
         name: "java",
