@@ -1,0 +1,106 @@
+[
+    (
+        name: "factorio",
+        author: "a5huynh",
+        description: "Factorio wiki & subreddit. Factorio is a game in which you build and maintain factories."
+        sha: "35c1fe194c46151f2bf1ab553a21b4cf722ff4ca",
+        html_url: "https://github.com/spyglass-search/lens-box/blob/main/lenses/factorio.ron",
+        download_url: "https://raw.githubusercontent.com/spyglass-search/lens-box/main/lenses/factorio.ron"
+    ),
+    (
+        name: "gentoo",
+        author: "pknessness",
+        description: "Gentoo Documentation"
+        sha: "122573a2a707f78db063d63220902f8f92da0267",
+        html_url: "https://github.com/spyglass-search/lens-box/blob/main/lenses/gentoo.ron",
+        download_url: "https://raw.githubusercontent.com/spyglass-search/lens-box/main/lenses/gentoo.ron"
+    ),
+    (
+        name: "java",
+        author: "oparaskos",
+        description: "Java reference material.",
+        sha: "bd667ea70e9ee7965bc99415ea78c655d24fc7a8",
+        html_url: "https://github.com/spyglass-search/lens-box/blob/main/lenses/java.ron",
+        download_url: "https://raw.githubusercontent.com/spyglass-search/lens-box/main/lenses/java.ron",
+    ),
+    (
+        name: "kotlin",
+        author: "oparaskos",
+        description: "Kotlin reference material.",
+        sha: "8870da4f97f0ec1b483f4085fcb1cf2e2345406b",
+        html_url: "https://github.com/spyglass-search/lens-box/blob/main/lenses/kotlin.ron",
+        download_url: "https://raw.githubusercontent.com/spyglass-search/lens-box/main/lenses/kotlin.ron",
+    ),
+    (
+        name: "luigis_mansion",
+        author: "pknessness",
+        description: "Luigi's Mansion Walkthrough.",
+        sha: "525fe4030ab6a2f2acddfdacc54b6629eef0315c",
+        html_url: "https://github.com/spyglass-search/lens-box/blob/main/lenses/luigis_mansion.ron",
+        download_url: "https://raw.githubusercontent.com/spyglass-search/lens-box/main/lenses/luigis_mansion.ron",
+    ),
+    (
+        name: "mbed68",
+        author: "pknessness",
+        description: "MBED 6.8 Documentation",
+        sha: "0209afdda854353cb0c2bc72f81ba1bc1a185eb7",
+        html_url: "https://github.com/spyglass-search/lens-box/blob/main/lenses/mbed6-8.ron",
+        download_url: "https://raw.githubusercontent.com/spyglass-search/lens-box/main/lenses/mbed6-8.ron",
+    ),
+    (
+        name: "pygame",
+        author: "pknessness",
+        description: "Pygame Documentation",
+        sha: "faec826afdaf78ec5893740a36e9058ee8b547a1",
+        html_url: "https://github.com/spyglass-search/lens-box/blob/main/lenses/pygame.ron",
+        download_url: "https://raw.githubusercontent.com/spyglass-search/lens-box/main/lenses/pygame.ron",
+    ),
+    (
+        name: "snap",
+        author: "pknessness",
+        description: "Indexes snapcraft, the app store for linux.",
+        sha: "2220170e93966a62a20f5f42c0e8e21175b962ea",
+        html_url: "https://github.com/spyglass-search/lens-box/blob/main/lenses/snap.ron",
+        download_url: "https://raw.githubusercontent.com/spyglass-search/lens-box/main/lenses/snap.ron",
+    ),
+    (
+        name: "smg",
+        author: "pknessness",
+        description: "Super Mario Galaxy 1 and 2 Wiki",
+        sha: "7b5cea9dc7c0f4be5e3b5c0fcca0588393a086ca",
+        html_url: "https://github.com/spyglass-search/lens-box/blob/main/lenses/super_mario_galaxy.ron",
+        download_url: "https://raw.githubusercontent.com/spyglass-search/lens-box/main/lenses/super_mario_galaxy.ron",
+    ),
+    (
+        name: "twd",
+        author: "a5huynh",
+        description: "The Walking Dead (/twd) lens includes all information about the comic series, novels, video games, and television shows, including character statuses and current storyline plot-points.",
+        sha: "06eef0dffd86217bf491e60192568f0c0a1c7206",
+        html_url: "https://github.com/spyglass-search/lens-box/blob/main/lenses/the_walking_dead.ron",
+        download_url: "https://raw.githubusercontent.com/spyglass-search/lens-box/main/lenses/the_walking_dead.ron",
+    ),
+    (
+        name: "unity",
+        author: "oparaskos",
+        description: "Unity targeted websites",
+        sha: "df548b5e2bc53ec937060b0efb01ed0708caa46c",
+        html_url: "https://github.com/spyglass-search/lens-box/blob/main/lenses/unity.ron",
+        download_url: "https://raw.githubusercontent.com/spyglass-search/lens-box/main/lenses/unity.ron",
+    ),
+    (
+        author: "oparaskos",
+        name: "unreal",
+        description: "Unreal Engine targeted websites",
+        sha: "ece2bd18b7009495812a905385a9d9f54ba0de88",
+        html_url: "https://github.com/spyglass-search/lens-box/blob/main/lenses/unreal_engine.ron",
+        download_url: "https://raw.githubusercontent.com/spyglass-search/lens-box/main/lenses/unreal_engine.ron",
+    ),
+    (
+        name: "twilight",
+        author: "pknessness",
+        description: "Legend of Zelda Twilight Princess Walkthrough",
+        sha: "333dd9f36df4c9ad361c2fbeb6979aa177582b04",
+        html_url: "https://github.com/spyglass-search/lens-box/blob/main/lenses/zelda_twilight_princess.ron",
+        download_url: "https://raw.githubusercontent.com/spyglass-search/lens-box/main/lenses/zelda_twilight_princess.ron",
+    )
+]

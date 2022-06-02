@@ -1,7 +1,7 @@
 (
     version: "1",
     name: "twd",
-    author: "@a5huynh",
+    author: "a5huynh",
     description: Some(r#"The Walking Dead (/twd) lens includes all information
     about the comic series, novels, video games, and television shows, including
     character statuses and current storyline plot-points."#),

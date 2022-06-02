@@ -1,8 +1,8 @@
 (
     version: "1",
     name: "factorio",
-    author: "@a5huynh",
-    description: Some("Factorio wiki & subreddit"),
+    author: "a5huynh",
+    description: Some("Factorio wiki & subreddit. Factorio is a game in which you build and maintain factories."),
     is_enabled: true,
     domains: [],
     urls: [
