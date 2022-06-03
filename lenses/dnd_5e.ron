@@ -1,0 +1,20 @@
+(
+    version: "1",
+    name: "dnd",
+    author: "lagoja",
+    description: Some("D&D 5E reference guide for classes, equipment, feats, magic items, monsters, spells, etc."),
+    domains: [],
+    is_enabled: true,
+    urls: [
+        "https://roll20.net/compendium/dnd5e",
+        "https://www.dndbeyond.com/backgrounds",
+        "https://www.dndbeyond.com/classes",
+        "https://www.dndbeyond.com/equipment",
+        "https://www.dndbeyond.com/feats",
+        "https://www.dndbeyond.com/magic-items",
+        "https://www.dndbeyond.com/monsters",
+        "https://www.dndbeyond.com/races",
+        "https://www.dndbeyond.com/spells",
+        "https://www.dndbeyond.com/vehicles",
+    ]
+)
