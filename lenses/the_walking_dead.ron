@@ -17,12 +17,17 @@
         SkipURL("https://walkingdead.fandom.com/wiki/*oldid=*"),
         // Skip meta categories & user related pages
         SkipURL("https://walkingdead.fandom.com/wiki/Category:*"),
+        SkipURL("https://walkingdead.fandom.com/wiki/Board_Thread:*"),
         SkipURL("https://walkingdead.fandom.com/wiki/File:*"),
+        SkipURL("https://walkingdead.fandom.com/wiki/Message_Wall:*"),
         SkipURL("https://walkingdead.fandom.com/wiki/Talk:*"),
         SkipURL("https://walkingdead.fandom.com/wiki/Template:*"),
         SkipURL("https://walkingdead.fandom.com/wiki/Thread:*"),
+        SkipURL("https://walkingdead.fandom.com/wiki/Special:*"),
         SkipURL("https://walkingdead.fandom.com/wiki/*/Gallery*"),
         SkipURL("https://walkingdead.fandom.com/wiki/User:*"),
         SkipURL("https://walkingdead.fandom.com/wiki/User_blog:*")
+        SkipURL("https://walkingdead.fandom.com/wiki/User_blog_comment:*")
+        SkipURL("https://walkingdead.fandom.com/wiki/User_talk:*")
     ]
 )
