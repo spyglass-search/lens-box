@@ -13,6 +13,7 @@
     rules: [
         // Skip wiki related actions
         SkipURL("https://walkingdead.fandom.com/wiki/*action=*"),
+        SkipURL("https://walkingdead.fandom.com/wiki/*diff=*"),
         // Skip meta categories & user related pages
         SkipURL("https://walkingdead.fandom.com/wiki/Category:*"),
         SkipURL("https://walkingdead.fandom.com/wiki/Talk:*"),
