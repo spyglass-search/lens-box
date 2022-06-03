@@ -1,5 +1,13 @@
 [
     (
+        name: "dnd",
+        author: "lagoja",
+        description: "D&D 5E reference guide for classes, equipment, feats, magic items, monsters, spells, etc.",
+        sha: "243a07befdfc982255821edb12489c38fa956893",
+        html_url: "https://github.com/spyglass-search/lens-box/blob/main/lenses/dnd_5e.ron",
+        download_url: "https://raw.githubusercontent.com/spyglass-search/lens-box/main/lenses/dnd_5e.ron",
+    ),
+    (
         name: "factorio",
         author: "a5huynh",
         description: "Factorio wiki & subreddit. Factorio is a game in which you build and maintain factories.",
