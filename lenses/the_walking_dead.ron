@@ -14,8 +14,10 @@
         // Skip wiki related actions
         SkipURL("https://walkingdead.fandom.com/wiki/*action=*"),
         SkipURL("https://walkingdead.fandom.com/wiki/*diff=*"),
+        SkipURL("https://walkingdead.fandom.com/wiki/*oldid=*"),
         // Skip meta categories & user related pages
         SkipURL("https://walkingdead.fandom.com/wiki/Category:*"),
+        SkipURL("https://walkingdead.fandom.com/wiki/File:*"),
         SkipURL("https://walkingdead.fandom.com/wiki/Talk:*"),
         SkipURL("https://walkingdead.fandom.com/wiki/Template:*"),
         SkipURL("https://walkingdead.fandom.com/wiki/Thread:*"),

@@ -83,7 +83,7 @@
         name: "twd",
         author: "a5huynh",
         description: "The Walking Dead (/twd) lens includes all information about the comic series, novels, video games, and television shows, including character statuses and current storyline plot-points.",
-        sha: "3f85929229babe536f36705a30103334ccc87d38",
+        sha: "ceb1de2681d4730e0ac1375b257c78274c3a9c5a",
         html_url: "https://github.com/spyglass-search/lens-box/blob/main/lenses/the_walking_dead.ron",
         download_url: "https://raw.githubusercontent.com/spyglass-search/lens-box/main/lenses/the_walking_dead.ron",
     ),
