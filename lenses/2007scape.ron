@@ -1,0 +1,28 @@
+(
+    version: "1",
+    name: "2007scape",
+    author: "a5huynh",
+    description: Some("Old School Runescape wiki and useful reference guides, utilities, and more."),
+    is_enabled: true,
+    domains: [],
+    urls: [
+        "https://oldschool.runescape.wiki/w/"
+    ],
+    rules: [
+        // Wiki related actions
+        SkipURL("https://oldschool.runescape.wiki/w/*action=*"),
+        SkipURL("https://oldschool.runescape.wiki/w/*curid=*"),
+        SkipURL("https://oldschool.runescape.wiki/w/*diff=*"),
+        SkipURL("https://oldschool.runescape.wiki/w/*oldid=*"),
+        SkipURL("https://oldschool.runescape.wiki/w/*printable=*"),
+        SkipURL("https://oldschool.runescape.wiki/w/*redirect=*"),
+        SkipURL("https://oldschool.runescape.wiki/w/*veaction=*"),
+        // Special pages
+        SkipURL("https://oldschool.runescape.wiki/w/Category:*"),
+        SkipURL("https://oldschool.runescape.wiki/w/File:*"),
+        SkipURL("https://oldschool.runescape.wiki/w/Special:*"),
+        SkipURL("https://oldschool.runescape.wiki/w/Talk:*"),
+        SkipURL("https://oldschool.runescape.wiki/w/Template:*"),
+        SkipURL("https://oldschool.runescape.wiki/w/Template_talk:*"),
+    ]
+)

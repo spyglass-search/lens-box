@@ -1,5 +1,13 @@
 [
     (
+        name: "2007scape",
+        author: "a5huynh",
+        description: "Old School Runescape wiki and useful reference guides, utilities, and more.",
+        sha: "334e93a9b497baac99a5aac0eef0212922b21211",
+        html_url: "https://github.com/spyglass-search/lens-box/blob/main/lenses/2007scape.ron",
+        download_url: "https://raw.githubusercontent.com/spyglass-search/lens-box/main/lenses/2007scape.ron",
+    ),
+    (
         name: "dnd",
         author: "lagoja",
         description: "D&D 5E reference guide for classes, equipment, feats, magic items, monsters, spells, etc.",
