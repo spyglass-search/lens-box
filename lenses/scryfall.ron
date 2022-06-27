@@ -1,0 +1,12 @@
+(
+    version: "1",
+    name: "scryfall",
+    author: "Haz0ret",
+    description: Some("Searches through Scryfall and Gatherer to locate magic: the gathering sources"),
+    domains: [],
+    is_enabled: true,
+    urls: [
+        "https://gatherer.wizards.com/Pages/Card/",
+        "https://scryfall.com/card/"
+    ]
+)
