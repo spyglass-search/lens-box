@@ -1,0 +1,101 @@
+(
+    version: "1",
+    name: "wow",
+    author: "Chicken",
+    description: Some("Everything World of Warcraft (WoW) related. Search through achievements, classes, items, npcs, spells, and more!"),
+    is_enabled: true,
+    domains: [],
+    urls: [
+        "https://www.wowhead.com/achievements",
+        "https://www.wowhead.com/affixes",
+        "https://www.wowhead.com/azerite-essence-powers",
+        "https://www.wowhead.com/azerite-essences",
+        "https://www.wowhead.com/battle-pets",
+        "https://www.wowhead.com/classes",
+        "https://www.wowhead.com/currencies",
+        "https://www.wowhead.com/events",
+        "https://www.wowhead.com/factions",
+        "https://www.wowhead.com/garrisons",
+        "https://www.wowhead.com/hunter-pets",
+        "https://www.wowhead.com/icons",
+        "https://www.wowhead.com/item-sets",
+        "https://www.wowhead.com/items",
+        "https://www.wowhead.com/maps",
+        "https://www.wowhead.com/npcs",
+        "https://www.wowhead.com/objects",
+        "https://www.wowhead.com/outfits",
+        "https://www.wowhead.com/quests",
+        "https://www.wowhead.com/races",
+        "https://www.wowhead.com/resources",
+        "https://www.wowhead.com/skills",
+        "https://www.wowhead.com/sounds",
+        "https://www.wowhead.com/spells",
+        "https://www.wowhead.com/storylines",
+        "https://www.wowhead.com/titles",
+        "https://www.wowhead.com/transmog-items",
+        "https://www.wowhead.com/transmog-sets",
+        "https://www.wowhead.com/zones",
+        // Individual references
+        "https://www.wowhead.com/achievement=",
+        "https://www.wowhead.com/affix=",
+        // Individual classes
+        "https://www.wowhead.com/class=",
+        // Individual currencies
+        "https://www.wowhead.com/currency=",
+        // Individual factions
+        "https://www.wowhead.com/faction=",
+        // Individual items
+        // NOTE: This broken up like this because of how many items there are and
+        // the limits that the Internet Archive CDX has.
+        "https://www.wowhead.com/item=1",
+        "https://www.wowhead.com/item=2",
+        "https://www.wowhead.com/item=3",
+        "https://www.wowhead.com/item=4",
+        "https://www.wowhead.com/item=5",
+        "https://www.wowhead.com/item=6",
+        "https://www.wowhead.com/item=7",
+        "https://www.wowhead.com/item=8",
+        "https://www.wowhead.com/item=9",
+        // Individual item-sets
+        "https://www.wowhead.com/item-set=",
+        "https://www.wowhead.com/pet=",
+        // Individual NPCs
+        "https://www.wowhead.com/npc=1",
+        "https://www.wowhead.com/npc=2",
+        "https://www.wowhead.com/npc=3",
+        "https://www.wowhead.com/npc=4",
+        "https://www.wowhead.com/npc=5",
+        "https://www.wowhead.com/npc=6",
+        "https://www.wowhead.com/npc=7",
+        "https://www.wowhead.com/npc=8",
+        "https://www.wowhead.com/npc=9",
+        "https://www.wowhead.com/skill=",
+        // Individual spells
+        "https://www.wowhead.com/spell=",
+        "https://www.wowhead.com/title=",
+        // Individual quests
+        "https://www.wowhead.com/quest=1",
+        "https://www.wowhead.com/quest=2",
+        "https://www.wowhead.com/quest=3",
+        "https://www.wowhead.com/quest=4",
+        "https://www.wowhead.com/quest=5",
+        "https://www.wowhead.com/quest=6",
+        "https://www.wowhead.com/quest=7",
+        "https://www.wowhead.com/quest=8",
+        "https://www.wowhead.com/quest=9",
+        // WoW guides
+        "https://www.icy-veins.com/wow/",
+    ],
+    rules: [
+        // Ignore filters / notFound pages
+        SkipURL("https://www.wowhead.com/*?*power*"),
+        SkipURL("https://www.wowhead.com/*bonus=*"),
+        SkipURL("https://www.wowhead.com/*filter=*"),
+        SkipURL("https://www.wowhead.com/*ilvl=*"),
+        SkipURL("https://www.wowhead.com/*name:*"),
+        SkipURL("https://www.wowhead.com/*notFound=*"),
+        // Ignore map data
+        SkipURL("https://www.wowhead.com/maps?*data=*"),
+    ]
+)
+

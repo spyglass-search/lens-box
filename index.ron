@@ -104,6 +104,14 @@
         download_url: "https://raw.githubusercontent.com/spyglass-search/lens-box/main/lenses/the_walking_dead.ron",
     ),
     (
+        name: "twilight",
+        author: "pknessness",
+        description: "Legend of Zelda Twilight Princess Walkthrough",
+        sha: "47c8f123cdd27d3f5ef95a56faefe037c6d52c64",
+        html_url: "https://github.com/spyglass-search/lens-box/blob/main/lenses/zelda_twilight_princess.ron",
+        download_url: "https://raw.githubusercontent.com/spyglass-search/lens-box/main/lenses/zelda_twilight_princess.ron",
+    ),
+    (
         name: "unity",
         author: "oparaskos",
         description: "Unity targeted websites",
@@ -112,19 +120,19 @@
         download_url: "https://raw.githubusercontent.com/spyglass-search/lens-box/main/lenses/unity.ron",
     ),
     (
+        name: "unreal",,
         author: "oparaskos",
-        name: "unreal",
         description: "Unreal Engine targeted websites",
         sha: "137b7fc9e2d2bc6e82108f1a147f9f756ab02ee7",
         html_url: "https://github.com/spyglass-search/lens-box/blob/main/lenses/unreal_engine.ron",
         download_url: "https://raw.githubusercontent.com/spyglass-search/lens-box/main/lenses/unreal_engine.ron",
     ),
     (
-        name: "twilight",
-        author: "pknessness",
-        description: "Legend of Zelda Twilight Princess Walkthrough",
-        sha: "47c8f123cdd27d3f5ef95a56faefe037c6d52c64",
-        html_url: "https://github.com/spyglass-search/lens-box/blob/main/lenses/zelda_twilight_princess.ron",
-        download_url: "https://raw.githubusercontent.com/spyglass-search/lens-box/main/lenses/zelda_twilight_princess.ron",
+        name: "wow",
+        author: "chicken",
+        description: "Everything World of Warcraft (WoW) related. Search through achievements, classes, items, npcs, spells, and more!",
+        sha: "4714aa7dbe47cb4d02dd66135f52c5699e2ce280",
+        html_url: "https://github.com/spyglass-search/lens-box/blob/main/lenses/wow.ron",
+        download_url: "https://raw.githubusercontent.com/spyglass-search/lens-box/main/lenses/wow.ron",
     )
 ]
