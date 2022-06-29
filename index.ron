@@ -120,7 +120,7 @@
         download_url: "https://raw.githubusercontent.com/spyglass-search/lens-box/main/lenses/unity.ron",
     ),
     (
-        name: "unreal",,
+        name: "unreal",
         author: "oparaskos",
         description: "Unreal Engine targeted websites",
         sha: "137b7fc9e2d2bc6e82108f1a147f9f756ab02ee7",
