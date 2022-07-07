@@ -29,6 +29,4 @@ jobs:
       with:
         key: "1" # increment this to bust the cache if needed
     - name: Run validator
-      uses: actions-rs/cargo@v1
-      with:
-        command: cargo run
+      run: cargo run
