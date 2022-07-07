@@ -1,0 +1,35 @@
+name: Lens & index validation
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+
+env:
+  CARGO_TERM_COLOR: always
+  ARCH: x86_64-unknown-linux-gnu
+jobs:
+  build:
+
+    runs-on: ubuntu-latest
+
+    steps:
+    # Checkout source code
+    - uses: actions/checkout@v3
+    # Setup rust toolchain
+    - name: Setup rust toolchain
+      uses: actions-rs/toolchain@v1
+      with:
+        profile: minimal
+        toolchain: stable
+        components: clippy
+    # Should help bring down build times
+    - uses: Swatinem/rust-cache@v1
+      with:
+        key: "1" # increment this to bust the cache if needed
+    - name: Run validator
+      uses: actions-rs/cargo@v1
+      with:
+        command: cargo run
+      working-directory: ./validator
