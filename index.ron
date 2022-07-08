@@ -134,5 +134,13 @@
         sha: "4714aa7dbe47cb4d02dd66135f52c5699e2ce280",
         html_url: "https://github.com/spyglass-search/lens-box/blob/main/lenses/wow.ron",
         download_url: "https://raw.githubusercontent.com/spyglass-search/lens-box/main/lenses/wow.ron",
+    ),
+    (
+        name: "yc",
+        author: "a5huynh",
+        description: "YC articles / blog posts for a handy quick reference to startup materials",
+        sha: "f3d27fc8b02cff3f771195e2ce2666cc708c4fea",
+        html_url: "https://github.com/spyglass-search/lens-box/blob/main/lenses/ycombinator.ron",
+        download_url: "https://raw.githubusercontent.com/spyglass-search/lens-box/main/lenses/ycombinator.ron",
     )
 ]

@@ -1,0 +1,24 @@
+(
+    version: "1",
+    name: "yc",
+    author: "a5huynh",
+    description: Some("YC articles / blog posts for a handy quick reference to startup materials"),
+    is_enabled: true,
+    domains: [
+        "paulgraham.com"
+    ],
+    urls: [
+        "https://www.ycombinator.com/blog",
+        "https://www.ycombinator.com/library",
+        "https://www.ycombinator.com/documents",
+    ],
+    rules: [
+        SkipURL("http://*.paulgraham.com"),
+        SkipURL("http://paulgraham.com*s=*"),
+        SkipURL("http://paulgraham.com*utm_*"),
+        SkipURL("http://paulgraham.com*utm_*"),
+        SkipURL("https://www.ycombinator.com/*fbclid*"),
+        SkipURL("https://www.ycombinator.com/*ref=*"),
+        SkipURL("https://www.ycombinator.com/*utm_*"),
+    ]
+)

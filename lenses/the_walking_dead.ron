@@ -26,8 +26,8 @@
         SkipURL("https://walkingdead.fandom.com/wiki/Special:*"),
         SkipURL("https://walkingdead.fandom.com/wiki/*/Gallery*"),
         SkipURL("https://walkingdead.fandom.com/wiki/User:*"),
-        SkipURL("https://walkingdead.fandom.com/wiki/User_blog:*")
-        SkipURL("https://walkingdead.fandom.com/wiki/User_blog_comment:*")
-        SkipURL("https://walkingdead.fandom.com/wiki/User_talk:*")
+        SkipURL("https://walkingdead.fandom.com/wiki/User_blog:*"),
+        SkipURL("https://walkingdead.fandom.com/wiki/User_blog_comment:*"),
+        SkipURL("https://walkingdead.fandom.com/wiki/User_talk:*"),
     ]
 )
