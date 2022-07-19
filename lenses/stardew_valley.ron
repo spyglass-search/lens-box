@@ -1,0 +1,26 @@
+(
+    version: "1",
+    name: "stardew",
+    author: "a5huynh",
+    description: Some("Stardew Valley wiki"),
+    is_enabled: true,
+    domains: [],
+    urls: [
+        "https://stardewvalleywiki.com"
+    ],
+    rules: [
+        SkipURL("https://*.stardewvalleywiki.com/mediawiki*"),
+        SkipURL("https://stardewvalleywiki.com/Category_talk:*"),
+        SkipURL("https://stardewvalleywiki.com/Category:*"),
+        SkipURL("https://stardewvalleywiki.com/File_talk:*"),
+        SkipURL("https://stardewvalleywiki.com/File:*"),
+        SkipURL("https://stardewvalleywiki.com/mediawiki*"),
+        SkipURL("https://stardewvalleywiki.com/Special:*"),
+        SkipURL("https://stardewvalleywiki.com/Stardew_Valley_Wiki:*"),
+        SkipURL("https://stardewvalleywiki.com/Talk:*"),
+        SkipURL("https://stardewvalleywiki.com/Template_talk:*"),
+        SkipURL("https://stardewvalleywiki.com/Template:*"),
+        SkipURL("https://stardewvalleywiki.com/User_talk:*"),
+        SkipURL("https://stardewvalleywiki.com/User:*"),
+    ]
+)
