@@ -96,6 +96,14 @@
         download_url: "https://raw.githubusercontent.com/spyglass-search/lens-box/main/lenses/super_mario_galaxy.ron",
     ),
     (
+        name: "stardew_valley",
+        author: "a5huynh",
+        description: "Stardew Valley wiki",
+        sha: "5c3e11d7634cf2d3d71ae2a43263a4af7199483a",
+        html_url: "https://github.com/spyglass-search/lens-box/blob/main/lenses/stardew_valley.ron",
+        download_url: "https://raw.githubusercontent.com/spyglass-search/lens-box/main/lenses/stardew_valley.ron",
+    ),
+    (
         name: "twd",
         author: "a5huynh",
         description: "The Walking Dead (/twd) lens includes all information about the comic series, novels, video games, and television shows, including character statuses and current storyline plot-points.",
