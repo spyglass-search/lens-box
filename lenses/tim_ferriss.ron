@@ -1,0 +1,25 @@
+(
+    version: "1",
+    name: "tim-ferriss",
+    author: "jwl",
+    description: Some("An index of Tim Ferriss' blog + podcasts"),
+    is_enabled: true,
+    domains: [
+        "tim.blog"
+    ],
+    urls: [],
+    rules: [
+        SkipURL("https://tim.blog/*?shared=*"),
+        SkipURL("https://tim.blog/category/*"),
+        SkipURL("https://tim.blog/tag/*"),
+        // Ignore Google AMP pages
+        SkipURL("https://tim.blog/*/amp/*"),
+        SkipURL("https://tim.blog/*utm_campaign=*"),
+        // Ignore comments
+        SkipURL("https://tim.blog/*/comment-page*"),
+        SkipURL("https://tim.blog/*replytocom=*"),
+        SkipURL("https://tim.blog/*like_comment=*"),
+        // Ignore wordpress specific routes
+        SkipURL("https://tim.blog/wp-content/*"),
+    ]
+)
