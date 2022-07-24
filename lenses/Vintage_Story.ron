@@ -1,0 +1,44 @@
+(
+    version: "1",
+    name: "Vintage Story",
+    author: "popcar2",
+    description: Some("Vintage Story wiki"),
+    is_enabled: true,
+    domains: [],
+    urls: [
+        "https://wiki.vintagestory.at/"
+    ],
+    rules: [
+        // Exclude different languages
+        SkipURL("https://wiki.vintagestory.at/*/en"),
+        SkipURL("https://wiki.vintagestory.at/*/de"),
+        SkipURL("https://wiki.vintagestory.at/*/es"),
+        SkipURL("https://wiki.vintagestory.at/*/pl"),
+        SkipURL("https://wiki.vintagestory.at/*/ru"),
+        SkipURL("https://wiki.vintagestory.at/*/fr"),
+        SkipURL("https://wiki.vintagestory.at/*/it"),
+        SkipURL("https://wiki.vintagestory.at/*/pt-br"),
+        SkipURL("https://wiki.vintagestory.at/*/uk"),
+        SkipURL("https://wiki.vintagestory.at/*/ja"),
+        // Ignore misc wiki pages
+        SkipURL("https://wiki.vintagestory.at/*&action=*"),
+        SkipURL("https://wiki.vintagestory.at/*&oldid=*"),
+        SkipURL("https://wiki.vintagestory.at/*Talk:*"),
+        SkipURL("https://wiki.vintagestory.at/*printable=*"),
+        SkipURL("https://wiki.vintagestory.at/*redirect=*"),
+        SkipURL("https://wiki.vintagestory.at/*User:*"),
+        SkipURL("https://wiki.vintagestory.at/*Special:*"),
+        SkipURL("https://wiki.vintagestory.at/*&diff=*"),
+        SkipURL("https://wiki.vintagestory.at/*Template:*"),
+        SkipURL("https://wiki.vintagestory.at/*File:*"),
+        SkipURL("https://wiki.vintagestory.at/*.png"),
+        SkipURL("https://wiki.vintagestory.at/*.gif"),
+        SkipURL("https://wiki.vintagestory.at/*MediaWiki:*"),
+        SkipURL("https://wiki.vintagestory.at/*search=*"),
+        // Edge cases
+        SkipURL("https://wiki.vintagestory.at/*%2F*"),
+        SkipURL("https://wiki.vintagestory.at/*Vintage_Story_Wiki:*"),
+        SkipURL("https://wiki.vintagestory.at/*&MobileAction=*"),
+        SkipURL("https://wiki.vintagestory.at/*&returnto=*"),
+    ]
+)

@@ -1,0 +1,19 @@
+(
+    version: "1",
+    name: "EldenRing",
+    author: "popcar2",
+    description: Some("Elden Ring Fextralife Wiki"),
+    is_enabled: true,
+    domains: [],
+    urls: [
+        "https://eldenring.wiki.fextralife.com/"
+    ],
+    rules: [
+        // Ignore misc wiki pages
+        SkipURL("https://eldenring.wiki.fextralife.com/file/*"),
+        SkipURL("https://eldenring.wiki.fextralife.com/*tooltip*"),
+        SkipURL("https://eldenring.wiki.fextralife.com/*id=*"),
+        // Edge case
+        SkipURL("https://eldenring.wiki.fextralife.com/ws/*"),
+    ]
+)
