@@ -3,9 +3,16 @@
     name: "unity",
     author: "oparaskos",
     description: Some("Unity targeted websites"),
-    domains: [
-        "docs.unity3d.com",
-        "openupm.com",
+    domains: [],
+    urls: [
+        "https://docs.unity3d.com/Manual",
+        "https://docs.unity3d.com/ScriptReference",
+        "https://openupm.com/packages/"
     ],
-    urls: []
+    rules: [
+        SkipURL("https://docs.unity3d.com/2021*"),
+        SkipURL("https://docs.unity3d.com/2020*"),
+        SkipURL("https://docs.unity3d.com/201*"),
+        SkipURL("https://docs.unity3d.com/5*"),
+    ]
 )
