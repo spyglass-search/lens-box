@@ -1,0 +1,39 @@
+(
+    version: "1",
+    name: "OpenCritic",
+    author: "popcar2",
+    description: Some("Opencritic: A review aggregation website for video games!"),
+    is_enabled: true,
+    domains: [],
+    urls: [
+        "https://opencritic.com/"
+    ],
+    rules: [
+        // Ignore media & reviews; they already exist in the game's page
+        SkipURL("https://opencritic.com/*/reviews"),
+        SkipURL("https://opencritic.com/*/media"),
+        SkipURL("https://opencritic.com/*/export"),
+        // Ignore news articles. Trust me, nobody cares.
+        SkipURL("https://opencritic.com/news/*"),
+        // Ignore critic pages. They're unimportant imo, and take up >6k pages.
+        SkipURL("https://opencritic.com/critic/*"),
+        // Ignore duplicate pages
+        SkipURL("https://opencritic.com/*/media"),
+        SkipURL("https://opencritic.com/*page=*"),
+        SkipURL("https://opencritic.com/*ref=*"),
+        SkipURL("https://opencritic.com/*sort=*"),
+        SkipURL("https://opencritic.com/*order=*"),
+        SkipURL("https://opencritic.com/*/name"),
+        SkipURL("https://opencritic.com/*/percent-recommended"),
+        SkipURL("https://opencritic.com/*/num-reviews"),
+        SkipURL("https://opencritic.com/*/date"),
+        // Ignore resources
+        SkipURL("https://opencritic.com/*.ttf"),
+        SkipURL("https://opencritic.com/*.css"),
+        SkipURL("https://opencritic.com/*.woff*"),
+        SkipURL("https://opencritic.com/*.eot"),
+        SkipURL("https://opencritic.com/*.js"),
+        SkipURL("https://opencritic.com/*.svg"),
+        SkipURL("https://opencritic.com/*.webmanifest"),
+    ]
+)
