@@ -16,6 +16,14 @@
         download_url: "https://raw.githubusercontent.com/spyglass-search/lens-box/main/lenses/dnd_5e.ron",
     ),
     (
+        name: "EldenRing",
+        author: "popcar2",
+        description: "Elden Ring Fextralife Wiki",
+        sha: "f8522bb089a8e8954ca52e85cec43ff315c8884f",
+        html_url: "https://github.com/spyglass-search/lens-box/blob/main/lenses/Elden_Ring.ron",
+        download_url: "https://raw.githubusercontent.com/spyglass-search/lens-box/main/lenses/Elden_Ring.ron",
+    ),
+    (
         name: "factorio",
         author: "a5huynh",
         description: "Factorio wiki & subreddit. Factorio is a game in which you build and maintain factories.",
@@ -142,6 +150,14 @@
         sha: "137b7fc9e2d2bc6e82108f1a147f9f756ab02ee7",
         html_url: "https://github.com/spyglass-search/lens-box/blob/main/lenses/unreal_engine.ron",
         download_url: "https://raw.githubusercontent.com/spyglass-search/lens-box/main/lenses/unreal_engine.ron",
+    ),
+    (
+        name: "Vintage Story",
+        author: "popcar2",
+        description: "Vintage Story wiki",
+        sha: "42fb6bb94bfe34cbff613cca82d6a32e9a6ad4fd",
+        html_url: "https://github.com/spyglass-search/lens-box/blob/main/lenses/Vintage_Story.ron",
+        download_url: "https://raw.githubusercontent.com/spyglass-search/lens-box/main/lenses/Vintage_Story.ron",
     ),
     (
         name: "wow",
