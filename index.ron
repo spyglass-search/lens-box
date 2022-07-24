@@ -105,7 +105,7 @@
     ),
     (
         name: "tim_ferriss",
-        author: "a5huynh",
+        author: "jwl",
         description: "An index of Tim Ferriss' blog + podcasts",
         sha: "e54f1041737cd4e63be1844afbf4875d5974f960",
         html_url: "https://github.com/spyglass-search/lens-box/blob/main/lenses/tim_ferriss.ron",
