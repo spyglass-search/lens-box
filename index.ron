@@ -76,8 +76,8 @@
         author: "popcar2",
         description: "Opencritic: A review aggregation website for video games!",
         sha: "6afd0ff2c448561c80e568fbfa0987c1355ab37c",
-        html_url: "https://github.com/spyglass-search/lens-box/blob/main/lenses/mbed6-8.ron",
-        download_url: "https://raw.githubusercontent.com/spyglass-search/lens-box/main/lenses/mbed6-8.ron",
+        html_url: "https://github.com/spyglass-search/lens-box/blob/main/lenses/OpenCritic.ron",
+        download_url: "https://raw.githubusercontent.com/spyglass-search/lens-box/main/lenses/OpenCritic.ron",
     ),
     (
         name: "pygame",
