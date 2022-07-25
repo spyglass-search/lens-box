@@ -120,6 +120,14 @@
         download_url: "https://raw.githubusercontent.com/spyglass-search/lens-box/main/lenses/stardew_valley.ron",
     ),
     (
+        name: "Terraria",
+        author: "popca42",
+        description: "Terraria wiki.gg for all your adventuring needs!",
+        sha: "054f12a84e591b893d35099f058bcc681c26dc3a",
+        html_url: "https://github.com/spyglass-search/lens-box/blob/main/lenses/Terraria.ron",
+        download_url: "https://raw.githubusercontent.com/spyglass-search/lens-box/main/lenses/Terraria.ron",
+    ),
+    (
         name: "tim_ferriss",
         author: "jwl",
         description: "An index of Tim Ferriss' blog + podcasts",
