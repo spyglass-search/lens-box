@@ -1,0 +1,52 @@
+(
+    version: "2",
+    name: "Terraria",
+    author: "popcar2",
+    description: Some("Terraria wiki.gg for all your adventuring needs!"),
+    is_enabled: true,
+    domains: [],
+    urls: [
+        "https://terraria.wiki.gg/wiki/"
+    ],
+    rules: [
+        // Trash pages
+        SkipURL("https://terraria.wiki.gg/wiki/*rdfrom=*"),
+        SkipURL("https://terraria.wiki.gg/wiki/*redirect=*"),
+        SkipURL("https://terraria.wiki.gg/wiki/*pagefrom=*"),
+        SkipURL("https://terraria.wiki.gg/wiki/*action=*"),
+        SkipURL("https://terraria.wiki.gg/wiki/*oldid=*"),
+        // Misc wiki pages
+        SkipURL("https://terraria.wiki.gg/wiki/File:*"),
+        SkipURL("https://terraria.wiki.gg/wiki/MediaWiki:*"),
+        SkipURL("https://terraria.wiki.gg/wiki/Special:*"),
+        SkipURL("https://terraria.wiki.gg/wiki/Terraria_Wiki:*"),
+        SkipURL("https://terraria.wiki.gg/wiki/User:*"),
+        SkipURL("https://terraria.wiki.gg/wiki/User_talk:*"),
+        SkipURL("https://terraria.wiki.gg/wiki/Template_talk:*"),
+        SkipURL("https://terraria.wiki.gg/wiki/Talk:*"),
+        SkipURL("https://terraria.wiki.gg/wiki/Guide_talk:*"),
+        SkipURL("https://terraria.wiki.gg/wiki/Template:*"),
+        SkipURL("https://terraria.wiki.gg/wiki/Module:*"),
+        SkipURL("https://terraria.wiki.gg/wiki/Help:*"),
+        SkipURL("https://terraria.wiki.gg/wiki/*/doc"),
+        SkipURL("https://terraria.wiki.gg/wiki/*/content"),
+        // Ignore languages
+        SkipURL("https://terraria.wiki.gg/wiki/*/cs"),
+        SkipURL("https://terraria.wiki.gg/wiki/*/es"),
+        SkipURL("https://terraria.wiki.gg/wiki/*/lt"),
+        SkipURL("https://terraria.wiki.gg/wiki/*/it"),
+        SkipURL("https://terraria.wiki.gg/wiki/*/ja"),
+        SkipURL("https://terraria.wiki.gg/wiki/*/vi"),
+        SkipURL("https://terraria.wiki.gg/wiki/*/nl"),
+        SkipURL("https://terraria.wiki.gg/wiki/*/yue"),
+        SkipURL("https://terraria.wiki.gg/wiki/*/tr"),
+        SkipURL("https://terraria.wiki.gg/wiki/*/no"),
+        SkipURL("https://terraria.wiki.gg/wiki/*/th"),
+        SkipURL("https://terraria.wiki.gg/wiki/*/hi"),
+        SkipURL("https://terraria.wiki.gg/wiki/*/id"),
+        SkipURL("https://terraria.wiki.gg/wiki/*/el"),
+        SkipURL("https://terraria.wiki.gg/wiki/*/sv"),
+        SkipURL("https://terraria.wiki.gg/wiki/*/lv"),
+        SkipURL("https://terraria.wiki.gg/wiki/*/fi"),
+]
+)
