@@ -44,5 +44,6 @@
         SkipURL("https://wiki.factorio.com/User_talk:*"),
         SkipURL("https://wiki.factorio.com/User:*"),
         SkipURL("https://wiki.factorio.com/Version_history"),
+        SkipURL("https://wiki.factorio.com/*title=Special:*"),
     ]
 )
