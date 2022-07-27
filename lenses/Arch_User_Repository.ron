@@ -1,0 +1,26 @@
+(
+    version: "1",
+    name: "AUR",
+    author: "popcar2",
+    description: Some("Arch User Repository, so you can find packages quickly."),
+    is_enabled: true,
+    domains: [],
+    urls: [
+        "https://archlinux.org/packages/"
+    ],
+    rules: [
+        SkipURL("https://archlinux.org/packages/*source=*"),
+        SkipURL("https://archlinux.org/packages/?maintainer=*"),
+        SkipURL("https://archlinux.org/packages/?packager=*"),
+        SkipURL("https://archlinux.org/packages/*/download/"),
+        SkipURL("https://archlinux.org/packages/*/download"),
+        SkipURL("https://archlinux.org/packages/*/files/"),
+        SkipURL("https://archlinux.org/packages/*/flag/"),
+        SkipURL("https://archlinux.org/packages/*/sonames/"),
+        // Disable testing repos. You can't view this anyways.
+        SkipURL("https://archlinux.org/packages/testing*"),
+        SkipURL("https://archlinux.org/packages/community-testing*"),
+        SkipURL("https://archlinux.org/packages/staging*"),
+        SkipURL("https://archlinux.org/packages/community-staging*"),
+    ]
+)
