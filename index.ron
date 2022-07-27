@@ -171,7 +171,7 @@
         name: "unity",
         author: "oparaskos",
         description: "Unity targeted websites",
-        sha: "3c644e097519158e0170db84ef175373ab1ebd8c",
+        sha: "248203f0431dfaa508f48e9e1ad4aa00d077c0a4",
         html_url: "https://github.com/spyglass-search/lens-box/blob/main/lenses/unity.ron",
         download_url: "https://raw.githubusercontent.com/spyglass-search/lens-box/main/lenses/unity.ron",
     ),
