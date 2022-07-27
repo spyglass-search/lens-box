@@ -10,9 +10,12 @@
         "https://openupm.com/packages/"
     ],
     rules: [
-        SkipURL("https://docs.unity3d.com/2021*"),
-        SkipURL("https://docs.unity3d.com/2020*"),
         SkipURL("https://docs.unity3d.com/201*"),
         SkipURL("https://docs.unity3d.com/5*"),
+        SkipURL("https://docs.unity3d.com/*source=*"),
+        SkipURL("https://docs.unity3d.com/*30_search.html"),
+        SkipURL("https://docs.unity3d.com/*_ga=*"),
+        SkipURL("https://docs.unity3d.com/*from=*"),
+        SkipURL("https://docs.unity3d.com/*fbclid=*"),
     ]
 )
