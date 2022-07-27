@@ -1,0 +1,26 @@
+(
+    version: "1",
+    name: "RogueLegacy2",
+    author: "popcar2",
+    description: Some("Rogue Legacy 2 wiki"),
+    is_enabled: true,
+    domains: [],
+    urls: [
+        "https://rogue-legacy-2.fandom.com/wiki/"
+    ],
+    rules: [
+        // Trash pages
+        SkipURL("https://rogue-legacy-2.fandom.com/wiki/*action=*"),
+        SkipURL("https://rogue-legacy-2.fandom.com/wiki/*file=*"),
+        SkipURL("https://rogue-legacy-2.fandom.com/wiki/*so=*"),
+        SkipURL("https://rogue-legacy-2.fandom.com/wiki/*#articleComments*"),
+        // Misc wiki pages
+        SkipURL("https://rogue-legacy-2.fandom.com/wiki/Special:*"),
+        SkipURL("https://rogue-legacy-2.fandom.com/wiki/User:*"),
+        SkipURL("https://rogue-legacy-2.fandom.com/wiki/Template:*"),
+        SkipURL("https://rogue-legacy-2.fandom.com/wiki/File:*"),
+        SkipURL("https://rogue-legacy-2.fandom.com/wiki/MediaWiki:*"),
+        SkipURL("https://rogue-legacy-2.fandom.com/wiki/User_blog:*"),
+        SkipURL("https://rogue-legacy-2.fandom.com/wiki/Talk:*"),
+    ]
+)

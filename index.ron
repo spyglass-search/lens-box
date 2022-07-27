@@ -8,6 +8,14 @@
         download_url: "https://raw.githubusercontent.com/spyglass-search/lens-box/main/lenses/2007scape.ron",
     ),
     (
+        name: "AUR",
+        author: "popcar2",
+        description: "Arch User Repository, so you can find packages quickly.",
+        sha: "f9a4b7fdb70152de25f2c256f69ff5a3b8a77761",
+        html_url: "https://github.com/spyglass-search/lens-box/blob/main/lenses/Arch_User_Repository.ron",
+        download_url: "https://raw.githubusercontent.com/spyglass-search/lens-box/main/lenses/Arch_User_Repository.ron",
+    ),
+    (
         name: "dnd",
         author: "lagoja",
         description: "D&D 5E reference guide for classes, equipment, feats, magic items, monsters, spells, etc.",
@@ -86,6 +94,14 @@
         sha: "d3a2a4516aefd4f0a331a4e036e28efcff95c4b3",
         html_url: "https://github.com/spyglass-search/lens-box/blob/main/lenses/pygame.ron",
         download_url: "https://raw.githubusercontent.com/spyglass-search/lens-box/main/lenses/pygame.ron",
+    ),
+    (
+        name: "RogueLegacy2",
+        author: "popcar2",
+        description: "Rogue Legacy 2 wiki",
+        sha: "fc69a771315d29db285b1990ef694e5ed825d553",
+        html_url: "https://github.com/spyglass-search/lens-box/blob/main/lenses/Rogue_Legacy_2.ron",
+        download_url: "https://raw.githubusercontent.com/spyglass-search/lens-box/main/lenses/Rogue_Legacy_2.ron",
     ),
     (
         name: "scryfall",
@@ -182,6 +198,14 @@
         sha: "4714aa7dbe47cb4d02dd66135f52c5699e2ce280",
         html_url: "https://github.com/spyglass-search/lens-box/blob/main/lenses/wow.ron",
         download_url: "https://raw.githubusercontent.com/spyglass-search/lens-box/main/lenses/wow.ron",
+    ),
+    (
+        name: "xkcd",
+        author: "popcar2",
+        description: "xkcd webcomics, now ready to pull out at a moment's notice!",
+        sha: "a32f4320a354d2aa68097f2af0411698e885d45c",
+        html_url: "https://github.com/spyglass-search/lens-box/blob/main/lenses/xkcd.ron",
+        download_url: "https://raw.githubusercontent.com/spyglass-search/lens-box/main/lenses/xkcd.ron",
     ),
     (
         name: "yc",

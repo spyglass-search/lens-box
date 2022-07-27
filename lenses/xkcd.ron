@@ -1,0 +1,19 @@
+(
+    version: "1",
+    name: "xkcd",
+    author: "popcar2",
+    description: Some("xkcd webcomics, now ready to pull out at a moment's notice!"),
+    is_enabled: true,
+    domains: [],
+    urls: [
+        "https://xkcd.com/"
+    ],
+    rules: [
+        SkipURL("https://xkcd.com/*.xml"),
+        SkipURL("https://xkcd.com/*.json"),
+        SkipURL("https://xkcd.com/*.png"),
+        SkipURL("https://xkcd.com/*fbclid=*"),
+        SkipURL("https://xkcd.com/*source=*"),
+        SkipURL("https://xkcd.com/*large"),
+]
+)
