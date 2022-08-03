@@ -17,6 +17,14 @@
     ),
     (
         author: "popcar2",
+        description: "Comic Book Roundup, a review aggregator for comic books & graphic novels.",
+        name: "CBR",
+        sha: "a8b23451cafe30848b0c73d82c9ef7e9e734646117685cc562f9aaf3c67f3a43",
+        download_url: "https://raw.githubusercontent.com/spyglass-search/lens-box/main/lenses/ComicBookRoundup.ron",
+        html_url: "https://github.com/spyglass-search/lens-box/blob/main/lenses/ComicBookRoundup.ron",
+    ),
+    (
+        author: "popcar2",
         description: "Elden Ring Fextralife Wiki",
         name: "EldenRing",
         sha: "ec3f3a6334d73226d00ce83f4c803796966a8a4584be30da6e5808fc53a2c704",
@@ -38,6 +46,14 @@
         sha: "66ae639b42219d8264b347a4454204b1f3a07afcd9b8ed0f21df8749272e426f",
         download_url: "https://raw.githubusercontent.com/spyglass-search/lens-box/main/lenses/Rogue_Legacy_2.ron",
         html_url: "https://github.com/spyglass-search/lens-box/blob/main/lenses/Rogue_Legacy_2.ron",
+    ),
+    (
+        author: "popcar2",
+        description: "Find games quickly on Steam, the popular PC video game store!",
+        name: "Steam",
+        sha: "d470d52774fe3b7465f49423299e6bd5a40caafbfeb03cacb1ea267f7012e9b4",
+        download_url: "https://raw.githubusercontent.com/spyglass-search/lens-box/main/lenses/Steam.ron",
+        html_url: "https://github.com/spyglass-search/lens-box/blob/main/lenses/Steam.ron",
     ),
     (
         author: "popcar2",
