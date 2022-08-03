@@ -1,0 +1,20 @@
+(
+    version: "1",
+    name: "Steam",
+    author: "popcar2",
+    description: Some("Find games quickly on Steam, the popular PC video game store!"),
+    is_enabled: true,
+    domains: [],
+    urls: [
+        "https://store.steampowered.com/app/"
+    ],
+    rules: [
+        // This only indexes games
+        LimitURLDepth("https://store.steampowered.com/app", 1),
+        SkipURL("https://store.steampowered.com/app/*?*"),
+        SkipURL("https://store.steampowered.com/app/*.jpg"),
+        SkipURL("https://store.steampowered.com/app/*.png"),
+        SkipURL("https://store.steampowered.com/app/*source=*"),
+        SkipURL("https://store.steampowered.com/app/*%*"),
+    ]
+)
