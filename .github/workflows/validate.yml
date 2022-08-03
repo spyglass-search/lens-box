@@ -17,6 +17,15 @@ jobs:
     steps:
     # Checkout source code
     - uses: actions/checkout@v3
+      if: github.event_name == 'pull_request'
+      with:
+        fetch-depth: 0
+        ref: ${{ github.event.pull_request.head.ref }}
+
+    - uses: actions/checkout@v3
+      if: github.event_name == 'push'
+      with:
+        fetch-depth: 0
     # Setup rust toolchain
     - name: Setup rust toolchain
       uses: actions-rs/toolchain@v1
@@ -28,5 +37,18 @@ jobs:
     - uses: Swatinem/rust-cache@v1
       with:
         key: "1" # increment this to bust the cache if needed
-    - name: Run validator
+    - name: Run validator & generate index file
       run: cargo run
+    - name: Create Pull Request
+      id: cpr
+      uses: peter-evans/create-pull-request@v4
+      with:
+        token: ${{ secrets.PAT }}
+        commit-message: Update index file
+        committer: GitHub <noreply@github.com>
+        author: ${{ github.actor }} <${{ github.actor }}@users.noreply.github.com>
+        signoff: false
+        delete-branch: true
+        title: '[Automated] Update index file'
+        labels: |
+          automated pr

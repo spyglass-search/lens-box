@@ -1,6 +1,6 @@
-use serde::Deserialize;
+use serde::{Deserialize, Serialize};
 
-#[derive(Clone, Deserialize)]
+#[derive(Clone, Deserialize, Serialize)]
 pub struct InstallableLens {
     pub author: String,
     pub description: String,
@@ -12,6 +12,7 @@ pub struct InstallableLens {
 
 #[derive(Clone, Debug, Deserialize)]
 pub enum LensRule {
+    LimitURLDepth(String, u8),
     SkipURL(String),
 }
 
