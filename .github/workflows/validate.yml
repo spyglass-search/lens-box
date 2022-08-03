@@ -43,9 +43,12 @@ jobs:
       id: cpr
       uses: peter-evans/create-pull-request@v4
       with:
-        token: ${{ secrets.GITHUB_TOKEN }}
+        token: ${{ secrets.PAT }}
         commit-message: Update index file
         committer: GitHub <noreply@github.com>
         author: ${{ github.actor }} <${{ github.actor }}@users.noreply.github.com>
+        signoff: false
+        delete-branch: true
         title: '[Automated] Update index file'
-        labels: automated pr
+        labels: |
+          automated pr
