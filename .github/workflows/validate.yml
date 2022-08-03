@@ -39,9 +39,13 @@ jobs:
         key: "1" # increment this to bust the cache if needed
     - name: Run validator & generate index file
       run: cargo run
-    - name: Commit new index file
-      run: |
-        git config --global user.name 'Andrew Huynh'
-        git config --global user.email 'a5huynh@users.noreply.github.com'
-        git commit -am "new index file generated"
-        git push
+    - name: Create Pull Request
+      id: cpr
+      uses: peter-evans/create-pull-request@v4
+      with:
+        token: ${{ secrets.GITHUB_TOKEN }}
+        commit-message: Update index file
+        committer: GitHub <noreply@github.com>
+        author: ${{ github.actor }} <${{ github.actor }}@users.noreply.github.com>
+        title: '[Automated] Update index file'
+        labels: automated pr
