@@ -1,0 +1,17 @@
+(
+    version: "1",
+    name: "CBR",
+    author: "popcar2",
+    description: Some("Comic Book Roundup, a review aggregator for comic books & graphic novels."),
+    is_enabled: true,
+    domains: [],
+    urls: [
+        "https://comicbookroundup.com/comic-books/reviews/",
+        "https://comicbookroundup.com/comic-books/top-comics$",
+    ],
+    rules: [
+        LimitURLDepth("https://comicbookroundup.com/comic-books/reviews", 2),
+        SkipURL("https://comicbookroundup.com/comic-books/reviews/*?*"),
+        SkipURL("https://comicbookroundup.com/comic-books/reviews/*#*"),
+    ]
+)

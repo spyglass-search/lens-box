@@ -40,6 +40,7 @@ jobs:
     - name: Run validator & generate index file
       run: cargo run
     - name: Create Pull Request
+      if: github.ref == 'refs/heads/main'
       id: cpr
       uses: peter-evans/create-pull-request@v4
       with:
