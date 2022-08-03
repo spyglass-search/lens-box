@@ -17,6 +17,15 @@ jobs:
     steps:
     # Checkout source code
     - uses: actions/checkout@v3
+      if: github.event_name == 'pull_request'
+      with:
+        fetch-depth: 0
+        ref: ${{ github.event.pull_request.head.ref }}
+
+    - uses: actions/checkout@v3
+      if: github.event_name == 'push'
+      with:
+        fetch-depth: 0
     # Setup rust toolchain
     - name: Setup rust toolchain
       uses: actions-rs/toolchain@v1
