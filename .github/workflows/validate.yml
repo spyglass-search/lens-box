@@ -28,5 +28,11 @@ jobs:
     - uses: Swatinem/rust-cache@v1
       with:
         key: "1" # increment this to bust the cache if needed
-    - name: Run validator
+    - name: Run validator & generate index file
       run: cargo run
+    - name: Commit new index file
+      run: |
+        git config --global user.name 'Andrew Huynh'
+        git config --global user.email 'a5huynh@users.noreply.github.com'
+        git commit -am "new index file generated"
+        git push
