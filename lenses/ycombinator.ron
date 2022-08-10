@@ -14,11 +14,11 @@
     ],
     rules: [
         SkipURL("http://*.paulgraham.com"),
-        SkipURL("http://paulgraham.com*s=*"),
-        SkipURL("http://paulgraham.com*utm_*"),
-        SkipURL("http://paulgraham.com*utm_*"),
+        SkipURL("http://paulgraham.com*?*"),
+        SkipURL("https://paulgraham.com*?*"),
         SkipURL("https://www.ycombinator.com/*fbclid*"),
         SkipURL("https://www.ycombinator.com/*ref=*"),
+        SkipURL("https://www.ycombinator.com/*utm_*"),
         SkipURL("https://www.ycombinator.com/*utm_*"),
     ]
 )
