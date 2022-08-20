@@ -11,7 +11,7 @@
         author: "popcar2",
         description: "Arch User Repository, so you can find packages quickly.",
         name: "AUR",
-        sha: "df2e6568fd491d6638fd72053647524c3eac4b402831cefe7fe17504d02298a9",
+        sha: "b6d08fe1503f7d99797070b57607212b4ad73812663ad82208fa4df8448e7b8f",
         download_url: "https://raw.githubusercontent.com/spyglass-search/lens-box/main/lenses/Arch_User_Repository.ron",
         html_url: "https://github.com/spyglass-search/lens-box/blob/main/lenses/Arch_User_Repository.ron",
     ),
