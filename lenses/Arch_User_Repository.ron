@@ -6,9 +6,11 @@
     is_enabled: true,
     domains: [],
     urls: [
-        "https://archlinux.org/packages/"
+        "https://archlinux.org/packages/",
+        "https://aur.archlinux.org/packages/"
     ],
     rules: [
+        LimitURLDepth("https://aur.archlinux.org/packages/", 1),
         SkipURL("https://archlinux.org/packages/*source=*"),
         SkipURL("https://archlinux.org/packages/?maintainer=*"),
         SkipURL("https://archlinux.org/packages/?packager=*"),
