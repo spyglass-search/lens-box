@@ -1,6 +1,8 @@
 use blake2::{Blake2s256, Digest};
+use std::ffi::OsStr;
 use std::fs;
 use std::io;
+use std::path::PathBuf;
 use std::process::ExitCode;
 
 mod entity;
@@ -16,46 +18,84 @@ const DL_URL_PREFIX: &str =
 fn validate_lens(lens: &InstallableLens) -> anyhow::Result<()> {
     println!("validating {} lens", lens.name);
 
-    let file = lens
+    let mut components = lens
         .download_url
         .split('/')
-        .collect::<Vec<&str>>()
+        .collect::<Vec<&str>>();
+
+    let file = components
         .pop()
         .expect("Unable to get file path");
 
+    let parent = components.pop()
+        .expect("Unable to get parent file path");
+
     // Attempt to parse lens
-    let contents = fs::read_to_string(format!("../lenses/{}", file)).expect("Unable to read lens");
+    let contents = fs::read_to_string(format!("../lenses/{}/{}", parent, file)).expect("Unable to read lens");
     ron::from_str::<LensConfig>(&contents)?;
 
     Ok(())
 }
 
+fn find_lens(path: &PathBuf) -> Option<(PathBuf, String)> {
+    for file in std::fs::read_dir(path)
+        .expect("Unable to read directory")
+        .flatten()
+    {
+        let path = file.path();
+        if path.is_file() && path.extension() == Some(OsStr::new("ron")) {
+            if let Ok(file_contents) = std::fs::read_to_string(file.path()) {
+                return Some((path, file_contents));
+            }
+        }
+    }
+
+    None
+}
+
 fn check_lenses() -> io::Result<Vec<InstallableLens>> {
     let mut updated_lenses = Vec::new();
 
-    for path in std::fs::read_dir(LENS_FOLDER)? {
-        let path = path?.path();
-        let file_contents = fs::read_to_string(path.clone())?;
-        let lens = ron::from_str::<LensConfig>(&file_contents).expect("Unable to parse lens");
+    // Find folders to check for lenses
+    let mut lenses = Vec::new();
+    for path in std::fs::read_dir(LENS_FOLDER)?.flatten() {
+        if path.path().is_dir() {
+            lenses.push(path);
+        }
+    }
 
-        let file_name = path
-            .file_name()
-            .expect("Should have a filename")
-            .to_str()
-            .expect("Unable to convert filename to &str");
+    for path in lenses {
+        if let Some((file_path, file_contents)) = find_lens(&path.path()) {
+            let lens = ron::from_str::<LensConfig>(&file_contents).expect("Unable to parse lens");
+            let parent = file_path
+                .parent()
+                .expect("No parent path")
+                .components()
+                .last()
+                .expect("Last component")
+                .as_os_str()
+                .to_str()
+                .expect("Unable to convert parent directory to &str");
 
-        let mut hasher = Blake2s256::new();
-        hasher.update(file_contents);
-        let res = hasher.finalize();
+            let file_name = file_path
+                .file_name()
+                .expect("Should have a filename")
+                .to_str()
+                .expect("Unable to convert filename to &str");
 
-        updated_lenses.push(InstallableLens {
-            author: lens.author,
-            description: lens.description.unwrap_or_else(||"".to_string()),
-            name: lens.name,
-            sha: hex::encode(res),
-            download_url: format!("{}/{}", DL_URL_PREFIX, file_name),
-            html_url: format!("{}/{}", HTML_URL_PREFIX, file_name),
-        })
+            let mut hasher = Blake2s256::new();
+            hasher.update(file_contents);
+            let res = hasher.finalize();
+
+            updated_lenses.push(InstallableLens {
+                author: lens.author,
+                description: lens.description.unwrap_or_else(|| "".to_string()),
+                name: lens.name,
+                sha: hex::encode(res),
+                download_url: format!("{}/{}/{}", DL_URL_PREFIX, parent, file_name),
+                html_url: format!("{}/{}/{}", HTML_URL_PREFIX, parent, file_name),
+            });
+        }
     }
 
     // Sort by name
