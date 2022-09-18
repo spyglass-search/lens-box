@@ -75,7 +75,7 @@
         author: "lagoja",
         description: "D&D 5E reference guide for classes, equipment, feats, magic items, monsters, spells, etc.",
         name: "dnd",
-        sha: "a55d7f40d0fba41576ebcccf7d09a6a6fa8621b05cb334ab2283381241416315",
+        sha: "3117df888d00e5d4a96cf47b0f17496bb6c239684e0001afe7c7a76eb38c34f9",
         download_url: "https://raw.githubusercontent.com/spyglass-search/lens-box/main/lenses/DnD/dnd_5e.ron",
         html_url: "https://github.com/spyglass-search/lens-box/blob/main/lenses/DnD/dnd_5e.ron",
     ),
