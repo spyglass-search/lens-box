@@ -16,5 +16,9 @@
         "https://www.dndbeyond.com/races",
         "https://www.dndbeyond.com/spells",
         "https://www.dndbeyond.com/vehicles",
+    ],
+    rules: [
+        // Skip search result pages
+        SkipURL("https://www.dndbeyond.com/*?*filter*"),
     ]
 )
