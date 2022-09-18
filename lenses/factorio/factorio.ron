@@ -33,15 +33,17 @@
         SkipURL("https://wiki.factorio.com/*/zh"),
         // Ignore API
         SkipURL("https://wiki.factorio.com/api.php"),
+        SkipURL("https://wiki.factorio.com/index.php*"),
+        SkipURL("https://wiki.factorio.com/Prototype/*"),
         // Ignore media wiki related pages
         SkipURL("https://wiki.factorio.com/*action=*"),
+        SkipURL("https://wiki.factorio.com/*_talk:*"),
         SkipURL("https://wiki.factorio.com/File:*"),
         SkipURL("https://wiki.factorio.com/Infobox:*"),
         SkipURL("https://wiki.factorio.com/Property:*"),
         SkipURL("https://wiki.factorio.com/Special:*"),
         SkipURL("https://wiki.factorio.com/Talk:*"),
         SkipURL("https://wiki.factorio.com/Template:*"),
-        SkipURL("https://wiki.factorio.com/User_talk:*"),
         SkipURL("https://wiki.factorio.com/User:*"),
         SkipURL("https://wiki.factorio.com/Version_history"),
         SkipURL("https://wiki.factorio.com/*title=Special:*"),
