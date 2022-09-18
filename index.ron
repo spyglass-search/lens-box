@@ -83,7 +83,7 @@
         author: "a5huynh",
         description: "Factorio wiki & subreddit. Factorio is a game in which you build and maintain factories.",
         name: "factorio",
-        sha: "da9331258b31d8f2f29da261359a9d7db7382573eb3539e4c16ecb6fa8870170",
+        sha: "07d28124ed5db1638f7c619b10a338a2d8fc2cd821ae5fc8941acc99cbedcf26",
         download_url: "https://raw.githubusercontent.com/spyglass-search/lens-box/main/lenses/factorio/factorio.ron",
         html_url: "https://github.com/spyglass-search/lens-box/blob/main/lenses/factorio/factorio.ron",
     ),
