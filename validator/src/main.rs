@@ -1,11 +1,12 @@
 use blake2::{Blake2s256, Digest};
 use std::ffi::OsStr;
-use std::fs;
-use std::io;
 use std::path::PathBuf;
 use std::process::ExitCode;
+use std::{fs, io};
 
 mod entity;
+mod repo;
+
 use entity::InstallableLens;
 use spyglass_lens::LensConfig;
 
@@ -18,20 +19,15 @@ const DL_URL_PREFIX: &str =
 fn validate_lens(lens: &InstallableLens) -> anyhow::Result<()> {
     println!("validating {} lens", lens.name);
 
-    let mut components = lens
-        .download_url
-        .split('/')
-        .collect::<Vec<&str>>();
+    let mut components = lens.download_url.split('/').collect::<Vec<&str>>();
 
-    let file = components
-        .pop()
-        .expect("Unable to get file path");
+    let file = components.pop().expect("Unable to get file path");
 
-    let parent = components.pop()
-        .expect("Unable to get parent file path");
+    let parent = components.pop().expect("Unable to get parent file path");
 
     // Attempt to parse lens
-    let contents = fs::read_to_string(format!("../lenses/{}/{}", parent, file)).expect("Unable to read lens");
+    let contents =
+        fs::read_to_string(format!("../lenses/{}/{}", parent, file)).expect("Unable to read lens");
     ron::from_str::<LensConfig>(&contents)?;
 
     Ok(())
@@ -89,7 +85,7 @@ fn check_lenses() -> io::Result<Vec<InstallableLens>> {
 
             updated_lenses.push(InstallableLens {
                 author: lens.author,
-                description: lens.description.unwrap_or_else(|| "".to_string()),
+                description: lens.description.unwrap_or_default(),
                 name: lens.name,
                 sha: hex::encode(res),
                 download_url: format!("{}/{}/{}", DL_URL_PREFIX, parent, file_name),
@@ -131,6 +127,13 @@ fn main() -> ExitCode {
                 println!("index validation failed: {}", e);
                 return ExitCode::FAILURE;
             }
+
+            // Generate docs
+            let base_path = repo::get_and_clean_doc_path();
+            for lens in updated {
+                repo::generate_page(&base_path, &lens);
+            }
+
             ExitCode::SUCCESS
         }
         Err(_) => ExitCode::FAILURE,

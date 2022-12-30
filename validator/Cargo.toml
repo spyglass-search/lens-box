@@ -12,3 +12,4 @@ ron = "0.8"
 spyglass-lens = "0.1"
 serde = { version = "1.0", features = ["derive"] }
 blake2 = "0.10.4"
+toml = "0.5.10"
