@@ -3,8 +3,8 @@ use std::collections::HashMap;
 use std::fs;
 use std::path::{Path, PathBuf};
 
-use crate::ValidatorCli;
 use crate::entity::InstallableLens;
+use crate::ValidatorCli;
 
 #[derive(Serialize)]
 struct RepoItem {

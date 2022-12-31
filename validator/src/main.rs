@@ -1,5 +1,5 @@
 use blake2::{Blake2s256, Digest};
-use clap::Parser;
+use clap::{Parser, Subcommand};
 use std::ffi::OsStr;
 use std::path::PathBuf;
 use std::process::ExitCode;
@@ -15,7 +15,17 @@ use spyglass_lens::LensConfig;
 #[command(author, version, about, long_about = None)]
 pub struct ValidatorCli {
     #[arg(short, long)]
-    pub dry_run: bool
+    pub dry_run: bool,
+    #[command(subcommand)]
+    command: Option<Commands>,
+}
+
+#[derive(Subcommand)]
+enum Commands {
+    /// Generate lens explorer site
+    GenerateExplorer,
+    /// (Default) Validates lenses & generate index file
+    Validate,
 }
 
 const INDEX_FILE: &str = "../index.ron";
@@ -123,33 +133,44 @@ fn validate_index_file() -> anyhow::Result<()> {
 
 fn main() -> ExitCode {
     let cli = ValidatorCli::parse();
+    match &cli.command {
+        None | Some(Commands::Validate) => {
+            match check_lenses() {
+                Ok(updated) => {
+                    let ser = ron::ser::to_string_pretty(&updated, Default::default())
+                        .expect("Unable to serialize index");
 
-    match check_lenses() {
-        Ok(updated) => {
-            let ser = ron::ser::to_string_pretty(&updated, Default::default())
-                .expect("Unable to serialize index");
+                    // Write out new index file.
+                    if !cli.dry_run {
+                        fs::write(INDEX_FILE, ser).expect("Unable to write index");
+                    }
 
-            // Write out new index file.
-            if !cli.dry_run {
-                fs::write(INDEX_FILE, ser).expect("Unable to write index");
+                    // Validate index file.
+                    if let Err(e) = validate_index_file() {
+                        println!("index validation failed: {}", e);
+                        return ExitCode::FAILURE;
+                    }
+
+                    ExitCode::SUCCESS
+                }
+                Err(_) => ExitCode::FAILURE,
             }
-
-            // Validate index file.
-            if let Err(e) = validate_index_file() {
-                println!("index validation failed: {}", e);
-                return ExitCode::FAILURE;
-            }
-
-            // Generate docs
-            println!("\ngenerating lens explorer site...");
-            let base_path = repo::get_and_clean_doc_path(&cli);
-            for lens in &updated {
-                repo::generate_page(&cli, &base_path, lens);
-            }
-            println!("generated {} pages", updated.len());
-
-            ExitCode::SUCCESS
         }
-        Err(_) => ExitCode::FAILURE,
+        Some(Commands::GenerateExplorer) => {
+            match check_lenses() {
+                Ok(updated) => {
+                    // Generate docs
+                    println!("\ngenerating lens explorer site...");
+                    let base_path = repo::get_and_clean_doc_path(&cli);
+                    for lens in &updated {
+                        repo::generate_page(&cli, &base_path, lens);
+                    }
+                    println!("generated {} pages", updated.len());
+
+                    ExitCode::SUCCESS
+                }
+                Err(_) => ExitCode::FAILURE,
+            }
+        }
     }
 }
