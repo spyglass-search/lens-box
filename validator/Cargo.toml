@@ -10,7 +10,7 @@ anyhow = "1.0"
 clap = { version = "4.0.32", features = ["derive"] }
 hex = "0.4.3"
 ron = "0.8"
-spyglass-lens = "0.1"
+spyglass-lens = "0.1.3"
 serde = { version = "1.0", features = ["derive"] }
 blake2 = "0.10.4"
 toml = "0.5.10"

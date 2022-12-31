@@ -321,11 +321,13 @@ dependencies = [
 
 [[package]]
 name = "spyglass-lens"
-version = "0.1.2"
+version = "0.1.3"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "eaa3ebc6753018e7c13eecfaabe9a6b676015e8367c5b7980b996699841cb088"
+checksum = "5d5bb1eee5acd1c924ab38413e8be74819536d4e90a1c1b3743873d614cac4bf"
 dependencies = [
  "anyhow",
+ "blake2",
+ "hex",
  "regex",
  "ron",
  "serde",

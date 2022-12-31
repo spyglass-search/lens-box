@@ -55,6 +55,15 @@ pub fn generate_page(
         let mut extra: HashMap<String, Value> = HashMap::new();
         extra.insert("domains".to_string(), lens_config.domains.into());
         extra.insert("urls".to_string(), lens_config.urls.into());
+        extra.insert(
+            "rules".to_string(),
+            lens_config
+                .rules
+                .iter()
+                .map(|rule| rule.to_string())
+                .collect::<Vec<String>>()
+                .into(),
+        );
 
         let repo_item = RepoItem {
             title: lens.name.to_string(),

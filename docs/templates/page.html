@@ -46,7 +46,7 @@
       {% if page.extra.domains %}
       <ul>
       {% for domain in page.extra.domains %}
-        <li>{{ domain }}</li>
+        <li class="pb-1">{{ domain }}</li>
       {% endfor %}
       </ul>
       {% else %}
@@ -63,14 +63,27 @@
       {% if page.extra.urls %}
       <ul>
       {% for url in page.extra.urls %}
-        <li>{{ url }}</li>
+        <li class="pb-1">{{ url }}</li>
       {% endfor %}
       </ul>
       {% else %}
       <span class="text-gray-400">None specified</span>
       {% endif %}
     </div>
-    {{ page.content | safe }}
+
+    <h2 class="font-bold pt-8">Rules</h2>
+    <div class="font-mono text-xs text-gray-600 border-gray-200 border p-2 bg-gray-200 rounded">
+      {% if page.extra.rules %}
+      <ul>
+      {% for item in page.extra.rules %}
+        <li class="pb-1">{{ item }}</li>
+      {% endfor %}
+      </ul>
+      {% else %}
+      <span class="text-gray-400">None specified</span>
+      {% endif %}
+    </div>
+
   </div>
   <div class="text-xs pt-4">🔭</div>
 </article>
