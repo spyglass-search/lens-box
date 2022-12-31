@@ -1,4 +1,5 @@
 default_language = "en"
+title = "Spyglass Lenses"
 
 # The URL the site will be built for
 base_url = "https://lenses.spyglass.fyi"

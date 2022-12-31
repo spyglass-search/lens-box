@@ -106,6 +106,7 @@ fn check_lenses() -> io::Result<Vec<InstallableLens>> {
                 description: lens.description.unwrap_or_default(),
                 name: lens.name,
                 sha: hex::encode(res),
+                path: file_path.clone(),
                 download_url: format!("{}/{}/{}", DL_URL_PREFIX, parent, file_name),
                 html_url: format!("{}/{}/{}", HTML_URL_PREFIX, parent, file_name),
             });
@@ -163,7 +164,10 @@ fn main() -> ExitCode {
                     println!("\ngenerating lens explorer site...");
                     let base_path = repo::get_and_clean_doc_path(&cli);
                     for lens in &updated {
-                        repo::generate_page(&cli, &base_path, lens);
+                        if let Err(e) = repo::generate_page(&cli, &base_path, lens) {
+                            println!("page generation failure: {}", e);
+                            return ExitCode::FAILURE;
+                        }
                     }
                     println!("generated {} pages", updated.len());
 

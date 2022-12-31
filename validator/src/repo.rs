@@ -1,7 +1,9 @@
 use serde::Serialize;
+use spyglass_lens::LensConfig;
 use std::collections::HashMap;
 use std::fs;
 use std::path::{Path, PathBuf};
+use toml::Value;
 
 use crate::entity::InstallableLens;
 use crate::ValidatorCli;
@@ -11,7 +13,8 @@ struct RepoItem {
     title: String,
     date: String,
     description: String,
-    taxonomies: HashMap<String, Vec<String>>,
+    extra: HashMap<String, Value>,
+    taxonomies: HashMap<String, Value>,
 }
 
 const DOCS_FOLDER: &str = "../docs";
@@ -38,22 +41,40 @@ pub fn get_and_clean_doc_path(cli: &ValidatorCli) -> PathBuf {
     docs_path
 }
 
-pub fn generate_page(cli: &ValidatorCli, base_path: &Path, lens: &InstallableLens) {
-    let file_name = format!("{}.md", lens.name);
+pub fn generate_page(
+    cli: &ValidatorCli,
+    base_path: &Path,
+    lens: &InstallableLens,
+) -> anyhow::Result<()> {
+    if let Ok(lens_config) = ron::from_str::<LensConfig>(&std::fs::read_to_string(&lens.path)?) {
+        let file_name = format!("{}.md", lens.name);
 
-    let mut taxos = HashMap::new();
-    taxos.insert("author".to_string(), vec![lens.author.to_string()]);
+        let mut taxos: HashMap<String, Value> = HashMap::new();
+        taxos.insert("author".to_string(), vec![lens.author.to_string()].into());
 
-    let repo_item = RepoItem {
-        title: lens.name.to_string(),
-        description: lens.description.to_string(),
-        date: "2022-01-01".to_string(),
-        taxonomies: taxos,
-    };
+        let mut extra: HashMap<String, Value> = HashMap::new();
+        extra.insert("domains".to_string(), lens_config.domains.into());
+        extra.insert("urls".to_string(), lens_config.urls.into());
 
-    if let Ok(res) = toml::ser::to_string_pretty(&repo_item) {
-        if !cli.dry_run {
-            let _ = fs::write(base_path.join(file_name), format!("+++\n{}+++\n", res));
+        let repo_item = RepoItem {
+            title: lens.name.to_string(),
+            description: lens.description.to_string(),
+            date: "2022-01-01".to_string(),
+            extra,
+            taxonomies: taxos,
+        };
+
+        if let Ok(res) = toml::ser::to_string_pretty(&repo_item) {
+            if !cli.dry_run {
+                fs::write(base_path.join(file_name), format!("+++\n{}+++\n", res))?;
+            }
         }
+
+        Ok(())
+    } else {
+        Err(anyhow::anyhow!(format!(
+            "Unable to parse {}",
+            lens.path.display()
+        )))
     }
 }

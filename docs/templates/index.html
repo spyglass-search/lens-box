@@ -1,11 +1,15 @@
 {% extends "base.html" %}
 
 {% block content %}
-<div class="py-8 px-8 sm:px-16 animate-fade-in-down">
+<div class="py-8 px-8 sm:px-16 animate-fade-in-down max-w-screen-md mx-auto">
   {% set section = get_section(path="lenses/_index.md") -%}
   {% for page in section.pages -%}
   <section class="mb-8">
-    <h2 class="text-2xl font-bold mb-2">{{ page.title }}</h2>
+    <a href="{{ page.permalink }}" class="hover:underline">
+      <h2 class="text-2xl font-bold mb-2">
+        {{ page.title }}
+      </h2>
+    </a>
     <div>
       {{ page.description }}
     </div>
