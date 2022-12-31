@@ -3,6 +3,7 @@ use std::collections::HashMap;
 use std::fs;
 use std::path::{Path, PathBuf};
 
+use crate::ValidatorCli;
 use crate::entity::InstallableLens;
 
 #[derive(Serialize)]
@@ -15,8 +16,14 @@ struct RepoItem {
 
 const DOCS_FOLDER: &str = "../docs";
 
-pub fn get_and_clean_doc_path() -> PathBuf {
+pub fn get_and_clean_doc_path(cli: &ValidatorCli) -> PathBuf {
     let docs_path = Path::new(DOCS_FOLDER).join("content/lenses");
+
+    // No need to clean up the directory if this is a dry run
+    if cli.dry_run {
+        return docs_path;
+    }
+
     fs::read_dir(docs_path.clone())
         .expect("Unable to walk DOCS_FOLDER")
         .flatten()
@@ -31,7 +38,7 @@ pub fn get_and_clean_doc_path() -> PathBuf {
     docs_path
 }
 
-pub fn generate_page(base_path: &Path, lens: &InstallableLens) {
+pub fn generate_page(cli: &ValidatorCli, base_path: &Path, lens: &InstallableLens) {
     let file_name = format!("{}.md", lens.name);
 
     let mut taxos = HashMap::new();
@@ -45,6 +52,8 @@ pub fn generate_page(base_path: &Path, lens: &InstallableLens) {
     };
 
     if let Ok(res) = toml::ser::to_string_pretty(&repo_item) {
-        let _ = fs::write(base_path.join(file_name), format!("+++\n{}+++\n", res));
+        if !cli.dry_run {
+            let _ = fs::write(base_path.join(file_name), format!("+++\n{}+++\n", res));
+        }
     }
 }

@@ -1,4 +1,5 @@
 use blake2::{Blake2s256, Digest};
+use clap::Parser;
 use std::ffi::OsStr;
 use std::path::PathBuf;
 use std::process::ExitCode;
@@ -9,6 +10,13 @@ mod repo;
 
 use entity::InstallableLens;
 use spyglass_lens::LensConfig;
+
+#[derive(Parser)]
+#[command(author, version, about, long_about = None)]
+pub struct ValidatorCli {
+    #[arg(short, long)]
+    pub dry_run: bool
+}
 
 const INDEX_FILE: &str = "../index.ron";
 const LENS_FOLDER: &str = "../lenses";
@@ -114,13 +122,17 @@ fn validate_index_file() -> anyhow::Result<()> {
 }
 
 fn main() -> ExitCode {
+    let cli = ValidatorCli::parse();
+
     match check_lenses() {
         Ok(updated) => {
             let ser = ron::ser::to_string_pretty(&updated, Default::default())
                 .expect("Unable to serialize index");
 
             // Write out new index file.
-            fs::write(INDEX_FILE, ser).expect("Unable to write index");
+            if !cli.dry_run {
+                fs::write(INDEX_FILE, ser).expect("Unable to write index");
+            }
 
             // Validate index file.
             if let Err(e) = validate_index_file() {
@@ -129,10 +141,12 @@ fn main() -> ExitCode {
             }
 
             // Generate docs
-            let base_path = repo::get_and_clean_doc_path();
-            for lens in updated {
-                repo::generate_page(&base_path, &lens);
+            println!("\ngenerating lens explorer site...");
+            let base_path = repo::get_and_clean_doc_path(&cli);
+            for lens in &updated {
+                repo::generate_page(&cli, &base_path, lens);
             }
+            println!("generated {} pages", updated.len());
 
             ExitCode::SUCCESS
         }
