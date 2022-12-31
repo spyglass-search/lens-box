@@ -4,6 +4,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta http-equiv="content-type" content="text/html; charset=utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1, viewport-fit=cover">
+
   {% block meta %}
   {% endblock meta %}
 
@@ -12,7 +13,6 @@
   <link rel="icon" type="image/svg+xml" href="{{ get_url(path='images/favicon.svg') }}" />
 
   <link rel="stylesheet" href="{{ get_url(path='css/styles.css') }}">
-
   <title>{% block title %}{{ config.title }}{% endblock title %}</title>
   {% if config.generate_feed %}
   {% block rss %}
@@ -107,6 +107,8 @@
       {% endblock content %}
     </div>
   </div>
+  <script type="text/javascript" src="{{ get_url(path='elasticlunr.min.js') }}"></script>
+  <script type="text/javascript" src="{{ get_url(path='search_index.en.js') }}"></script>
+  <script type="text/javascript" src="{{ get_url(path='js/search.js') }}"></script>
 </body>
-
 </html>
