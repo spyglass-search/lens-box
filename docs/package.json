@@ -1,0 +1,16 @@
+{
+  "name": "spyglass-lenses",
+  "version": "1.0.0",
+  "description": "Lens explorer for spyglass",
+  "main": "index.js",
+  "scripts": {
+    "build": "tailwindcss -i ./styles-src/styles.css -o ./static/css/styles.css",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "MIT",
+  "private": true,
+  "devDependencies": {
+    "tailwindcss": "^3.2.4"
+  }
+}

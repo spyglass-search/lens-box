@@ -1,3 +1,5 @@
+use std::path::PathBuf;
+
 use serde::{Deserialize, Serialize};
 
 #[derive(Clone, Deserialize, Serialize)]
@@ -8,4 +10,6 @@ pub struct InstallableLens {
     pub sha: String,
     pub download_url: String,
     pub html_url: String,
+    #[serde(skip)]
+    pub path: PathBuf,
 }

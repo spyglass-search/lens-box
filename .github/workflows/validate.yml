@@ -50,6 +50,6 @@ jobs:
         author: ${{ github.actor }} <${{ github.actor }}@users.noreply.github.com>
         signoff: false
         delete-branch: true
-        title: '[Automated] Update index file'
+        title: '[Automated] Update index file & lens explorer'
         labels: |
           automated pr

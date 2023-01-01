@@ -1,1 +1,4 @@
 validator/target
+docs/node_modules
+docs/public
+docs/content/lenses
