@@ -2,7 +2,7 @@ name: build & deploy lens explorer site
 
 on:
   push:
-    branches: [ main, "feature/lens-explorer" ]
+    branches: [ main ]
   pull_request:
 
 jobs:
