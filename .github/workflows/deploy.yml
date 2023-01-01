@@ -1,0 +1,34 @@
+name: build & deploy lens explorer site
+
+on:
+  push:
+    branches: [ main, "feature/lens-explorer" ]
+  pull_request:
+
+jobs:
+  build_and_deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout main
+        uses: actions/checkout@v3.0.0
+      # Setup rust toolchain
+      - name: Setup rust toolchain
+        uses: actions-rs/toolchain@v1
+        with:
+          profile: minimal
+          toolchain: stable
+          components: clippy
+      # Should help bring down build times
+      - uses: Swatinem/rust-cache@v1
+        with:
+          key: "1" # increment this to bust the cache if needed
+      # Generate the lens explorer site
+      - name: generate lens detail pages
+        run: cd validator && cargo run -- generate-explorer
+      # Build & deploy site via Zola & Github Pages
+      - name: Build and deploy
+        uses: shalzz/zola-deploy-action@v0.16.1
+        env:
+          BUILD_DIR: docs
+          PAGES_BRANCH: gh-pages
+          GITHUB_TOKEN: ${{ secrets.PAT }}
