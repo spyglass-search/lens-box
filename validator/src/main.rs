@@ -132,12 +132,13 @@ fn validate_index_file() -> anyhow::Result<()> {
     Ok(())
 }
 
-fn main() -> ExitCode {
+#[tokio::main]
+async fn main() -> ExitCode {
     let cli = ValidatorCli::parse();
-    match &cli.command {
-        None | Some(Commands::Validate) => {
-            match check_lenses() {
-                Ok(updated) => {
+    match check_lenses() {
+        Ok(updated) => {
+            match &cli.command {
+                None | Some(Commands::Validate) => {
                     let ser = ron::ser::to_string_pretty(&updated, Default::default())
                         .expect("Unable to serialize index");
 
@@ -154,12 +155,7 @@ fn main() -> ExitCode {
 
                     ExitCode::SUCCESS
                 }
-                Err(_) => ExitCode::FAILURE,
-            }
-        }
-        Some(Commands::GenerateExplorer) => {
-            match check_lenses() {
-                Ok(updated) => {
+                Some(Commands::GenerateExplorer) => {
                     // Generate docs
                     println!("\ngenerating lens explorer site...");
                     let base_path = repo::get_and_clean_doc_path(&cli);
@@ -173,8 +169,8 @@ fn main() -> ExitCode {
 
                     ExitCode::SUCCESS
                 }
-                Err(_) => ExitCode::FAILURE,
             }
         }
+        Err(_) => ExitCode::FAILURE,
     }
 }
