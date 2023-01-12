@@ -3,7 +3,7 @@ use clap::{Parser, Subcommand};
 use std::ffi::OsStr;
 use std::path::PathBuf;
 use std::process::ExitCode;
-use std::{fs, io};
+use std::fs;
 
 mod entity;
 mod repo;
@@ -67,7 +67,7 @@ fn find_lens(path: &PathBuf) -> Option<(PathBuf, String)> {
     None
 }
 
-fn check_lenses() -> io::Result<Vec<InstallableLens>> {
+fn check_lenses() -> anyhow::Result<Vec<InstallableLens>> {
     let mut updated_lenses = Vec::new();
 
     // Find folders to check for lenses
@@ -100,6 +100,10 @@ fn check_lenses() -> io::Result<Vec<InstallableLens>> {
             let mut hasher = Blake2s256::new();
             hasher.update(file_contents);
             let res = hasher.finalize();
+
+            if file_name != format!("{}.ron", lens.name) {
+                return Err(anyhow::anyhow!("{} lens file should match lens name", lens.name));
+            }
 
             updated_lenses.push(InstallableLens {
                 author: lens.author,
