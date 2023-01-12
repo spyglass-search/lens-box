@@ -1,6 +1,6 @@
 (
     version: "1",
-    name: "twilight",
+    name: "zelda_twilight_princess",
     author: "pknessness",
     description: Some("Legend of Zelda Twilight Princess Walkthrough"),
     domains: [],

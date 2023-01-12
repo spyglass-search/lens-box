@@ -4,10 +4,10 @@
     author: "a5huynh",
     description: Some("Stardew Valley wiki"),
     is_enabled: true,
-    domains: [],
-    urls: [
-        "https://stardewvalleywiki.com"
+    domains: [
+        "stardewvalleywiki.com"
     ],
+    urls: [],
     rules: [
         SkipURL("https://*.stardewvalleywiki.com/mediawiki*"),
         SkipURL("https://stardewvalleywiki.com/Category_talk:*"),

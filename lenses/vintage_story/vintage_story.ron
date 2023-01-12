@@ -1,6 +1,6 @@
 (
     version: "1",
-    name: "Vintage Story",
+    name: "vintage_story",
     author: "popcar2",
     description: Some("Vintage Story wiki"),
     is_enabled: true,

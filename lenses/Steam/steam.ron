@@ -1,6 +1,6 @@
 (
     version: "1",
-    name: "Steam",
+    name: "steam",
     author: "popcar2",
     description: Some("Find games quickly on Steam, the popular PC video game store!"),
     is_enabled: true,
