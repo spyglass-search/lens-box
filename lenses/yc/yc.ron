@@ -20,5 +20,6 @@
         SkipURL("https://www.ycombinator.com/*ref=*"),
         SkipURL("https://www.ycombinator.com/*utm_*"),
         SkipURL("https://www.ycombinator.com/*utm_*"),
+        SkipURL("https://www.ycombinator.com/blog/content/*"),
     ]
 )
