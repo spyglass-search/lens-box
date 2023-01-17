@@ -219,7 +219,7 @@
         author: "a5huynh",
         description: "YC articles / blog posts for a handy quick reference to startup materials",
         name: "yc",
-        sha: "d8d8c5051d4f0025ee7579e4e3278937cba5d0911e648fb242ff400e55d24570",
+        sha: "67ea821f7e651a089e58f2d24b39394f6930f162f98e9048e2fb363ffccc0e4d",
         download_url: "https://raw.githubusercontent.com/spyglass-search/lens-box/main/lenses/yc/yc.ron",
         html_url: "https://github.com/spyglass-search/lens-box/blob/main/lenses/yc/yc.ron",
     ),
