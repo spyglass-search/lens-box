@@ -120,6 +120,14 @@
         html_url: "https://github.com/spyglass-search/lens-box/blob/main/lenses/pygame/pygame.ron",
     ),
     (
+        author: "a5huynh",
+        description: "Rustlang official website, documentation, and blog posts.",
+        name: "rustlang",
+        sha: "6154cbb72a222b419f14107046213418e489e3eed6d411ce8815267a4c46d899",
+        download_url: "https://raw.githubusercontent.com/spyglass-search/lens-box/main/lenses/rustlang/rustlang.ron",
+        html_url: "https://github.com/spyglass-search/lens-box/blob/main/lenses/rustlang/rustlang.ron",
+    ),
+    (
         author: "Haz0ret",
         description: "Searches through Scryfall and Gatherer to locate magic: the gathering sources",
         name: "scryfall",
