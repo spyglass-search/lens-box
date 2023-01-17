@@ -1,0 +1,13 @@
+(
+    version: "1",
+    name: "rustlang",
+    author: "a5huynh",
+    description: Some("Rustlang official website, documentation, and blog posts."),
+    domains: [
+        "doc.rust-lang.org",
+        "blog.rust-lang.org",
+        "www.rust-lang.org",
+    ],
+    urls: [],
+    rules: [],
+)
