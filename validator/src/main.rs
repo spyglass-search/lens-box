@@ -118,7 +118,7 @@ fn check_lenses() -> anyhow::Result<Vec<InstallableLens>> {
     }
 
     // Sort by name
-    updated_lenses.sort_by(|a, b| a.name.cmp(&b.name));
+    updated_lenses.sort_by(|a, b| a.name.to_lowercase().cmp(&b.name.to_lowercase()));
     Ok(updated_lenses)
 }
 
