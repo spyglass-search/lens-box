@@ -105,10 +105,12 @@ fn check_lenses() -> anyhow::Result<Vec<InstallableLens>> {
                 return Err(anyhow::anyhow!("{} lens file should match lens name", lens.name));
             }
 
+            let label = lens.label();
             updated_lenses.push(InstallableLens {
                 author: lens.author,
                 description: lens.description.unwrap_or_default(),
                 name: lens.name,
+                label,
                 sha: hex::encode(res),
                 path: file_path.clone(),
                 download_url: format!("{}/{}/{}", DL_URL_PREFIX, parent, file_name),

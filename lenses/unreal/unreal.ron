@@ -1,8 +1,0 @@
-(
-    version: "1",
-    author: "oparaskos",
-    name: "unreal",
-    description: Some("Unreal Engine targeted websites"),
-    domains: [],
-    urls: ["https://docs.unrealengine.com/4", "https://docs.unrealengine.com/5"]
-)

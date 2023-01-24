@@ -1,0 +1,11 @@
+(
+    version: "1",
+    author: "oparaskos",
+    name: "unreal_4",
+    label: "Unreal Engine 4.27 Docs",
+    description: Some("Unreal Engine 4.27 editor/engine documentation"),
+    domains: [],
+    urls: [
+        "https://docs.unrealengine.com/4.27/en-US"
+    ]
+)
