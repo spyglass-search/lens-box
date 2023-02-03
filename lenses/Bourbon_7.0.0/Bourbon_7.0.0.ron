@@ -1,0 +1,11 @@
+(
+    author: "spyglass-search",
+    name: "Bourbon_7.0.0",
+    description: Some("Bourbon 7.0.0 API Documentation"),
+    domains: [],
+    urls: [
+        "https://www.bourbon.io/docs/7.0.0/",
+    ],
+    version: "1",
+    rules: [],
+)

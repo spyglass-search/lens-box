@@ -1,0 +1,12 @@
+(
+    author: "spyglass-search",
+    name: "Angular",
+    description: Some("Angular API Documentation"),
+    domains: [
+	    "https://update.angular.io",
+        "https://angular.io/"],
+    urls: [],
+    version: "1",
+    rules: [],
+    pipeline: None,
+)
