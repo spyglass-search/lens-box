@@ -180,6 +180,15 @@
         html_url: "https://github.com/spyglass-search/lens-box/blob/main/lenses/java/java.ron",
     ),
     (
+        author: "spyglass-search",
+        description: "Java SE19 API Documentation",
+        name: "Java_SE19",
+        label: "Java_SE19",
+        sha: "cddaabe32457b2cbd1ef876be3d11ec60bc538430e113eb853ef28681331941a",
+        download_url: "https://raw.githubusercontent.com/spyglass-search/lens-box/main/lenses/Java_SE19/Java_SE19.ron",
+        html_url: "https://github.com/spyglass-search/lens-box/blob/main/lenses/Java_SE19/Java_SE19.ron",
+    ),
+    (
         author: "oparaskos",
         description: "Kotlin reference material.",
         name: "kotlin",
