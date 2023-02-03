@@ -1,0 +1,13 @@
+(
+    version: "1",
+    name: "wow_npcs",
+    label: "World of Warcraft (WoW) NPCs",
+    author: "Chicken",
+    description: Some("Search through World of Warcraft (WoW) NPCs!"),
+    domains: [],
+    urls: [
+        "https://www.wowhead.com/npcs$",
+        "https://www.wowhead.com/npc=",
+    ],
+    rules: []
+)

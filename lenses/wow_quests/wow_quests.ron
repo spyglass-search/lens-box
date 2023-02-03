@@ -1,0 +1,13 @@
+(
+    version: "1",
+    name: "wow_quests",
+    label: "World of Warcraft (WoW) Quests",
+    author: "Chicken",
+    description: Some("Search through all WoW quests!"),
+    domains: [],
+    urls: [
+        "https://www.wowhead.com/quests$",
+        "https://www.wowhead.com/quest=",
+    ],
+    rules: []
+)
