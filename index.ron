@@ -171,6 +171,15 @@
         html_url: "https://github.com/spyglass-search/lens-box/blob/main/lenses/gentoo/gentoo.ron",
     ),
     (
+        author: "spyglass-search",
+        description: "Go API Documentation",
+        name: "Go",
+        label: "Go",
+        sha: "e914b50734b1e951c47555f1f024a9c863f5465e082570588744ea55db8b165f",
+        download_url: "https://raw.githubusercontent.com/spyglass-search/lens-box/main/lenses/Go/Go.ron",
+        html_url: "https://github.com/spyglass-search/lens-box/blob/main/lenses/Go/Go.ron",
+    ),
+    (
         author: "oparaskos",
         description: "Java reference material.",
         name: "java",
