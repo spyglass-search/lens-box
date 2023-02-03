@@ -1,0 +1,11 @@
+(
+    author: "spyglass-search",
+    name: "Ansible",
+    description: Some("Ansible API Documentation"),
+    domains: [],
+    urls: [
+        "https://docs.ansible.com/ansible/latest/",
+    ],
+    version: "1",
+    rules: [],
+)

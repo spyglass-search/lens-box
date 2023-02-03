@@ -1,0 +1,11 @@
+(
+    author: "spyglass-search",
+    name: "Bootstrap_3.4",
+    description: Some("Bootstrap 3.4 API Documentation"),
+    domains: [],
+    urls: [
+        "https://getbootstrap.com/docs/3.4/"
+    ],
+    version: "1",
+    rules: [],
+)

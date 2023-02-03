@@ -1,0 +1,11 @@
+(
+    author: "spyglass-search",
+    name: "Akka",
+    description: Some("Akka API Documentation"),
+    domains: [],
+    urls: [
+        "https://doc.akka.io/api/akka/current/"
+    ],
+    version: "1",
+    rules: [],
+)

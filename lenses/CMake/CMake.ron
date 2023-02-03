@@ -1,0 +1,11 @@
+(
+    author: "spyglass-search",
+    name: "CMake",
+    description: Some("CMake API Documentation"),
+    domains: [],
+    urls: [
+        "https://cmake.org/cmake/help/latest/"
+    ],
+    version: "1",
+    rules: [],
+)

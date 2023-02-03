@@ -1,0 +1,11 @@
+(
+    author: "spyglass-search",
+    name: "Apache_HTTP_Server",
+    description: Some("Apache HTTP Server API Documentation"),
+    domains: [],
+    urls: [
+        "https://httpd.apache.org/docs/current"
+    ],
+    version: "1",
+    rules: [],
+)

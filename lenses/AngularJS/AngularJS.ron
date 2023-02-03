@@ -1,0 +1,11 @@
+(
+    author: "spyglass-search",
+    name: "AngularJS",
+    description: Some("AngularJS API Documentation"),
+    domains: [],
+    urls: [
+        "https://code.angularjs.org/1.8.2/docs/",
+    ],
+    version: "1",
+    rules: []
+)
