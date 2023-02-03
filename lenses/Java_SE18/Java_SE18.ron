@@ -1,0 +1,11 @@
+(
+    author: "spyglass-search",
+    name: "Java_SE18",
+    description: Some("Java SE18 API Documentation"),
+    domains: [],
+    urls: [
+        "https://docs.oracle.com/en/java/javase/18/docs/api/",
+    ],
+    version: "1",
+    rules: [],
+)
