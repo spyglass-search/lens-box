@@ -1,0 +1,14 @@
+(
+    author: "spyglass-search",
+    name: "Android",
+    description: Some("Android API Documentation"),
+    domains: [],
+    urls: [
+	    "https://developers.google.com/android/", 
+		"https://developers.google.com/android.html",
+		"https://developer.android.com/"
+    ],
+    version: "1", 
+    rules: [],
+    pipeline: None,
+)
