@@ -1,0 +1,28 @@
+(
+    version: "1",
+    name: "wow_spells",
+    label: "World of Warcraft (WoW) Spells",
+    author: "Chicken",
+    description: Some("Search through World of Warcraft (WoW) spells & abilities!"),
+    is_enabled: true,
+    domains: [],
+    urls: [
+        "https://www.wowhead.com/skills$",
+        "https://www.wowhead.com/spells$",
+        // Individual spells
+        "https://www.wowhead.com/skill=",
+        "https://www.wowhead.com/spell=",
+    ],
+    rules: [
+        // Ignore filters / notFound pages
+        SkipURL("https://www.wowhead.com/*?*power*"),
+        SkipURL("https://www.wowhead.com/*bonus=*"),
+        SkipURL("https://www.wowhead.com/*filter=*"),
+        SkipURL("https://www.wowhead.com/*ilvl=*"),
+        SkipURL("https://www.wowhead.com/*name:*"),
+        SkipURL("https://www.wowhead.com/*notFound=*"),
+        // Ignore map data
+        SkipURL("https://www.wowhead.com/maps?*data=*"),
+    ]
+)
+

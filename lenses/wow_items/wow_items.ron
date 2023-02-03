@@ -4,7 +4,6 @@
     label: "World of Warcraft (WoW) Items",
     author: "Chicken",
     description: Some("Search through all WoW items and item sets!"),
-    is_enabled: true,
     domains: [],
     urls: [
         "https://www.wowhead.com/item-sets",
@@ -16,4 +15,3 @@
     ],
     rules: []
 )
-
