@@ -1,6 +1,7 @@
 (
     version: "1",
     name: "yc",
+    label: "YCombinator",
     author: "a5huynh",
     description: Some("YC articles / blog posts for a handy quick reference to startup materials"),
     is_enabled: true,

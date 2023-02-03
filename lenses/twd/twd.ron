@@ -1,6 +1,7 @@
 (
     version: "1",
     name: "twd",
+    label: "The Walking Dead",
     author: "a5huynh",
     description: Some(r#"The Walking Dead (/twd) lens includes all information
     about the comic series, novels, video games, and television shows, including

@@ -1,6 +1,7 @@
 (
     version: "1",
     name: "dnd",
+    label: "Dungeons & Dragons 5E",
     author: "lagoja",
     description: Some("D&D 5E reference guide for classes, equipment, feats, magic items, monsters, spells, etc."),
     domains: [],

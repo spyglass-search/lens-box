@@ -1,6 +1,7 @@
 (
     version: "1",
     name: "CBR",
+    label: "Comic Book Roundup",
     author: "popcar2",
     description: Some("Comic Book Roundup, a review aggregator for comic books & graphic novels."),
     is_enabled: true,
