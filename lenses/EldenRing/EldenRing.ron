@@ -1,6 +1,7 @@
 (
     version: "1",
     name: "EldenRing",
+    label: "Elden Ring",
     author: "popcar2",
     description: Some("Elden Ring Fextralife Wiki"),
     is_enabled: true,

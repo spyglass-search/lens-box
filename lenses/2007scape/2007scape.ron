@@ -1,6 +1,7 @@
 (
     version: "1",
     name: "2007scape",
+    label: "Old School RuneScape (OSRS) wiki",
     author: "a5huynh",
     description: Some("Old School Runescape wiki and useful reference guides, utilities, and more."),
     is_enabled: true,

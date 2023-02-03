@@ -1,6 +1,7 @@
 (
     version: "1",
     name: "luigis_mansion",
+    label: "Luigis Mansion Guide",
     author: "pknessness",
     description: Some("Luigi's Mansion Walkthrough"),
     domains: [],

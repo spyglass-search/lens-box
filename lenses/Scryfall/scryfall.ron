@@ -1,6 +1,7 @@
 (
     version: "1",
     name: "scryfall",
+    label: "Magic the Gathering (MtG)",
     author: "Haz0ret",
     description: Some("Searches through Scryfall and Gatherer to locate magic: the gathering sources"),
     domains: [],
