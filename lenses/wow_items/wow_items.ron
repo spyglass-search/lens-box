@@ -1,0 +1,19 @@
+(
+    version: "1",
+    name: "wow_items",
+    label: "World of Warcraft (WoW) Items",
+    author: "Chicken",
+    description: Some("Search through all WoW items and item sets!"),
+    is_enabled: true,
+    domains: [],
+    urls: [
+        "https://www.wowhead.com/item-sets",
+        "https://www.wowhead.com/items",
+        // Individual items
+        "https://www.wowhead.com/item=",
+        // Individual item-sets
+        "https://www.wowhead.com/item-set=",
+    ],
+    rules: []
+)
+
