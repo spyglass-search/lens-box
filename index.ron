@@ -181,6 +181,15 @@
     ),
     (
         author: "spyglass-search",
+        description: "Java SE18 API Documentation",
+        name: "Java_SE18",
+        label: "Java_SE18",
+        sha: "e876280d070641dbd258c026cb6c3aa8ff42c2dbd8544774cde06afaca15d0d9",
+        download_url: "https://raw.githubusercontent.com/spyglass-search/lens-box/main/lenses/Java_SE18/Java_SE18.ron",
+        html_url: "https://github.com/spyglass-search/lens-box/blob/main/lenses/Java_SE18/Java_SE18.ron",
+    ),
+    (
+        author: "spyglass-search",
         description: "Java SE19 API Documentation",
         name: "Java_SE19",
         label: "Java_SE19",
