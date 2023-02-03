@@ -180,6 +180,15 @@
         html_url: "https://github.com/spyglass-search/lens-box/blob/main/lenses/Go/Go.ron",
     ),
     (
+        author: "spyglass-search",
+        description: "HTML API Documentation",
+        name: "HTML",
+        label: "HTML",
+        sha: "ec36d4d314f2dded7b3b07a4c5b8c7433afe57e5b08e52eb128a5cc9f3522147",
+        download_url: "https://raw.githubusercontent.com/spyglass-search/lens-box/main/lenses/HTML/HTML.ron",
+        html_url: "https://github.com/spyglass-search/lens-box/blob/main/lenses/HTML/HTML.ron",
+    ),
+    (
         author: "oparaskos",
         description: "Java reference material.",
         name: "java",
