@@ -1,0 +1,12 @@
+(
+    author: "spyglass-search",
+    name: "NodeJs",
+    description: Some("NodeJs API Documentation"),
+    domains: [],
+    urls: [
+        "https://nodejs.org/api/"
+    ],
+    version: "1",
+    rules: [],
+    pipeline: None,
+)
