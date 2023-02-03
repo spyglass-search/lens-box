@@ -1,0 +1,14 @@
+(
+    author: "spyglass-search",
+    name: "Go",
+    description: Some("Go API Documentation"),
+    domains: [],
+    urls: [
+       "https://go.dev/doc/",
+	   "https://go.dev/ref/",
+	   "https://go.dev/security/",
+	   "https://pkg.go.dev/",
+    ],
+    version: "1",
+    rules: [],
+)
