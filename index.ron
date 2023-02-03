@@ -9,6 +9,15 @@
         html_url: "https://github.com/spyglass-search/lens-box/blob/main/lenses/2007scape/2007scape.ron",
     ),
     (
+        author: "spyglass-search",
+        description: "Android API Documentation",
+        name: "Android",
+        label: "Android",
+        sha: "6defad9960b0f70fce23a8cb00a988e1c667aac7223a54bcc95680d1ba9d1ba5",
+        download_url: "https://raw.githubusercontent.com/spyglass-search/lens-box/main/lenses/Android/Android.ron",
+        html_url: "https://github.com/spyglass-search/lens-box/blob/main/lenses/Android/Android.ron",
+    ),
+    (
         author: "popcar2",
         description: "Arch User Repository, so you can find packages quickly.",
         name: "AUR",
@@ -97,6 +106,15 @@
         sha: "2d963b4cfd46aca65b086a480cf9f190e9ec04cde5f9a06ce048871cc7f087cc",
         download_url: "https://raw.githubusercontent.com/spyglass-search/lens-box/main/lenses/mbed68/mbed68.ron",
         html_url: "https://github.com/spyglass-search/lens-box/blob/main/lenses/mbed68/mbed68.ron",
+    ),
+    (
+        author: "spyglass-search",
+        description: "NodeJs API Documentation",
+        name: "NodeJs",
+        label: "NodeJs",
+        sha: "b5346cf069536d6fe9b61323031dc51575a39f523b4538e61fe335a94a79573c",
+        download_url: "https://raw.githubusercontent.com/spyglass-search/lens-box/main/lenses/NodeJs/NodeJs.ron",
+        html_url: "https://github.com/spyglass-search/lens-box/blob/main/lenses/NodeJs/NodeJs.ron",
     ),
     (
         author: "popcar2",
