@@ -1,0 +1,51 @@
+(
+    version: "1",
+    author: "musashi - savdbroek",
+    name: "OSCP Collection",
+    description: Some("OSCP related Guides & Tools"),
+    is_enabled: true,
+    domains: [],
+
+    urls: [
+        // Shell Generator:
+        "https://www.revshells.com/$",
+        // Bigger sheets
+        "https://github.com/0xsyr0/OSCP$",
+        "https://www.noobsec.net/oscp-cheatsheet/$",
+        "https://therealunicornsecurity.github.io/OSCP/$",
+        "https://gist.github.com/evanrolfe/892da7f0ef34bcd2c2b70cbd9080e33c$",
+        "https://github.com/akenofu/OSCP-Cheat-Sheet/blob/master/README.md$",
+        // Unix exploitation:
+        "https://wadcoms.github.io/#$",
+        "https://www.noobsec.net/privesc-linux/$",
+        "https://0x1.gitlab.io/exploit/Linux-Privilege-Escalation/$",
+        // Windows Priv ESC
+        "https://wadcoms.github.io/#$",
+        "https://wadcoms.github.io/#+Shell+Privilege%20Escalation+Windows$",
+        "https://github.com/swisskyrepo/PayloadsAllTheThings/blob/master/Methodology%20and%20Resources/Windows%20-%20Privilege%20Escalation.md$",
+        "https://infosecwriteups.com/privilege-escalation-in-windows-380bee3a2842$",
+        "https://www.noobsec.net/privesc-windows/$",
+        "https://github.com/gtworek/Priv2Admin$",
+        "https://hideandsec.sh/books/windows-sNL/page/in-the-potato-family-i-want-them-all$",
+        // For Powershell Scripts:
+        "https://github.com/GhostPack/Seatbelt$",
+        "https://raw.githubusercontent.com/PowerShellEmpire/PowerTools/master/PowerUp/PowerUp.ps1$",
+        // Password Harvesting
+        "https://github.com/AlessandroZ/LaZagne$",
+        // Active Directory
+        "https://gist.github.com/ssstonebraker/a1964b2f20acc8edb239409b6c4906ce$",
+        "https://hideandsec.sh/books/cheatsheets-82c/page/active-directory$",
+        "https://drop.savdbroek.nl/FiYsSaMf/pentest_ad_dark.png$",
+        "https://gist.github.com/insi2304/484a4e92941b437bad961fcacda82d49$",
+        "https://github.com/swisskyrepo/PayloadsAllTheThings/blob/master/Methodology%20and%20Resources/Active%20Directory%20Attack.md$",
+        "https://hideandsec.sh/books/cheatsheets-82c/page/active-directory-python-edition#bkmrk-acls---adminsdholder$",
+        // BOF
+        "https://boschko.ca/braindead-buffer-overflow-guide-to-pass-the-oscp-blindfolded/$",
+        // File Transfers
+        "https://ironhackers.es/en/cheatsheet/transferir-archivos-post-explotacion-cheatsheet/$",
+        // Hashcat Hashes
+        "https://hashcat.net/wiki/doku.php?id=example_hashes$"
+    ],
+
+    rules: []
+)
