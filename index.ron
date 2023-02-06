@@ -405,6 +405,15 @@
         html_url: "https://github.com/spyglass-search/lens-box/blob/main/lenses/vintage_story/vintage_story.ron",
     ),
     (
+        author: "spyglass-search",
+        description: "Top 50k wikipedia articles",
+        name: "wikipedia",
+        label: "Wikipedia",
+        sha: "b0b2fca1e6015cb643295fedae0883e8d460abecaa11f37346a47257b2543ec5",
+        download_url: "https://raw.githubusercontent.com/spyglass-search/lens-box/main/lenses/wikipedia/wikipedia.ron",
+        html_url: "https://github.com/spyglass-search/lens-box/blob/main/lenses/wikipedia/wikipedia.ron",
+    ),
+    (
         author: "Chicken",
         description: "Search through achievements, classes, and more! This includes everything but items, NPCs, and quests.",
         name: "wow",
