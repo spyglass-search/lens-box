@@ -1,0 +1,13 @@
+(
+    author: "nothingmn",
+    name: "AKKA.NET",
+    description: Some("AKKA.NET Documentation"),
+    domains: [],
+    urls: [
+        "https://petabridge.com/",
+        "https://getakka.net/index.html",
+        "https://github.com/akkadotnet/akka.net"
+    ],
+    version: "1",
+    rules: [],
+)

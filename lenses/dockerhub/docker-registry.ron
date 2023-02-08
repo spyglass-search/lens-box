@@ -1,0 +1,11 @@
+(
+    author: "nothingmn",
+    name: "DOCKERREGISTRY",
+    description: Some("Docker Hub Public Registry"),
+    domains: [],
+    urls: [
+        "https://hub.docker.com/"
+    ],
+    version: "1",
+    rules: [],
+)

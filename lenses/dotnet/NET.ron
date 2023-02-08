@@ -1,0 +1,13 @@
+(
+    author: "nothingmn",
+    name: "NET",
+    description: Some(".NET"),
+    domains: [],
+    urls: [
+        "https://learn.microsoft.com/en-us/dotnet/",
+        "https://devblogs.microsoft.com/dotnet/category/dotnet/",
+        "https://referencesource.microsoft.com/"
+    ],
+    version: "1",
+    rules: [],
+)

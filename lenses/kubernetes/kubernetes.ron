@@ -1,0 +1,17 @@
+(
+    author: "nothingmn",
+    name: "KUBERNETES",
+    description: Some("Kubernetes Resources"),
+    domains: [],
+    urls: [
+        "https://kubernetes.io/",
+        "https://kubernetes.io/docs/home/",
+        "https://kubernetes.io/blog/",
+        "https://cloud.google.com/blog/products/gcp/introducing-skaffold-easy-and-repeatable-kubernetes-development/",
+        "https://bravenewgeek.com/category/kubernetes/",
+        "https://www.digitalocean.com/community/tutorials?q=%5BKubernetes%5D",
+        "https://ubuntu.com/blog/tag/kubernetes"
+    ],
+    version: "1",
+    rules: [],
+)

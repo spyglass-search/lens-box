@@ -1,0 +1,12 @@
+(
+    author: "nothingmn",
+    name: "DOCKER",
+    description: Some("Docker"),
+    domains: [],
+    urls: [
+        "https://docs.docker.com/",
+        "https://www.docker.com/blog/"
+    ],
+    version: "1",
+    rules: [],
+)
