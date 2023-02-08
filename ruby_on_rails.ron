@@ -1,0 +1,28 @@
+(
+    version: "1",
+    name: "Ruby on Rails",
+    author: "c_sonnier",
+    description: Some("Ruby on Rails official website, documentation, and blog posts."),
+    domains: [
+        "guides.rubyonrails.org",
+        "weblog.rubyonrails.org",
+        "rubyweekly.com",
+        "everydayrails.com",
+        "www.rubyflow.com",
+        "www.driftingruby.com",
+        "ruby.libhunt.com",
+        "www.rubyguides.com",
+        "andycroll.com",
+        "boringrails.com",
+        ""
+    ],
+    urls: [
+      "https://www.reddit.com/r/ruby/",
+      "https://www.reddit.com/r/rubyonrails/",
+      "https://www.codewithjason.com/articles/",
+      "https://codefol.io/posts/",
+      "https://tenderlovemaking.com/",
+      "https://www.mikeperham.com/"
+    ],
+    rules: [],
+)
