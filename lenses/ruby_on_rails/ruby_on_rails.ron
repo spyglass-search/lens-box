@@ -13,12 +13,9 @@
         "ruby.libhunt.com",
         "www.rubyguides.com",
         "andycroll.com",
-        "boringrails.com",
-        ""
+        "boringrails.com"
     ],
     urls: [
-      "https://www.reddit.com/r/ruby/",
-      "https://www.reddit.com/r/rubyonrails/",
       "https://www.codewithjason.com/articles/",
       "https://codefol.io/posts/",
       "https://tenderlovemaking.com/",
