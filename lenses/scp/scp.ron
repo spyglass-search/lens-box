@@ -1,0 +1,16 @@
+(
+    author: "Jack G",
+    name: "scp",
+    label: "SCP Foundation",
+    description: Some("The SCP Foundation Wiki"),
+    domains: [
+        "scp-wiki.wikidot.com",
+    ],
+	version: "1",
+    urls: [],
+    rules: [
+        SkipURL("http://scp-wiki.wikidot.com/forum*"),
+        SkipURL("http://scp-wiki.wikidot.com/fragment:*"),
+        SkipURL("http://scp-wiki.wikidot.com/theme:*"),
+    ],
+)
