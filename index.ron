@@ -181,6 +181,15 @@
     ),
     (
         author: "spyglass-search",
+        description: "Hogwarts Legacy Fandom Wiki",
+        name: "hogwarts_legacy",
+        label: "Hogwarts Legacy Wiki",
+        sha: "1fdf50df7a1777528127804be1154bfe237a1ad14dc17a749860db7a21b906aa",
+        download_url: "https://raw.githubusercontent.com/spyglass-search/lens-box/main/lenses/hogwarts_legacy/hogwarts_legacy.ron",
+        html_url: "https://github.com/spyglass-search/lens-box/blob/main/lenses/hogwarts_legacy/hogwarts_legacy.ron",
+    ),
+    (
+        author: "spyglass-search",
         description: "HTML API Documentation",
         name: "HTML",
         label: "HTML",
