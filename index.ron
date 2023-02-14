@@ -315,6 +315,15 @@
         html_url: "https://github.com/spyglass-search/lens-box/blob/main/lenses/rustlang/rustlang.ron",
     ),
     (
+        author: "Jack G",
+        description: "The SCP Foundation Wiki",
+        name: "scp",
+        label: "SCP Foundation",
+        sha: "8d75b76a27db3f924489e60491d15b9b5e62ac20f304c7f17ec11ccca12cf120",
+        download_url: "https://raw.githubusercontent.com/spyglass-search/lens-box/main/lenses/scp/scp.ron",
+        html_url: "https://github.com/spyglass-search/lens-box/blob/main/lenses/scp/scp.ron",
+    ),
+    (
         author: "Haz0ret",
         description: "Searches through Scryfall and Gatherer to locate magic: the gathering sources",
         name: "scryfall",
