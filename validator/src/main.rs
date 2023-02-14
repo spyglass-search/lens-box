@@ -177,6 +177,9 @@ async fn main() -> ExitCode {
                 }
             }
         }
-        Err(_) => ExitCode::FAILURE,
+        Err(err) => {
+            println!("Error checking lens {:?}", err);
+            ExitCode::FAILURE
+        },
     }
 }
