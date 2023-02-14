@@ -1,7 +1,7 @@
 (
     version: "1",
     author: "musashi - savdbroek",
-    name: "OSCP_Collection",
+    name: "oscp",
     label: "OSCP Collection",
     description: Some("OSCP related Guides & Tools"),
     domains: [],
