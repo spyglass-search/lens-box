@@ -288,6 +288,15 @@
         html_url: "https://github.com/spyglass-search/lens-box/blob/main/lenses/RogueLegacy2/RogueLegacy2.ron",
     ),
     (
+        author: "c_sonnier",
+        description: "Ruby on Rails official website, documentation, and blog posts.",
+        name: "ruby_on_rails",
+        label: "Ruby on Rails",
+        sha: "00661e7f53b0914cb99ee52abb6782417ec4c3e2849fde256d3fb706ab004868",
+        download_url: "https://raw.githubusercontent.com/spyglass-search/lens-box/main/lenses/ruby_on_rails/ruby_on_rails.ron",
+        html_url: "https://github.com/spyglass-search/lens-box/blob/main/lenses/ruby_on_rails/ruby_on_rails.ron",
+    ),
+    (
         author: "a5huynh",
         description: "Rustlang official website, documentation, and blog posts.",
         name: "rustlang",
