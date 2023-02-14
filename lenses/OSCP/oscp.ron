@@ -1,11 +1,10 @@
 (
     version: "1",
     author: "musashi - savdbroek",
-    name: "OSCP Collection",
+    name: "OSCP_Collection",
+    label: "OSCP Collection",
     description: Some("OSCP related Guides & Tools"),
-    is_enabled: true,
     domains: [],
-
     urls: [
         // Shell Generator:
         "https://www.revshells.com/$",
