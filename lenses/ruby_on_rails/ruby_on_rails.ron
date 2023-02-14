@@ -1,6 +1,7 @@
 (
     version: "1",
-    name: "Ruby on Rails",
+    name: "Ruby_on_Rails",
+    label: "Ruby on Rails",
     author: "c_sonnier",
     description: Some("Ruby on Rails official website, documentation, and blog posts."),
     domains: [
