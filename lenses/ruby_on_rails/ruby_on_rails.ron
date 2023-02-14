@@ -1,6 +1,6 @@
 (
     version: "1",
-    name: "Ruby_on_Rails",
+    name: "ruby_on_rails",
     label: "Ruby on Rails",
     author: "c_sonnier",
     description: Some("Ruby on Rails official website, documentation, and blog posts."),
