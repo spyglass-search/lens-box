@@ -270,6 +270,15 @@
         html_url: "https://github.com/spyglass-search/lens-box/blob/main/lenses/OpenCritic/OpenCritic.ron",
     ),
     (
+        author: "musashi - savdbroek",
+        description: "OSCP related Guides & Tools",
+        name: "oscp",
+        label: "OSCP Collection",
+        sha: "0322be191846b53775bbe2ed1fe0f6562dad48dae3b9fd57238fdc597f7474dc",
+        download_url: "https://raw.githubusercontent.com/spyglass-search/lens-box/main/lenses/OSCP/oscp.ron",
+        html_url: "https://github.com/spyglass-search/lens-box/blob/main/lenses/OSCP/oscp.ron",
+    ),
+    (
         author: "pknessness",
         description: "Pygame Documentation",
         name: "pygame",
