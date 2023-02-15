@@ -108,6 +108,15 @@
         html_url: "https://github.com/spyglass-search/lens-box/blob/main/lenses/Bourbon_7.0.0/Bourbon_7.0.0.ron",
     ),
     (
+        author: "spyglass-search",
+        description: "Pokémon encyclopedia",
+        name: "Bulbapedia",
+        label: "Bulbapedia",
+        sha: "9f377e7c60d691f6b962c521f5ad4c252f1a9a4c3d514b9d7898cdb531d44f92",
+        download_url: "https://raw.githubusercontent.com/spyglass-search/lens-box/main/lenses/Bulbapedia/Bulbapedia.ron",
+        html_url: "https://github.com/spyglass-search/lens-box/blob/main/lenses/Bulbapedia/Bulbapedia.ron",
+    ),
+    (
         author: "popcar2",
         description: "Comic Book Roundup, a review aggregator for comic books & graphic novels.",
         name: "CBR",
@@ -133,6 +142,15 @@
         sha: "68abddfc80ebb8f785a34bd9117295a61104dbb41781e896a218cedf50a47e11",
         download_url: "https://raw.githubusercontent.com/spyglass-search/lens-box/main/lenses/CSS/CSS.ron",
         html_url: "https://github.com/spyglass-search/lens-box/blob/main/lenses/CSS/CSS.ron",
+    ),
+    (
+        author: "spyglass-search",
+        description: "Disco Elysium Wiki",
+        name: "disco_elysium",
+        label: "Disco Elysium",
+        sha: "46c34bd2a1e732d41a153e894b329674c788b172951208c46ce045c66dd8dfc6",
+        download_url: "https://raw.githubusercontent.com/spyglass-search/lens-box/main/lenses/disco_elysium/disco_elysium.ron",
+        html_url: "https://github.com/spyglass-search/lens-box/blob/main/lenses/disco_elysium/disco_elysium.ron",
     ),
     (
         author: "lagoja",
