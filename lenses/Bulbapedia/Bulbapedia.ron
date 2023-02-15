@@ -1,0 +1,20 @@
+(
+    author: "spyglass-search",
+    name: "Bulbapedia",
+    description: Some("Pokémon encyclopedia"),
+    domains: [],
+    urls: [
+        "https://bulbapedia.bulbagarden.net/wiki/",
+    ],
+    version: "1",
+    rules: [
+        SkipURL("https://bulbapedia.bulbagarden.net/wiki/File*"),
+        SkipURL("https://bulbapedia.bulbagarden.net/wiki/User_talk:*"),
+        SkipURL("https://bulbapedia.bulbagarden.net/wiki/index.php*"),
+        SkipURL("https://bulbapedia.bulbagarden.net/wiki/Special*"),
+        SkipURL("https://bulbapedia.bulbagarden.net/wiki/User:*"),
+        SkipURL("https://bulbapedia.bulbagarden.net/wiki/Template:*"),
+        SkipURL("https://bulbapedia.bulbagarden.net/wiki/Talk:*"),
+        SkipURL("https://bulbapedia.bulbagarden.net/wiki/Help:*"),
+    ],
+)
