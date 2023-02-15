@@ -1,0 +1,12 @@
+(
+    author: "spyglass-search",
+    name: "harrypotter_wiki",
+    label: "Harry Potter Wiki",
+    description: Some("Harry Potter Fandom Wiki"),
+    domains: [],
+    urls: [
+        "https://harrypotter.fandom.com/wiki/",
+    ],
+    version: "1",
+    rules: [],
+)
