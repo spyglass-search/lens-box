@@ -1,0 +1,12 @@
+(
+    author: "spyglass-search",
+    name: "disco_elysium",
+	label: "Disco Elysium",
+    description: Some("Disco Elysium Wiki"),
+    domains: [],
+    urls: [
+        "https://discoelysium.fandom.com/wiki",
+    ],
+    version: "1",
+    rules: [],
+)
