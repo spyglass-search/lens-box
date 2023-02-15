@@ -199,6 +199,15 @@
     ),
     (
         author: "spyglass-search",
+        description: "Harry Potter Fandom Wiki",
+        name: "harrypotter_wiki",
+        label: "Harry Potter Wiki",
+        sha: "dc11c9812e5dcd6f75b24f6cea700e83820089f0cd99801ef322e2ba590c2c4e",
+        download_url: "https://raw.githubusercontent.com/spyglass-search/lens-box/main/lenses/harrypotter_wiki/harrypotter_wiki.ron",
+        html_url: "https://github.com/spyglass-search/lens-box/blob/main/lenses/harrypotter_wiki/harrypotter_wiki.ron",
+    ),
+    (
+        author: "spyglass-search",
         description: "Hogwarts Legacy Fandom Wiki",
         name: "hogwarts_legacy",
         label: "Hogwarts Legacy Wiki",
