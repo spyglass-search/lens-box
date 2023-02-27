@@ -3,6 +3,7 @@
     name: "harrypotter_wiki",
     label: "Harry Potter Wiki",
     description: Some("Harry Potter Fandom Wiki"),
+    categories: ["Media"],
     domains: [],
     urls: [
         "https://harrypotter.fandom.com/wiki/",

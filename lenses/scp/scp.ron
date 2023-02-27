@@ -3,10 +3,11 @@
     name: "scp",
     label: "SCP Foundation",
     description: Some("The SCP Foundation Wiki"),
+    categories: ["Media"],
     domains: [
         "scp-wiki.wikidot.com",
     ],
-	version: "1",
+    version: "1",
     urls: [],
     rules: [
         SkipURL("http://scp-wiki.wikidot.com/forum*"),

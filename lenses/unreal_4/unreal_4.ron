@@ -4,6 +4,7 @@
     name: "unreal_4",
     label: "Unreal Engine 4.27 Docs",
     description: Some("Unreal Engine 4.27 editor/engine documentation"),
+    categories: ["Programming", "Game Development"],
     domains: [],
     urls: [
         "https://docs.unrealengine.com/4.27/en-US"

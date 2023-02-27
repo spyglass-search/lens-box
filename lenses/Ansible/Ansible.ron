@@ -2,6 +2,7 @@
     author: "spyglass-search",
     name: "Ansible",
     description: Some("Ansible API Documentation"),
+    categories: ["Developer Tools"],
     domains: [],
     urls: [
         "https://docs.ansible.com/ansible/latest/",

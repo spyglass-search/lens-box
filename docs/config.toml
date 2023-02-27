@@ -11,7 +11,8 @@ compile_sass = true
 build_search_index = true
 
 taxonomies = [
-    { name = "author", feed = true }
+    { name = "author", feed = true },
+    { name = "categories", feed = true }
 ]
 
 [markdown]

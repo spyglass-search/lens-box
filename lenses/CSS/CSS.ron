@@ -2,11 +2,12 @@
     author: "spyglass-search",
     name: "CSS",
     description: Some("CSS Documentation"),
+    categories: ["Programming", "Web Development"],
     domains: [],
     urls: [
         "https://yari-demos.prod.mdn.mozit.cloud/zh-CN/docs/Web/CSS/",
         "https://developer.mozilla.org/",
-        "https://github.com/mdn/learning-area/contributors/main/css/",  
+        "https://github.com/mdn/learning-area/contributors/main/css/",
         "https://interactive-examples.mdn.mozilla.net/pages/css/",
         "https://developer.mozilla.org/en-US/docs/MDN/Writing_guidelines/Writing_style_guide/Code_style_guide/CSS",
         "https://developer.mozilla.org/en-US/docs/Learn/Tools_and_testing/Cross_browser_testing/HTML_and_CSS",

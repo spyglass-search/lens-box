@@ -4,6 +4,7 @@
     label: "World of Warcraft (WoW) NPCs",
     author: "Chicken",
     description: Some("Search through World of Warcraft (WoW) NPCs!"),
+    categories: ["Games", "MMORPG"],
     domains: [],
     urls: [
         "https://www.wowhead.com/npcs$",

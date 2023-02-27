@@ -1,9 +1,10 @@
 (
     version: "2",
     name: "Terraria",
+    label: "Terraria",
     author: "popcar2",
     description: Some("Terraria wiki.gg for all your adventuring needs!"),
-    is_enabled: true,
+    categories: ["Games"],
     domains: [],
     urls: [
         "https://terraria.wiki.gg/wiki/"

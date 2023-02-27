@@ -4,11 +4,11 @@
     label: "Super Mario Galaxy 1 & 2",
     author: "pknessness",
     description: Some("Super Mario Galaxy 1 and 2 Wiki"),
+    categories: ["Games"],
     domains: [],
     urls: [
         "https://supermariogalaxy.fandom.com/wiki/",
     ],
-    is_enabled: true,
     rules: [
         SkipURL("https://supermariogalaxy.fandom.com/wiki/*Special:Contributions*"),
     ]

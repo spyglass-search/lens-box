@@ -4,6 +4,7 @@
     name: "rlang",
     label: "R Language Docs",
     description: Some("R language for statistical analysis targeted websites"),
+    categories: ["Programming"],
     domains: [],
     urls: [
         "https://cran.r-project.org/doc/manuals/r-release/",

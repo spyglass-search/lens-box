@@ -4,6 +4,7 @@
     label: "Ruby on Rails",
     author: "c_sonnier",
     description: Some("Ruby on Rails official website, documentation, and blog posts."),
+    categories: ["Programming", "Web Development"],
     domains: [
         "guides.rubyonrails.org",
         "weblog.rubyonrails.org",

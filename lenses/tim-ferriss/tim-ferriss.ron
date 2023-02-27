@@ -1,9 +1,10 @@
 (
     version: "1",
     name: "tim-ferriss",
+    label: "Tim Ferriss Blog & Podcasts",
     author: "jwl",
     description: Some("An index of Tim Ferriss' blog + podcasts"),
-    is_enabled: true,
+    categories: ["Media"],
     domains: [
         "tim.blog"
     ],

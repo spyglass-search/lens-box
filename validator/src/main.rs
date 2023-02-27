@@ -1,9 +1,10 @@
 use blake2::{Blake2s256, Digest};
 use clap::{Parser, Subcommand};
+use std::collections::HashMap;
 use std::ffi::OsStr;
+use std::fs;
 use std::path::PathBuf;
 use std::process::ExitCode;
-use std::fs;
 
 mod entity;
 mod repo;
@@ -35,7 +36,7 @@ const DL_URL_PREFIX: &str =
     "https://raw.githubusercontent.com/spyglass-search/lens-box/main/lenses";
 
 fn validate_lens(lens: &InstallableLens) -> anyhow::Result<()> {
-    println!("validating {} lens", lens.name);
+    println!("validating {} - {:?}", lens.name, lens.label);
 
     let mut components = lens.download_url.split('/').collect::<Vec<&str>>();
 
@@ -78,9 +79,23 @@ fn check_lenses() -> anyhow::Result<Vec<InstallableLens>> {
         }
     }
 
+    let mut categories: HashMap<String, usize> = HashMap::new();
+
     for path in lenses {
         if let Some((file_path, file_contents)) = find_lens(&path.path()) {
-            let lens = ron::from_str::<LensConfig>(&file_contents).expect("Unable to parse lens");
+            let lens = match ron::from_str::<LensConfig>(&file_contents) {
+                Ok(lens) => lens,
+                Err(err) => {
+                    eprintln!("Unable to parse {} - {}", path.path().display(), err);
+                    continue;
+                }
+            };
+
+            for cat in &lens.categories {
+                let num = categories.entry(cat.to_string()).or_insert(0);
+                *num += 1;
+            }
+
             let parent = file_path
                 .parent()
                 .expect("No parent path")
@@ -102,7 +117,10 @@ fn check_lenses() -> anyhow::Result<Vec<InstallableLens>> {
             let res = hasher.finalize();
 
             if file_name != format!("{}.ron", lens.name) {
-                return Err(anyhow::anyhow!("{} lens file should match lens name", lens.name));
+                return Err(anyhow::anyhow!(
+                    "{} lens file should match lens name",
+                    lens.name
+                ));
             }
 
             let label = lens.label();
@@ -119,8 +137,17 @@ fn check_lenses() -> anyhow::Result<Vec<InstallableLens>> {
         }
     }
 
+    println!("Category Stats");
+    println!("--------------");
+    let mut sorted = categories.iter().collect::<Vec<_>>();
+    sorted.sort();
+    for (key, count) in sorted.iter() {
+        println!("{key}: {count}")
+    }
+
     // Sort by name
     updated_lenses.sort_by(|a, b| a.name.to_lowercase().cmp(&b.name.to_lowercase()));
+    println!("\nFound {} lenses\n", updated_lenses.len());
     Ok(updated_lenses)
 }
 
@@ -180,6 +207,6 @@ async fn main() -> ExitCode {
         Err(err) => {
             println!("Error checking lens {:?}", err);
             ExitCode::FAILURE
-        },
+        }
     }
 }

@@ -1,9 +1,10 @@
 (
     version: "1",
     name: "steam",
+    label: "Steam Store",
     author: "popcar2",
     description: Some("Find games quickly on Steam, the popular PC video game store!"),
-    is_enabled: true,
+    categories: ["Games"],
     domains: [],
     urls: [
         "https://store.steampowered.com/app/"

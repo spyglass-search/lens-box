@@ -1,9 +1,10 @@
 (
     version: "1",
     name: "factorio",
+    label: "Factorio",
     author: "a5huynh",
     description: Some("Factorio wiki & subreddit. Factorio is a game in which you build and maintain factories."),
-    is_enabled: true,
+    categories: ["Games"],
     domains: [],
     urls: [
         "https://wiki.factorio.com"

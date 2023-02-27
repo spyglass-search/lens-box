@@ -1,3 +1,4 @@
+use chrono::{DateTime, Utc};
 use serde::Serialize;
 use spyglass_lens::LensConfig;
 use std::collections::HashMap;
@@ -51,6 +52,7 @@ pub fn generate_page(
 
         let mut taxos: HashMap<String, Value> = HashMap::new();
         taxos.insert("author".to_string(), vec![lens.author.to_string()].into());
+        taxos.insert("categories".to_string(), lens_config.categories.into());
 
         let mut extra: HashMap<String, Value> = HashMap::new();
         extra.insert("domains".to_string(), lens_config.domains.into());
@@ -65,10 +67,27 @@ pub fn generate_page(
                 .into(),
         );
 
+        let title = if lens.label.is_empty() {
+            lens.name.to_string()
+        } else {
+            lens.label.to_string()
+        };
+
+        let date = if let Ok(metadata) = lens.path.metadata() {
+            if let Ok(last_mod) = metadata.modified() {
+                let date: DateTime<Utc> = DateTime::from(last_mod);
+                Some(date.format("%Y-%m-%d").to_string())
+            } else {
+                None
+            }
+        } else {
+            None
+        };
+
         let repo_item = RepoItem {
-            title: lens.name.to_string(),
+            title,
             description: lens.description.to_string(),
-            date: "2022-01-01".to_string(),
+            date: date.unwrap_or_else(|| "2023-01-01".to_string()),
             extra,
             taxonomies: taxos,
         };

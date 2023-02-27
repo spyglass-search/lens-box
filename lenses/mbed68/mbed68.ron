@@ -1,8 +1,10 @@
 (
     version: "1",
     name: "mbed68",
+    label: "MBED 6.8 Documentation",
     author: "pknessness",
     description: Some("MBED 6.8 Documentation"),
+    categories: ["Programming"],
     domains: [],
     urls: ["https://os.mbed.com/docs/mbed-os/v6.8/"],
 	is_enabled: true,

@@ -1,9 +1,10 @@
 (
     version: "1",
     name: "vintage_story",
+    label: "Vintage Story",
     author: "popcar2",
     description: Some("Vintage Story wiki"),
-    is_enabled: true,
+    categories: ["Games"],
     domains: [],
     urls: [
         "https://wiki.vintagestory.at/"

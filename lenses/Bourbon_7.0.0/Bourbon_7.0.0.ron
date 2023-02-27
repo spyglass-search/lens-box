@@ -1,7 +1,9 @@
 (
     author: "spyglass-search",
     name: "Bourbon_7.0.0",
+    label: "Bourbon 7.0.0",
     description: Some("Bourbon 7.0.0 API Documentation"),
+    categories: ["Programming", "Web Development"],
     domains: [],
     urls: [
         "https://www.bourbon.io/docs/7.0.0/",

@@ -1,8 +1,10 @@
 (
     version: "1",
     name: "unity",
+    label: "Unity",
     author: "oparaskos",
     description: Some("Unity targeted websites"),
+    categories: ["Programming", "Game Development"],
     domains: [],
     urls: [
         "https://docs.unity3d.com/Manual",
