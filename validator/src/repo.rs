@@ -52,6 +52,7 @@ pub fn generate_page(
 
         let mut taxos: HashMap<String, Value> = HashMap::new();
         taxos.insert("author".to_string(), vec![lens.author.to_string()].into());
+        taxos.insert("categories".to_string(), lens_config.categories.into());
 
         let mut extra: HashMap<String, Value> = HashMap::new();
         extra.insert("domains".to_string(), lens_config.domains.into());

@@ -24,14 +24,11 @@
         <span class="italic">{{ page.taxonomies.author|first }}</span>
       </div>
       {% endif %}
-      {% if page.taxonomies.tags %}
+      {% if page.taxonomies.categories %}
       <div class="flex flex-row gap-2 items-center">
         <svg xmlns="http://www.w3.org/2000/svg" class="w-4 h-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2H2v10l9.29 9.29c.94.94 2.48.94 3.42 0l6.58-6.58c.94-.94.94-2.48 0-3.42L12 2Z"></path><path d="M7 7h.01"></path></svg>
-        {% for tag in page.taxonomies.tags %}
-          <a class="text-white block bg-sky-600 rounded px-2"
-            href="{{ get_url(path='@/_index.md', lang=lang) }}tags/{{tag}}">
-            {{tag}}
-          </a>
+        {% for tag in page.taxonomies.categories %}
+          <span class="text-white block bg-sky-600 rounded px-2">{{tag}}</span>
         {% endfor %}
       </div>
       {% endif %}
