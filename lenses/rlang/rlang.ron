@@ -1,0 +1,21 @@
+(
+    version: "1",
+    author: "Mohd-PH",
+    name: "rlang",
+    description: Some("R language for statistical analysis targeted websites"),
+    domains: [],
+    urls: [
+        "https://cran.r-project.org/doc/manuals/r-release/",
+        "https://ggplot2.tidyverse.org",
+        "https://dplyr.tidyverse.org",
+        "https://tidyr.tidyverse.org",
+        "https://readr.tidyverse.org",
+        "https://purrr.tidyverse.org",
+        "https://tibble.tidyverse.org",
+        "https://stringr.tidyverse.org",
+        "https://forcats.tidyverse.org",
+        "https://reprex.tidyverse.org",
+    ],
+
+    rules: []
+)
