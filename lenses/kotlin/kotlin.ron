@@ -1,8 +1,10 @@
 (
     version: "1",
     name: "kotlin",
+    label: "Kotlin",
     author: "oparaskos",
     description: Some("Kotlin reference material."),
+    categories: ["Programming"],
     domains: [],
     urls: [
         "https://kotlinlang.org/docs/",

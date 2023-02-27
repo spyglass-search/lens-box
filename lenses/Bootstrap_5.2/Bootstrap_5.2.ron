@@ -1,7 +1,9 @@
 (
     author: "spyglass-search",
     name: "Bootstrap_5.2",
+    label: "Bootstrap 5.2",
     description: Some("Bootstrap 5.2 API Documentation"),
+    categories: ["Programming", "Web Development"],
     domains: [],
     urls: [
         "https://getbootstrap.com/docs/5.2/"

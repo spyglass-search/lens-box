@@ -3,6 +3,7 @@
     name: "wikipedia",
     label: "Wikipedia",
     description: Some("Top 50k wikipedia articles"),
+    categories: ["Knowledge"],
     domains: [],
     urls: [
         "https://en.wikipedia.org/wiki/!!!!!!!$",

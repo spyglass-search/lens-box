@@ -1,7 +1,9 @@
 (
     author: "spyglass-search",
     name: "NodeJs",
+    label: "NodeJS API Documentation",
     description: Some("NodeJs API Documentation"),
+    categories: ["Programming", "Web Development"],
     domains: [],
     urls: [
         "https://nodejs.org/api/"

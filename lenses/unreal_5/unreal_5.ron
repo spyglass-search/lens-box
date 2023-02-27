@@ -4,6 +4,7 @@
     name: "unreal_5",
     label: "Unreal Engine 5.1 Docs",
     description: Some("Unreal Engine 5.1 editor/engine documentation"),
+    categories: ["Programming", "Game Development"],
     domains: [],
     urls: [
         "https://docs.unrealengine.com/5.1/en-US"

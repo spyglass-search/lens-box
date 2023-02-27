@@ -2,6 +2,7 @@
     author: "spyglass-search",
     name: "Apache_HTTP_Server",
     description: Some("Apache HTTP Server API Documentation"),
+    categories: ["Developer Tools"],
     domains: [],
     urls: [
         "https://httpd.apache.org/docs/current"

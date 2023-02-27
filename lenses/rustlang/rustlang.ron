@@ -1,8 +1,10 @@
 (
     version: "1",
     name: "rustlang",
+    label: "Rust Language Websites & Documentation",
     author: "a5huynh",
     description: Some("Rustlang official website, documentation, and blog posts."),
+    categories: ["Programming"],
     domains: [
         "doc.rust-lang.org",
         "blog.rust-lang.org",

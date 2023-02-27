@@ -3,6 +3,7 @@
     name: "hogwarts_legacy",
     label: "Hogwarts Legacy Wiki",
     description: Some("Hogwarts Legacy Fandom Wiki"),
+    categories: ["Games"],
     domains: [],
     urls: [
         "https://hogwarts-legacy.fandom.com/wiki",

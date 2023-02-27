@@ -4,7 +4,7 @@
     label: "Arch Linux User Repository (AUR)",
     author: "popcar2",
     description: Some("Arch User Repository, so you can find packages quickly."),
-    is_enabled: true,
+    categories: ["Package Repository"],
     domains: [],
     urls: [
         "https://archlinux.org/packages/",

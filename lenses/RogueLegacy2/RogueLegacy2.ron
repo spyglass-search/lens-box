@@ -1,9 +1,10 @@
 (
     version: "1",
     name: "RogueLegacy2",
+    label: "Rogue Legacy 2 Wiki",
     author: "popcar2",
     description: Some("Rogue Legacy 2 wiki"),
-    is_enabled: true,
+    categories: ["Games"],
     domains: [],
     urls: [
         "https://rogue-legacy-2.fandom.com/wiki/"

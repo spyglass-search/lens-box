@@ -3,7 +3,7 @@
     name: "xkcd",
     author: "popcar2",
     description: Some("xkcd webcomics, now ready to pull out at a moment's notice!"),
-    is_enabled: true,
+    categories: ["Comics", "Media"],
     domains: [],
     urls: [
         "https://xkcd.com/"

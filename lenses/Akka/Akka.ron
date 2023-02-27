@@ -2,6 +2,9 @@
     author: "spyglass-search",
     name: "Akka",
     description: Some("Akka API Documentation"),
+    categories: [
+        "Programming"
+    ],
     domains: [],
     urls: [
         "https://doc.akka.io/api/akka/current/"

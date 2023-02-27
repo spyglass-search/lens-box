@@ -2,8 +2,9 @@
     version: "1",
     author: "musashi - savdbroek",
     name: "oscp",
-    label: "OSCP Collection",
+    label: "OSCP Certification",
     description: Some("OSCP related Guides & Tools"),
+    categories: ["Computer Security"],
     domains: [],
     urls: [
         // Shell Generator:

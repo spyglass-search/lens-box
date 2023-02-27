@@ -2,6 +2,7 @@
     author: "spyglass-search",
     name: "CMake",
     description: Some("CMake API Documentation"),
+    categories: ["Developer Tools"],
     domains: [],
     urls: [
         "https://cmake.org/cmake/help/latest/"

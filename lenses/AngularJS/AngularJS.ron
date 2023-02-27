@@ -2,6 +2,7 @@
     author: "spyglass-search",
     name: "AngularJS",
     description: Some("AngularJS API Documentation"),
+    categories: ["Programming", "Web Development"],
     domains: [],
     urls: [
         "https://code.angularjs.org/1.8.2/docs/",

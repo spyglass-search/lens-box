@@ -4,6 +4,7 @@
     label: "Luigis Mansion Guide",
     author: "pknessness",
     description: Some("Luigi's Mansion Walkthrough"),
+    categories: ["Games"],
     domains: [],
     urls: [
         "https://www.ign.com/wikis/luigis-mansion/"

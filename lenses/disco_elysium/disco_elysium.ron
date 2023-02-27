@@ -3,6 +3,7 @@
     name: "disco_elysium",
 	label: "Disco Elysium",
     description: Some("Disco Elysium Wiki"),
+    categories: ["Games"],
     domains: [],
     urls: [
         "https://discoelysium.fandom.com/wiki",

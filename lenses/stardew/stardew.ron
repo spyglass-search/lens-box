@@ -1,9 +1,10 @@
 (
     version: "1",
     name: "stardew",
+    label: "Stardew Valley",
     author: "a5huynh",
     description: Some("Stardew Valley wiki"),
-    is_enabled: true,
+    categories: ["Games"],
     domains: [
         "stardewvalleywiki.com"
     ],

@@ -4,6 +4,7 @@
     label: "World of Warcraft (WoW) Quests",
     author: "Chicken",
     description: Some("Search through all WoW quests!"),
+    categories: ["Games", "MMORPG"],
     domains: [],
     urls: [
         "https://www.wowhead.com/quests$",

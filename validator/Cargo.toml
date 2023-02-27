@@ -12,6 +12,6 @@ clap = { version = "4.0.32", features = ["derive"] }
 hex = "0.4.3"
 ron = "0.8"
 serde = { version = "1.0", features = ["derive"] }
-spyglass-lens = "0.1.4"
-toml = "0.5.10"
+spyglass-lens = "0.1.6"
+toml = "0.7.2"
 tokio = { version = "1.25.0", features = ["full"] }

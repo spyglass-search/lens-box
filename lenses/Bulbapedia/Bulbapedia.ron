@@ -1,7 +1,9 @@
 (
     author: "spyglass-search",
     name: "Bulbapedia",
+    label: "Bulbapedia",
     description: Some("Pokémon encyclopedia"),
+    categories: ["Games"],
     domains: [],
     urls: [
         "https://bulbapedia.bulbagarden.net/wiki/",

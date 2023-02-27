@@ -3,6 +3,7 @@
     name: "pygame",
     author: "pknessness",
     description: Some("Pygame Documentation"),
+    categories: ["Programming", "Game Development"],
     domains: [],
     urls: [
         "https://www.pygame.org/docs/ref/",

@@ -1,9 +1,10 @@
 (
     version: "1",
     name: "OpenCritic",
+    label: "OpenCritic: Games Reviews",
     author: "popcar2",
     description: Some("Opencritic: A review aggregation website for video games!"),
-    is_enabled: true,
+    categories: ["Games", "Reviews"],
     domains: [],
     urls: [
         "https://opencritic.com/"

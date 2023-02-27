@@ -4,6 +4,7 @@
     label: "Magic the Gathering (MtG)",
     author: "Haz0ret",
     description: Some("Searches through Scryfall and Gatherer to locate magic: the gathering sources"),
+    categories: ["Games"],
     domains: [],
     is_enabled: true,
     urls: [

@@ -1,7 +1,9 @@
 (
     author: "spyglass-search",
     name: "Java_SE11",
+    label: "Java SE11 Documentation",
     description: Some("Java SE11 API Documentation"),
+    categories: ["Programming"],
     domains: [],
     urls: [
         "https://docs.oracle.com/en/java/javase/11/docs/api/",

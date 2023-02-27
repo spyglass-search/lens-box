@@ -1,7 +1,9 @@
 (
     author: "spyglass-search",
     name: "Go",
+    label: "Go Language Documentation",
     description: Some("Go API Documentation"),
+    categories: ["Programming"],
     domains: [],
     urls: [
        "https://go.dev/doc/",

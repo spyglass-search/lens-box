@@ -4,7 +4,7 @@
     label: "Old School RuneScape (OSRS) wiki",
     author: "a5huynh",
     description: Some("Old School Runescape wiki and useful reference guides, utilities, and more."),
-    is_enabled: true,
+    categories: ["Games" , "MMORPG"],
     domains: [],
     urls: [
         "https://oldschool.runescape.wiki/w/"

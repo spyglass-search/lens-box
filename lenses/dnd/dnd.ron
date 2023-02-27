@@ -4,8 +4,8 @@
     label: "Dungeons & Dragons 5E",
     author: "lagoja",
     description: Some("D&D 5E reference guide for classes, equipment, feats, magic items, monsters, spells, etc."),
+    categories: ["Games", "TTRPG"],
     domains: [],
-    is_enabled: true,
     urls: [
         "https://roll20.net/compendium/dnd5e",
         "https://www.dndbeyond.com/backgrounds",
