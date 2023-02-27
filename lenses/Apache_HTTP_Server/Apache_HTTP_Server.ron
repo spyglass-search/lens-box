@@ -1,6 +1,7 @@
 (
     author: "spyglass-search",
     name: "Apache_HTTP_Server",
+    label: "Apache HTTP Server",
     description: Some("Apache HTTP Server API Documentation"),
     categories: ["Developer Tools"],
     domains: [],
