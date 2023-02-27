@@ -324,6 +324,15 @@
         html_url: "https://github.com/spyglass-search/lens-box/blob/main/lenses/pygame/pygame.ron",
     ),
     (
+        author: "Mohd-PH",
+        description: "R language for statistical analysis targeted websites",
+        name: "rlang",
+        label: "rlang",
+        sha: "b51bc080f293265a90564bab00a3fe16fc113736ce62eed38c623accaa6afe18",
+        download_url: "https://raw.githubusercontent.com/spyglass-search/lens-box/main/lenses/rlang/rlang.ron",
+        html_url: "https://github.com/spyglass-search/lens-box/blob/main/lenses/rlang/rlang.ron",
+    ),
+    (
         author: "popcar2",
         description: "Rogue Legacy 2 wiki",
         name: "RogueLegacy2",
