@@ -131,6 +131,7 @@ fn check_lenses() -> anyhow::Result<Vec<InstallableLens>> {
                 label,
                 sha: hex::encode(res),
                 path: file_path.clone(),
+                categories: lens.categories,
                 download_url: format!("{}/{}/{}", DL_URL_PREFIX, parent, file_name),
                 html_url: format!("{}/{}/{}", HTML_URL_PREFIX, parent, file_name),
             });
