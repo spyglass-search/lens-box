@@ -15,4 +15,5 @@ pub struct InstallableLens {
     pub html_url: String,
     #[serde(skip)]
     pub path: PathBuf,
+    pub categories: Vec<String>,
 }
