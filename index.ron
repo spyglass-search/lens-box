@@ -7,6 +7,10 @@
         sha: "2672f23ea77ced7078bdae120dc5148339a0f30cb5760da57d78b05ad0f7c71c",
         download_url: "https://raw.githubusercontent.com/spyglass-search/lens-box/main/lenses/2007scape/2007scape.ron",
         html_url: "https://github.com/spyglass-search/lens-box/blob/main/lenses/2007scape/2007scape.ron",
+        categories: [
+            "Games",
+            "MMORPG",
+        ],
     ),
     (
         author: "spyglass-search",
@@ -16,6 +20,9 @@
         sha: "d3857807f8ca19b7ebcf33a4056df7b4a296cde5ee4b44b8006747ec6e76b110",
         download_url: "https://raw.githubusercontent.com/spyglass-search/lens-box/main/lenses/Akka/Akka.ron",
         html_url: "https://github.com/spyglass-search/lens-box/blob/main/lenses/Akka/Akka.ron",
+        categories: [
+            "Programming",
+        ],
     ),
     (
         author: "spyglass-search",
@@ -25,6 +32,9 @@
         sha: "72407d14c5f39af6aacf2aaa2a6b642f5f321e88041b75290e9bfa04e6596057",
         download_url: "https://raw.githubusercontent.com/spyglass-search/lens-box/main/lenses/Android/Android.ron",
         html_url: "https://github.com/spyglass-search/lens-box/blob/main/lenses/Android/Android.ron",
+        categories: [
+            "Programming",
+        ],
     ),
     (
         author: "spyglass-search",
@@ -34,6 +44,10 @@
         sha: "05cf2095234443181b679cbf2ac07afde022b64171bf7e6938c5093638836eb3",
         download_url: "https://raw.githubusercontent.com/spyglass-search/lens-box/main/lenses/Angular/Angular.ron",
         html_url: "https://github.com/spyglass-search/lens-box/blob/main/lenses/Angular/Angular.ron",
+        categories: [
+            "Programming",
+            "Web Development",
+        ],
     ),
     (
         author: "spyglass-search",
@@ -43,6 +57,10 @@
         sha: "e74103812de70973a9801921cf51871ce1f85b857a78254c0348cf247250db6b",
         download_url: "https://raw.githubusercontent.com/spyglass-search/lens-box/main/lenses/AngularJS/AngularJS.ron",
         html_url: "https://github.com/spyglass-search/lens-box/blob/main/lenses/AngularJS/AngularJS.ron",
+        categories: [
+            "Programming",
+            "Web Development",
+        ],
     ),
     (
         author: "spyglass-search",
@@ -52,6 +70,9 @@
         sha: "45ae306a0f77ca2213340fcd2f1a27931f6ad51d6546de4562a7645a4add2d81",
         download_url: "https://raw.githubusercontent.com/spyglass-search/lens-box/main/lenses/Ansible/Ansible.ron",
         html_url: "https://github.com/spyglass-search/lens-box/blob/main/lenses/Ansible/Ansible.ron",
+        categories: [
+            "Developer Tools",
+        ],
     ),
     (
         author: "spyglass-search",
@@ -61,6 +82,9 @@
         sha: "22ad2ac033dd324898ba7f3653582ccc48a58681b704517c5b2fa68a04a17a8f",
         download_url: "https://raw.githubusercontent.com/spyglass-search/lens-box/main/lenses/Apache_HTTP_Server/Apache_HTTP_Server.ron",
         html_url: "https://github.com/spyglass-search/lens-box/blob/main/lenses/Apache_HTTP_Server/Apache_HTTP_Server.ron",
+        categories: [
+            "Developer Tools",
+        ],
     ),
     (
         author: "popcar2",
@@ -70,6 +94,9 @@
         sha: "13e4a929f1ceb94a3b62372f809450adc89b56e85afc8071cedc485d9a786dbc",
         download_url: "https://raw.githubusercontent.com/spyglass-search/lens-box/main/lenses/AUR/AUR.ron",
         html_url: "https://github.com/spyglass-search/lens-box/blob/main/lenses/AUR/AUR.ron",
+        categories: [
+            "Package Repository",
+        ],
     ),
     (
         author: "spyglass-search",
@@ -79,6 +106,10 @@
         sha: "2b2aca827f9e4282764c4b67a33b8ef5282c4b7ca013b0d1a05f060773b0ed3e",
         download_url: "https://raw.githubusercontent.com/spyglass-search/lens-box/main/lenses/Bootstrap_3.4/Bootstrap_3.4.ron",
         html_url: "https://github.com/spyglass-search/lens-box/blob/main/lenses/Bootstrap_3.4/Bootstrap_3.4.ron",
+        categories: [
+            "Programming",
+            "Web Development",
+        ],
     ),
     (
         author: "spyglass-search",
@@ -88,6 +119,10 @@
         sha: "d97ad84482b8b5db000d0ba5fd43a1a9c295cb6ad191389854d2ece5662d09b3",
         download_url: "https://raw.githubusercontent.com/spyglass-search/lens-box/main/lenses/Bootstrap_4.6/Bootstrap_4.6.ron",
         html_url: "https://github.com/spyglass-search/lens-box/blob/main/lenses/Bootstrap_4.6/Bootstrap_4.6.ron",
+        categories: [
+            "Programming",
+            "Web Development",
+        ],
     ),
     (
         author: "spyglass-search",
@@ -97,6 +132,10 @@
         sha: "75b5daf160469dfbf3231a6d994f99ea3252ff47fe825d125c8aac958b987412",
         download_url: "https://raw.githubusercontent.com/spyglass-search/lens-box/main/lenses/Bootstrap_5.2/Bootstrap_5.2.ron",
         html_url: "https://github.com/spyglass-search/lens-box/blob/main/lenses/Bootstrap_5.2/Bootstrap_5.2.ron",
+        categories: [
+            "Programming",
+            "Web Development",
+        ],
     ),
     (
         author: "spyglass-search",
@@ -106,6 +145,10 @@
         sha: "165763f53455e025bb97a8aec84388a89390786c48ad65a5a5db026c2f483f58",
         download_url: "https://raw.githubusercontent.com/spyglass-search/lens-box/main/lenses/Bourbon_7.0.0/Bourbon_7.0.0.ron",
         html_url: "https://github.com/spyglass-search/lens-box/blob/main/lenses/Bourbon_7.0.0/Bourbon_7.0.0.ron",
+        categories: [
+            "Programming",
+            "Web Development",
+        ],
     ),
     (
         author: "spyglass-search",
@@ -115,6 +158,9 @@
         sha: "49687156a46e988a544d0e1c922aae45dc7ed476ec09f76f12747b04fd0a0e58",
         download_url: "https://raw.githubusercontent.com/spyglass-search/lens-box/main/lenses/Bulbapedia/Bulbapedia.ron",
         html_url: "https://github.com/spyglass-search/lens-box/blob/main/lenses/Bulbapedia/Bulbapedia.ron",
+        categories: [
+            "Games",
+        ],
     ),
     (
         author: "popcar2",
@@ -124,6 +170,10 @@
         sha: "4b176270f46df0e41f943c1123986a9a88d3fc70172673c41330bb5a7e3492f2",
         download_url: "https://raw.githubusercontent.com/spyglass-search/lens-box/main/lenses/CBR/CBR.ron",
         html_url: "https://github.com/spyglass-search/lens-box/blob/main/lenses/CBR/CBR.ron",
+        categories: [
+            "Comics",
+            "Reviews",
+        ],
     ),
     (
         author: "spyglass-search",
@@ -133,6 +183,9 @@
         sha: "359c7b3d7a75e932bbd9bfa7bd2051637a0d54121630c30acdbeee41c9e9d2b2",
         download_url: "https://raw.githubusercontent.com/spyglass-search/lens-box/main/lenses/CMake/CMake.ron",
         html_url: "https://github.com/spyglass-search/lens-box/blob/main/lenses/CMake/CMake.ron",
+        categories: [
+            "Developer Tools",
+        ],
     ),
     (
         author: "spyglass-search",
@@ -142,6 +195,10 @@
         sha: "0870fca48baa594e6836db3982c6793cc8e7c11119453101d9825e4d7d0006d3",
         download_url: "https://raw.githubusercontent.com/spyglass-search/lens-box/main/lenses/CSS/CSS.ron",
         html_url: "https://github.com/spyglass-search/lens-box/blob/main/lenses/CSS/CSS.ron",
+        categories: [
+            "Programming",
+            "Web Development",
+        ],
     ),
     (
         author: "spyglass-search",
@@ -151,6 +208,9 @@
         sha: "ded0fc97abef9c96a2c3a60887252bcc2a105edbf0864343d1f022cc2b888f53",
         download_url: "https://raw.githubusercontent.com/spyglass-search/lens-box/main/lenses/disco_elysium/disco_elysium.ron",
         html_url: "https://github.com/spyglass-search/lens-box/blob/main/lenses/disco_elysium/disco_elysium.ron",
+        categories: [
+            "Games",
+        ],
     ),
     (
         author: "lagoja",
@@ -160,6 +220,10 @@
         sha: "701e951ce58260fef3997d84f986050239c456fb67780e24533eafdaf4231e00",
         download_url: "https://raw.githubusercontent.com/spyglass-search/lens-box/main/lenses/dnd/dnd.ron",
         html_url: "https://github.com/spyglass-search/lens-box/blob/main/lenses/dnd/dnd.ron",
+        categories: [
+            "Games",
+            "TTRPG",
+        ],
     ),
     (
         author: "popcar2",
@@ -169,6 +233,9 @@
         sha: "ba521ea1a154c2a0922d04ef6247ed4aefebedc1cc3b9a327a753ff6a679cf47",
         download_url: "https://raw.githubusercontent.com/spyglass-search/lens-box/main/lenses/EldenRing/EldenRing.ron",
         html_url: "https://github.com/spyglass-search/lens-box/blob/main/lenses/EldenRing/EldenRing.ron",
+        categories: [
+            "Games",
+        ],
     ),
     (
         author: "a5huynh",
@@ -178,6 +245,9 @@
         sha: "dad97b0fedbc257fe5a86c01a5d8c75c271ef9aedd95f9b11e8a8781958af0e6",
         download_url: "https://raw.githubusercontent.com/spyglass-search/lens-box/main/lenses/factorio/factorio.ron",
         html_url: "https://github.com/spyglass-search/lens-box/blob/main/lenses/factorio/factorio.ron",
+        categories: [
+            "Games",
+        ],
     ),
     (
         author: "pknessness",
@@ -187,6 +257,9 @@
         sha: "81532638dd3fa7ff04e132a92af18a82979ed1225a911c3d47ea29968f3d279d",
         download_url: "https://raw.githubusercontent.com/spyglass-search/lens-box/main/lenses/gentoo/gentoo.ron",
         html_url: "https://github.com/spyglass-search/lens-box/blob/main/lenses/gentoo/gentoo.ron",
+        categories: [
+            "Operating Systems",
+        ],
     ),
     (
         author: "spyglass-search",
@@ -196,6 +269,9 @@
         sha: "cbac5636d46da8a789735184edf2e85b27d047866b150a00ffc44579ca29f482",
         download_url: "https://raw.githubusercontent.com/spyglass-search/lens-box/main/lenses/Go/Go.ron",
         html_url: "https://github.com/spyglass-search/lens-box/blob/main/lenses/Go/Go.ron",
+        categories: [
+            "Programming",
+        ],
     ),
     (
         author: "spyglass-search",
@@ -205,6 +281,9 @@
         sha: "4bdc99e7a0aa0a4259200c201db23d9b6694fbccd7bb5b96055cf824fa55ddb6",
         download_url: "https://raw.githubusercontent.com/spyglass-search/lens-box/main/lenses/harrypotter_wiki/harrypotter_wiki.ron",
         html_url: "https://github.com/spyglass-search/lens-box/blob/main/lenses/harrypotter_wiki/harrypotter_wiki.ron",
+        categories: [
+            "Media",
+        ],
     ),
     (
         author: "spyglass-search",
@@ -214,6 +293,9 @@
         sha: "f330defa05b9f996e92789c741d344a4e32e47ba6e8669d2f9edeaa818653fc4",
         download_url: "https://raw.githubusercontent.com/spyglass-search/lens-box/main/lenses/hogwarts_legacy/hogwarts_legacy.ron",
         html_url: "https://github.com/spyglass-search/lens-box/blob/main/lenses/hogwarts_legacy/hogwarts_legacy.ron",
+        categories: [
+            "Games",
+        ],
     ),
     (
         author: "spyglass-search",
@@ -223,6 +305,10 @@
         sha: "2a885aa6e4f3555bbb03d56d54f600f71597983ffbe707b7cdb0ed4d25bedc26",
         download_url: "https://raw.githubusercontent.com/spyglass-search/lens-box/main/lenses/HTML/HTML.ron",
         html_url: "https://github.com/spyglass-search/lens-box/blob/main/lenses/HTML/HTML.ron",
+        categories: [
+            "Programming",
+            "Web Development",
+        ],
     ),
     (
         author: "oparaskos",
@@ -232,6 +318,9 @@
         sha: "06216cbb0712582bd84a1963356eeb6110235d3bc4e5e008ff0faa6fe19ea323",
         download_url: "https://raw.githubusercontent.com/spyglass-search/lens-box/main/lenses/java/java.ron",
         html_url: "https://github.com/spyglass-search/lens-box/blob/main/lenses/java/java.ron",
+        categories: [
+            "Programming",
+        ],
     ),
     (
         author: "spyglass-search",
@@ -241,6 +330,9 @@
         sha: "499768829036c1298de7106532dba810d2f173e139bbb65ff4594ea628b35e21",
         download_url: "https://raw.githubusercontent.com/spyglass-search/lens-box/main/lenses/Java_SE11/Java_SE11.ron",
         html_url: "https://github.com/spyglass-search/lens-box/blob/main/lenses/Java_SE11/Java_SE11.ron",
+        categories: [
+            "Programming",
+        ],
     ),
     (
         author: "spyglass-search",
@@ -250,6 +342,9 @@
         sha: "10199a17aa99a3c9a08ce529f957b2ad9c9966f514191ca9bd84171dc2991b42",
         download_url: "https://raw.githubusercontent.com/spyglass-search/lens-box/main/lenses/Java_SE18/Java_SE18.ron",
         html_url: "https://github.com/spyglass-search/lens-box/blob/main/lenses/Java_SE18/Java_SE18.ron",
+        categories: [
+            "Programming",
+        ],
     ),
     (
         author: "spyglass-search",
@@ -259,6 +354,9 @@
         sha: "5775520f981280218bb2d50a0a155ea522764b9b95fa13d523cad32c03df2ecc",
         download_url: "https://raw.githubusercontent.com/spyglass-search/lens-box/main/lenses/Java_SE19/Java_SE19.ron",
         html_url: "https://github.com/spyglass-search/lens-box/blob/main/lenses/Java_SE19/Java_SE19.ron",
+        categories: [
+            "Programming",
+        ],
     ),
     (
         author: "oparaskos",
@@ -268,6 +366,9 @@
         sha: "ccbfaa70301f7066caa3f91511e01f82a9611846769c3f2b41d52147b17d935f",
         download_url: "https://raw.githubusercontent.com/spyglass-search/lens-box/main/lenses/kotlin/kotlin.ron",
         html_url: "https://github.com/spyglass-search/lens-box/blob/main/lenses/kotlin/kotlin.ron",
+        categories: [
+            "Programming",
+        ],
     ),
     (
         author: "pknessness",
@@ -277,6 +378,9 @@
         sha: "d1cc911930b6842bfdc42795fcaf050edf860d0438f48e7259746cb1f359b577",
         download_url: "https://raw.githubusercontent.com/spyglass-search/lens-box/main/lenses/luigis_mansion/luigis_mansion.ron",
         html_url: "https://github.com/spyglass-search/lens-box/blob/main/lenses/luigis_mansion/luigis_mansion.ron",
+        categories: [
+            "Games",
+        ],
     ),
     (
         author: "pknessness",
@@ -286,6 +390,9 @@
         sha: "586c0f27790bcee4a894e60370e1fef82fa2d8998d7a46e7a3a2a606a525f2ec",
         download_url: "https://raw.githubusercontent.com/spyglass-search/lens-box/main/lenses/mbed68/mbed68.ron",
         html_url: "https://github.com/spyglass-search/lens-box/blob/main/lenses/mbed68/mbed68.ron",
+        categories: [
+            "Programming",
+        ],
     ),
     (
         author: "spyglass-search",
@@ -295,6 +402,10 @@
         sha: "ef37703de3e35e4cab70b9b30dd19f164bc7701fc113d3197fe80e9afd98505f",
         download_url: "https://raw.githubusercontent.com/spyglass-search/lens-box/main/lenses/NodeJs/NodeJs.ron",
         html_url: "https://github.com/spyglass-search/lens-box/blob/main/lenses/NodeJs/NodeJs.ron",
+        categories: [
+            "Programming",
+            "Web Development",
+        ],
     ),
     (
         author: "popcar2",
@@ -304,6 +415,10 @@
         sha: "f8fde0697d0764c5b219aac164bdcd5e7cdac21c44c668790c866346f930cbe5",
         download_url: "https://raw.githubusercontent.com/spyglass-search/lens-box/main/lenses/OpenCritic/OpenCritic.ron",
         html_url: "https://github.com/spyglass-search/lens-box/blob/main/lenses/OpenCritic/OpenCritic.ron",
+        categories: [
+            "Games",
+            "Reviews",
+        ],
     ),
     (
         author: "musashi - savdbroek",
@@ -313,6 +428,9 @@
         sha: "190b4139ad969ddcb0de383e176d4effb79cf1330cf7b9d11b2aa9c381880f47",
         download_url: "https://raw.githubusercontent.com/spyglass-search/lens-box/main/lenses/OSCP/oscp.ron",
         html_url: "https://github.com/spyglass-search/lens-box/blob/main/lenses/OSCP/oscp.ron",
+        categories: [
+            "Computer Security",
+        ],
     ),
     (
         author: "pknessness",
@@ -322,6 +440,10 @@
         sha: "74180ea4bd50bb9a0a8d68dcbc423307230345080b2ee115d7ceb835ead3b98f",
         download_url: "https://raw.githubusercontent.com/spyglass-search/lens-box/main/lenses/pygame/pygame.ron",
         html_url: "https://github.com/spyglass-search/lens-box/blob/main/lenses/pygame/pygame.ron",
+        categories: [
+            "Programming",
+            "Game Development",
+        ],
     ),
     (
         author: "Mohd-PH",
@@ -331,6 +453,9 @@
         sha: "5f516441281812d2441011da1c9671cbe229c955269ad3aca077c6713ed02101",
         download_url: "https://raw.githubusercontent.com/spyglass-search/lens-box/main/lenses/rlang/rlang.ron",
         html_url: "https://github.com/spyglass-search/lens-box/blob/main/lenses/rlang/rlang.ron",
+        categories: [
+            "Programming",
+        ],
     ),
     (
         author: "popcar2",
@@ -340,6 +465,9 @@
         sha: "a16b3b974008ae3f0db3340c14bb9ba12b2322fa7d19107db8c2ef1770ad53e8",
         download_url: "https://raw.githubusercontent.com/spyglass-search/lens-box/main/lenses/RogueLegacy2/RogueLegacy2.ron",
         html_url: "https://github.com/spyglass-search/lens-box/blob/main/lenses/RogueLegacy2/RogueLegacy2.ron",
+        categories: [
+            "Games",
+        ],
     ),
     (
         author: "c_sonnier",
@@ -349,6 +477,10 @@
         sha: "e60175204c9980991d30f92fb4e352a5151bb9e127e377c31f04277d8fefd70d",
         download_url: "https://raw.githubusercontent.com/spyglass-search/lens-box/main/lenses/ruby_on_rails/ruby_on_rails.ron",
         html_url: "https://github.com/spyglass-search/lens-box/blob/main/lenses/ruby_on_rails/ruby_on_rails.ron",
+        categories: [
+            "Programming",
+            "Web Development",
+        ],
     ),
     (
         author: "a5huynh",
@@ -358,6 +490,9 @@
         sha: "79561976cedb7a3e30eee3792558c05c62fa3d11cf4686abc3ac078407c36057",
         download_url: "https://raw.githubusercontent.com/spyglass-search/lens-box/main/lenses/rustlang/rustlang.ron",
         html_url: "https://github.com/spyglass-search/lens-box/blob/main/lenses/rustlang/rustlang.ron",
+        categories: [
+            "Programming",
+        ],
     ),
     (
         author: "Jack G",
@@ -367,6 +502,9 @@
         sha: "553c2d7dc3bbc030ad6c93ad4f171777d221092d57a4bb64d2eb226457490d05",
         download_url: "https://raw.githubusercontent.com/spyglass-search/lens-box/main/lenses/scp/scp.ron",
         html_url: "https://github.com/spyglass-search/lens-box/blob/main/lenses/scp/scp.ron",
+        categories: [
+            "Media",
+        ],
     ),
     (
         author: "Haz0ret",
@@ -376,6 +514,9 @@
         sha: "35f1e5a1e51185b23a0ebef83ff655113b4b39341138179e0853d8d8a34738ba",
         download_url: "https://raw.githubusercontent.com/spyglass-search/lens-box/main/lenses/Scryfall/scryfall.ron",
         html_url: "https://github.com/spyglass-search/lens-box/blob/main/lenses/Scryfall/scryfall.ron",
+        categories: [
+            "Games",
+        ],
     ),
     (
         author: "pknessness",
@@ -385,6 +526,9 @@
         sha: "dba630a4dcd21aa7ab2ca36c498265c3398a78b110944cdf536507d1422a45c1",
         download_url: "https://raw.githubusercontent.com/spyglass-search/lens-box/main/lenses/smg/smg.ron",
         html_url: "https://github.com/spyglass-search/lens-box/blob/main/lenses/smg/smg.ron",
+        categories: [
+            "Games",
+        ],
     ),
     (
         author: "pknessness",
@@ -394,6 +538,9 @@
         sha: "df24e3af00c6a6150d021b93700b7f507b8f2283f5c3dbeb52e2887567b3fcef",
         download_url: "https://raw.githubusercontent.com/spyglass-search/lens-box/main/lenses/SNAP/snap.ron",
         html_url: "https://github.com/spyglass-search/lens-box/blob/main/lenses/SNAP/snap.ron",
+        categories: [
+            "Package Repository",
+        ],
     ),
     (
         author: "a5huynh",
@@ -403,6 +550,9 @@
         sha: "1e2ea371be301a0e0e0d469ff4348b0a2e4777c72752a182f18d6f7e0c3bba32",
         download_url: "https://raw.githubusercontent.com/spyglass-search/lens-box/main/lenses/stardew/stardew.ron",
         html_url: "https://github.com/spyglass-search/lens-box/blob/main/lenses/stardew/stardew.ron",
+        categories: [
+            "Games",
+        ],
     ),
     (
         author: "popcar2",
@@ -412,6 +562,9 @@
         sha: "7c9404e0afe0e9da26cadc167dd492d8f698d81785cf01ed99201a3af789b3f0",
         download_url: "https://raw.githubusercontent.com/spyglass-search/lens-box/main/lenses/Steam/steam.ron",
         html_url: "https://github.com/spyglass-search/lens-box/blob/main/lenses/Steam/steam.ron",
+        categories: [
+            "Games",
+        ],
     ),
     (
         author: "popcar2",
@@ -421,6 +574,9 @@
         sha: "4f036319f6ea6a4cb80254419fdee9a850b8fee957caf84dbcca966b56e2261f",
         download_url: "https://raw.githubusercontent.com/spyglass-search/lens-box/main/lenses/Terraria/Terraria.ron",
         html_url: "https://github.com/spyglass-search/lens-box/blob/main/lenses/Terraria/Terraria.ron",
+        categories: [
+            "Games",
+        ],
     ),
     (
         author: "jwl",
@@ -430,6 +586,9 @@
         sha: "effb96d3170465eaafb58448839d47aa06157d09e2652ad54e3c760bb2b220b7",
         download_url: "https://raw.githubusercontent.com/spyglass-search/lens-box/main/lenses/tim-ferriss/tim-ferriss.ron",
         html_url: "https://github.com/spyglass-search/lens-box/blob/main/lenses/tim-ferriss/tim-ferriss.ron",
+        categories: [
+            "Media",
+        ],
     ),
     (
         author: "a5huynh",
@@ -439,6 +598,10 @@
         sha: "26e945b9cc74cd765a66b7293b10cf81ab7dcdc3db224ecad7308b1d508f7c49",
         download_url: "https://raw.githubusercontent.com/spyglass-search/lens-box/main/lenses/twd/twd.ron",
         html_url: "https://github.com/spyglass-search/lens-box/blob/main/lenses/twd/twd.ron",
+        categories: [
+            "Media",
+            "Television",
+        ],
     ),
     (
         author: "oparaskos",
@@ -448,6 +611,10 @@
         sha: "7f03d4f17414e5aa3ec4f7d1834bff96d896a80ecf014c1aad295c4d559b3660",
         download_url: "https://raw.githubusercontent.com/spyglass-search/lens-box/main/lenses/Unity/unity.ron",
         html_url: "https://github.com/spyglass-search/lens-box/blob/main/lenses/Unity/unity.ron",
+        categories: [
+            "Programming",
+            "Game Development",
+        ],
     ),
     (
         author: "oparaskos",
@@ -457,6 +624,10 @@
         sha: "639f5ce0bcddb47850ea49b8b3e04544be80c12e2597408965f2660ca8712a4a",
         download_url: "https://raw.githubusercontent.com/spyglass-search/lens-box/main/lenses/unreal_4/unreal_4.ron",
         html_url: "https://github.com/spyglass-search/lens-box/blob/main/lenses/unreal_4/unreal_4.ron",
+        categories: [
+            "Programming",
+            "Game Development",
+        ],
     ),
     (
         author: "oparaskos",
@@ -466,6 +637,10 @@
         sha: "54dfdc4b884addcaa08e86fcdabc09e70c610a56bbb7eff17748914726cfaaf5",
         download_url: "https://raw.githubusercontent.com/spyglass-search/lens-box/main/lenses/unreal_5/unreal_5.ron",
         html_url: "https://github.com/spyglass-search/lens-box/blob/main/lenses/unreal_5/unreal_5.ron",
+        categories: [
+            "Programming",
+            "Game Development",
+        ],
     ),
     (
         author: "popcar2",
@@ -475,6 +650,9 @@
         sha: "05e50fc2041b4f53704a26e7ba9d3022595a09ee7a73cd6925f1efa31e335218",
         download_url: "https://raw.githubusercontent.com/spyglass-search/lens-box/main/lenses/vintage_story/vintage_story.ron",
         html_url: "https://github.com/spyglass-search/lens-box/blob/main/lenses/vintage_story/vintage_story.ron",
+        categories: [
+            "Games",
+        ],
     ),
     (
         author: "spyglass-search",
@@ -484,6 +662,9 @@
         sha: "7dac042ccf3267d053e97d8da8570a8cbc43460c475e0bd1e0e85873ec8b775f",
         download_url: "https://raw.githubusercontent.com/spyglass-search/lens-box/main/lenses/wikipedia/wikipedia.ron",
         html_url: "https://github.com/spyglass-search/lens-box/blob/main/lenses/wikipedia/wikipedia.ron",
+        categories: [
+            "Knowledge",
+        ],
     ),
     (
         author: "Chicken",
@@ -493,6 +674,10 @@
         sha: "901933f951ae611ffad1f26bcfb95c6d99b971b4dcb57f8d1bf38e4e67e2b6cb",
         download_url: "https://raw.githubusercontent.com/spyglass-search/lens-box/main/lenses/wow/wow.ron",
         html_url: "https://github.com/spyglass-search/lens-box/blob/main/lenses/wow/wow.ron",
+        categories: [
+            "Games",
+            "MMORPG",
+        ],
     ),
     (
         author: "Chicken",
@@ -502,6 +687,10 @@
         sha: "8b85fe5899c4a3e7b5395fe3e78655f7fcbbe3eaa9f8cc268867309063eae20f",
         download_url: "https://raw.githubusercontent.com/spyglass-search/lens-box/main/lenses/wow_items/wow_items.ron",
         html_url: "https://github.com/spyglass-search/lens-box/blob/main/lenses/wow_items/wow_items.ron",
+        categories: [
+            "Games",
+            "MMORPG",
+        ],
     ),
     (
         author: "Chicken",
@@ -511,6 +700,10 @@
         sha: "f0b58914bc82b14c805011d89a57955129a89f4269ef55fba52bc45f3ef5f2e7",
         download_url: "https://raw.githubusercontent.com/spyglass-search/lens-box/main/lenses/wow_npcs/wow_npcs.ron",
         html_url: "https://github.com/spyglass-search/lens-box/blob/main/lenses/wow_npcs/wow_npcs.ron",
+        categories: [
+            "Games",
+            "MMORPG",
+        ],
     ),
     (
         author: "Chicken",
@@ -520,6 +713,10 @@
         sha: "79a4431c4c9675ac1e3a266b0be2dc89d1dec25a354b830a7a23c5434541359f",
         download_url: "https://raw.githubusercontent.com/spyglass-search/lens-box/main/lenses/wow_quests/wow_quests.ron",
         html_url: "https://github.com/spyglass-search/lens-box/blob/main/lenses/wow_quests/wow_quests.ron",
+        categories: [
+            "Games",
+            "MMORPG",
+        ],
     ),
     (
         author: "Chicken",
@@ -529,6 +726,10 @@
         sha: "8318e73f6d8151057dc26ef85b88e93341e93feaadf6c32fb94292242b69446a",
         download_url: "https://raw.githubusercontent.com/spyglass-search/lens-box/main/lenses/wow_spells/wow_spells.ron",
         html_url: "https://github.com/spyglass-search/lens-box/blob/main/lenses/wow_spells/wow_spells.ron",
+        categories: [
+            "Games",
+            "MMORPG",
+        ],
     ),
     (
         author: "popcar2",
@@ -538,6 +739,10 @@
         sha: "4367a7b19a68127faa365c1147d406170e0850da9ff867c5e7fb88a13bc2dc43",
         download_url: "https://raw.githubusercontent.com/spyglass-search/lens-box/main/lenses/XKCD/xkcd.ron",
         html_url: "https://github.com/spyglass-search/lens-box/blob/main/lenses/XKCD/xkcd.ron",
+        categories: [
+            "Comics",
+            "Media",
+        ],
     ),
     (
         author: "a5huynh",
@@ -547,6 +752,9 @@
         sha: "7b1b9627b00b9763bf14384166aa2556b731f9a12c9f4ca36d7879f248bfa6f8",
         download_url: "https://raw.githubusercontent.com/spyglass-search/lens-box/main/lenses/yc/yc.ron",
         html_url: "https://github.com/spyglass-search/lens-box/blob/main/lenses/yc/yc.ron",
+        categories: [
+            "Startups",
+        ],
     ),
     (
         author: "pknessness",
@@ -556,5 +764,8 @@
         sha: "76d8ac58203a4835bf2d0b8148437b052ca3ef8dd58dca8290aff27e72d01419",
         download_url: "https://raw.githubusercontent.com/spyglass-search/lens-box/main/lenses/zelda_twilight_princess/zelda_twilight_princess.ron",
         html_url: "https://github.com/spyglass-search/lens-box/blob/main/lenses/zelda_twilight_princess/zelda_twilight_princess.ron",
+        categories: [
+            "Games",
+        ],
     ),
 ]
