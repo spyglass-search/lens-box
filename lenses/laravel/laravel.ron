@@ -1,0 +1,16 @@
+(
+	version: "1",
+	author: "Mohd-PH",
+	name: "laravel",
+	label: "Laravel",
+	description: Some(r#"
+		A lens for Laravel, a popular PHP framework
+	"#),
+	categories: ["programming", "web development", "PHP"],
+	is_enabled: true,
+	domains: [],
+	urls: [
+		"https://laravel.com/docs/master/"
+	],
+	rules: []	
+)
