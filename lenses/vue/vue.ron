@@ -1,20 +1,17 @@
 (
-	version: "1",
-	author: "Mohd-PH",
-	name: "vue",
-	label: "Vue",
-	description: Some(r#"
-		A lens for Vue, a progressive JavaScript framework!
-	"#),
-	categories: ["programming", "web development", "javascript"],
-	is_enabled: true,
-	domains: [],
-	urls: [
-		"https://vuejs.org/guide/",
-		"https://vuejs.org/api/",
-		"https://router.vuejs.org/guide/",
-		"https://router.vuejs.org/api/",
-		"https://pinia.vuejs.org/",
-	],
-	rules: []	
+    version: "1",
+    author: "Mohd-PH",
+    name: "vue",
+    label: "Vue",
+    description: Some("A lens for Vue, a progressive JavaScript framework!"),
+    categories: ["programming", "web development", "javascript"],
+    domains: [],
+    urls: [
+        "https://vuejs.org/guide/",
+        "https://vuejs.org/api/",
+        "https://router.vuejs.org/guide/",
+        "https://router.vuejs.org/api/",
+        "https://pinia.vuejs.org/",
+    ],
+    rules: []
 )
