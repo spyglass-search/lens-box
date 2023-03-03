@@ -4,7 +4,7 @@
     name: "vue",
     label: "Vue",
     description: Some("A lens for Vue, a progressive JavaScript framework!"),
-    categories: ["programming", "web development", "javascript"],
+    categories: ["Programming", "Web Development", "Javascript"],
     domains: [],
     urls: [
         "https://vuejs.org/guide/",
