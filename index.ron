@@ -371,6 +371,20 @@
         ],
     ),
     (
+        author: "Mohd-PH",
+        description: "A lens for Laravel, a popular PHP framework",
+        name: "laravel",
+        label: "Laravel",
+        sha: "30c94c7907f47503757916fb34c12e9e925de172a940f0e128e169fcf66b1a75",
+        download_url: "https://raw.githubusercontent.com/spyglass-search/lens-box/main/lenses/laravel/laravel.ron",
+        html_url: "https://github.com/spyglass-search/lens-box/blob/main/lenses/laravel/laravel.ron",
+        categories: [
+            "Programming",
+            "Web Development",
+            "PHP",
+        ],
+    ),
+    (
         author: "pknessness",
         description: "Luigi\'s Mansion Walkthrough",
         name: "luigis_mansion",
@@ -652,6 +666,20 @@
         html_url: "https://github.com/spyglass-search/lens-box/blob/main/lenses/vintage_story/vintage_story.ron",
         categories: [
             "Games",
+        ],
+    ),
+    (
+        author: "Mohd-PH",
+        description: "A lens for Vue, a progressive JavaScript framework!",
+        name: "vue",
+        label: "Vue",
+        sha: "5458ee170fb4927c5ee71db6fe631d51bf284c40c672cb800ac5b6adda2650a9",
+        download_url: "https://raw.githubusercontent.com/spyglass-search/lens-box/main/lenses/vue/vue.ron",
+        html_url: "https://github.com/spyglass-search/lens-box/blob/main/lenses/vue/vue.ron",
+        categories: [
+            "Programming",
+            "Web Development",
+            "Javascript",
         ],
     ),
     (
