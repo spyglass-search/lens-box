@@ -302,7 +302,7 @@
         description: "HTML API Documentation",
         name: "HTML",
         label: "HTML",
-        sha: "2a885aa6e4f3555bbb03d56d54f600f71597983ffbe707b7cdb0ed4d25bedc26",
+        sha: "381113f9d59fbc31a031fcc6561916d69f50048f7076edc795fc09c416a91956",
         download_url: "https://raw.githubusercontent.com/spyglass-search/lens-box/main/lenses/HTML/HTML.ron",
         html_url: "https://github.com/spyglass-search/lens-box/blob/main/lenses/HTML/HTML.ron",
         categories: [
