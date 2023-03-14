@@ -33,7 +33,7 @@
   <div class="flex flex-col bg-orange-100 content-center w-full left-0 top-0 h-full pt-4 pb-8 z-0">
     <div class="logo-title px-8 text-center grow-0 my-auto">
       <div>
-        <a href="{{ get_url(path='@/_index.md', lang=lang) }}">
+        <a href="https://www.spyglass.fyi">
             <img class="mx-auto w-32"
             src={{ get_url(path='images/logo@2x.png' ) }}
             alt="logo"
@@ -96,9 +96,24 @@
         trim_end_matches(pat="/") %}
         {% set language_site_path = '/' ~ language_site_path_without_prefix %}
         <li>
-          <a class="font-serif pb-4 hover:text-sky-600 {% if language_site_path=='/' or language_site_path is starting_with('/page/') %}current{% endif %}"
+          <a class="font-serif hover:text-sky-600 {% if language_site_path=='/' or language_site_path is starting_with('/page/') %}current{% endif %}"
             href="{{ get_url(path='@/_index.md', lang=lang) }}">
-            Browse
+            Browse Lenses
+          </a>
+        </li>
+        <li>
+          <a class="font-serif hover:text-sky-600 flex flex-row items-center"
+            href="https://www.spyglass.fyi">
+            Download Spyglass
+            <svg xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke-width="1.5"
+              stroke="currentColor"
+              class="ml-2 w-4 h-4"
+            >
+              <path stroke-linecap="round" stroke-linejoin="round" d="M13.5 6H5.25A2.25 2.25 0 003 8.25v10.5A2.25 2.25 0 005.25 21h10.5A2.25 2.25 0 0018 18.75V10.5m-10.5 6L21 3m0 0h-5.25M21 3v5.25" />
+            </svg>
           </a>
         </li>
       </ul>
