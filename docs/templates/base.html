@@ -88,8 +88,8 @@
     </div>
   </div>
   <div class="flex flex-col grow-0 h-screen w-full bg-white animate-fade-in-down z-10">
-    <div>
-      <ul class="flex flex-row gap-8 px-8 sm:px-16 py-4 border-b-2 border-b-orange-100">
+    <div class="border-b-2 border-b-orange-100">
+      <ul class="flex flex-row gap-8 px-8 sm:px-16 py-4 max-w-screen-md mx-auto">
         {% set current_url_str = current_url | as_str %}
         {% set language_site_base = get_url(path="@/_index.md", lang=lang) | as_str %}
         {% set language_site_path_without_prefix = current_url | trim_start_matches(pat=language_site_base) |
@@ -98,7 +98,7 @@
         <li>
           <a class="font-serif hover:text-sky-600 {% if language_site_path=='/' or language_site_path is starting_with('/page/') %}current{% endif %}"
             href="{{ get_url(path='@/_index.md', lang=lang) }}">
-            Browse Lenses
+            Browse All Lenses
           </a>
         </li>
         <li>
