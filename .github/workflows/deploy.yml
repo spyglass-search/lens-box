@@ -3,7 +3,6 @@ name: build & deploy lens explorer site
 on:
   push:
     branches: [ main ]
-  pull_request:
 
 jobs:
   build_and_deploy:
