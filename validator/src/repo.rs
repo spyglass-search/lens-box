@@ -63,6 +63,7 @@ pub fn generate_page(
 
         let mut extra: HashMap<String, Value> = HashMap::new();
         extra.insert("sort".to_string(), title.to_lowercase().into());
+        extra.insert("identifier".to_string(), lens_config.name.into());
         extra.insert("domains".to_string(), lens_config.domains.into());
         extra.insert("source_url".to_string(), format!("{}/{}/{}.ron", SOURCE_URL_PREFIX, lens.name, lens.name).into());
 
