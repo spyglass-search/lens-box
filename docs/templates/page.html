@@ -14,8 +14,8 @@
 {% block content %}
 <article class="animate-fade-in-down pt-8 px-8 sm:px-16 mb-32 max-w-screen-md mx-auto">
   <div class="mb-4">
-    <h1 class="text-4xl font-bold mb-2">{{ page.title }}</h1>
-    <div class="meta flex flex-col gap-2 sm:flex-row sm:items-center sm:gap-8 text-sm mt-4 ">
+    <h1 class="text-4xl font-semibold mb-2">{{ page.title }}</h1>
+    <div class="meta flex flex-col gap-2 text-sm mt-4 ">
       {% if page.taxonomies.author %}
       <div class="flex flex-row gap-2 items-center">
         <svg xmlns="http://www.w3.org/2000/svg" alt="written by {{ page.taxonomies.author}}" class="w-4 h-4" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m12 19 7-7 3 3-7 7-3-3z"></path><path d="m18 13-1.5-7.5L2 2l3.5 14.5L13 18l5-5z"></path><path d="m2 2 7.586 7.586"></path><circle cx="11" cy="11" r="2"></circle></svg>
@@ -26,7 +26,7 @@
       <div class="flex flex-row gap-2 items-center">
         <svg xmlns="http://www.w3.org/2000/svg" class="w-4 h-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2H2v10l9.29 9.29c.94.94 2.48.94 3.42 0l6.58-6.58c.94-.94.94-2.48 0-3.42L12 2Z"></path><path d="M7 7h.01"></path></svg>
         {% for tag in page.taxonomies.categories %}
-          <span class="text-white block bg-sky-600 rounded px-2">{{tag}}</span>
+          <span class="text-white block bg-cyan-600 rounded px-2">{{tag}}</span>
         {% endfor %}
       </div>
       {% endif %}
@@ -34,7 +34,32 @@
   </div>
 
   <div class="post-content leading-relaxed">
-    <div class="pb-4">{{ page.description }}</div>
+    <div class="pb-8">
+      <h2 class="text-lg font-semibold under border-b mb-2">How do I use this?</h2>
+      <div class="text-neutral-700 text-sm pb-4">
+        Lenses are the secret sauce of Spyglass. They let you filter search results to
+        find exactly what you're looking for, whether it's a specific website or a topic.
+        Want to quickly reference your favorite wiki or guide? Spyglass makes it easy to
+        create your own library of information to search through.
+      </div>
+      <div class="text-neutral-700 text-sm">
+        <a href="https://www.spyglass.fyi" class="text-cyan-500 underline">Install Spyglass</a> to add this your personal search library!
+      </div>
+    </div>
+
+    <div class="pb-8">
+      <h2 class="text-lg font-semibold under border-b mb-2">What is in this lens?</h2>
+      <div class="text-neutral-600 text-sm">{{ page.description }}</div>
+    </div>
+
+    <div class="pb-4">
+      <h2 class="text-lg font-semibold under border-b mb-2">Lens Source</h2>
+      <div class="text-neutral-700 text-sm">
+        This section defines how a lens is configured to work. The <code>domains</code> & <code>urls</code> help
+        pointed our crawlers to what should be indexed. The <code>rules</code> help decide which documents
+        can be safely ignored and what is relevant.
+      </div>
+    </div>
 
     <h2 class="font-bold">Domains</h2>
     <div class="font-mono text-xs text-gray-600 border-gray-200 border p-2 bg-gray-200 rounded">
@@ -50,7 +75,7 @@
     </div>
 
     <h2 class="font-bold pt-8">URLs</h2>
-    <div class="text-sm pb-4">
+    <div class="text-sm pb-4 text-neutral-600">
         In addition to domains, URL patterns are used to narrow down what is crawled even
         more.
     </div>
