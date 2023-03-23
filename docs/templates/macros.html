@@ -1,3 +1,11 @@
+{% macro render_tag(tag) %}
+<a class="text-white block bg-cyan-600 rounded px-2 py-0.5"
+    href="{{ get_url(path='@/_index.md', lang=lang) }}categories/{{tag | slugify}}"
+>
+    {{tag}}
+</a>
+{% endmacro %}
+
 {% macro lens_item(page) %}
 <section class="mb-6">
   <a href="{{ page.permalink }}" class="hover:underline">
@@ -44,12 +52,7 @@
         <path d="M7 7h.01"></path>
       </svg>
       {% for tag in page.taxonomies.categories %}
-      <a
-        class="text-white block bg-sky-600 rounded px-2"
-        href="{{ get_url(path='@/_index.md', lang=lang) }}categories/{{tag | slugify}}"
-      >
-        {{tag}}
-      </a>
+        {{ self::render_tag(tag=tag) }}
       {% endfor %}
     </div>
     {% endif %}
