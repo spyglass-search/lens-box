@@ -3,3 +3,10 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+code {
+
+    background: #DDD;
+    border-radius: 4px;
+    padding: 2px 4px;
+}
