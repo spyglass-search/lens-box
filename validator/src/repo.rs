@@ -19,6 +19,7 @@ struct RepoItem {
 }
 
 const DOCS_FOLDER: &str = "../docs";
+const SOURCE_URL_PREFIX: &str = "https://github.com/spyglass-search/lens-box/blob/main/lenses";
 
 pub fn get_and_clean_doc_path(cli: &ValidatorCli) -> PathBuf {
     let docs_path = Path::new(DOCS_FOLDER).join("content/lenses");
@@ -63,7 +64,12 @@ pub fn generate_page(
         let mut extra: HashMap<String, Value> = HashMap::new();
         extra.insert("sort".to_string(), title.to_lowercase().into());
         extra.insert("domains".to_string(), lens_config.domains.into());
-        extra.insert("urls".to_string(), lens_config.urls.into());
+        extra.insert("source_url".to_string(), format!("{}/{}/{}.ron", SOURCE_URL_PREFIX, lens.name, lens.name).into());
+
+        // No need to show huge amount of urls
+        let mut truncated_urls = lens_config.urls.clone();
+        truncated_urls.truncate(10);
+        extra.insert("urls".to_string(), truncated_urls.into());
         extra.insert(
             "rules".to_string(),
             lens_config
