@@ -1,0 +1,21 @@
+{% extends "base.html" %}
+
+{% block content %}
+<div class="py-8 px-8 sm:px-16 animate-fade-in-down max-w-screen-md mx-auto">
+    <div class="archive animate-fade-in-down">
+        <h1 class="text-lg font-semibold mb-4">Browse by Category</h1>
+        <ul>
+            {% for term in terms %}
+            <li class="mb-2">
+                <a class="text-cyan-700 underline mr-1" href="{{ term.permalink }}">
+                    {{ term.name -}}
+                </a>
+                <span class="bg-cyan-600 text-white py-0.5 px-1 rounded text-xs">
+                    {{ term.pages | length }}
+                </span>
+            </li>
+            {% endfor %}
+        </ul>
+    </div>
+</div>
+{% endblock content %}

@@ -1,52 +1,10 @@
 {% extends "base.html" %}
-
+{% import "macros.html" as macros %}
 {% block content %}
 <div class="py-8 px-8 sm:px-16 animate-fade-in-down max-w-screen-md mx-auto">
   {% set section = get_section(path="lenses/_index.md") -%}
-  {% for page in section.pages -%}
-  <section class="mb-8">
-    <a href="{{ page.permalink }}" class="hover:underline">
-      <h2 class="text-2xl font-bold mb-2">
-        {{ page.title }}
-      </h2>
-    </a>
-    <div>
-      {{ page.description }}
-    </div>
-    <div class="meta flex flex-col gap-2 sm:flex-row sm:items-center sm:gap-8 text-sm mt-2 ">
-      <div class="flex flex-row gap-2 items-center">
-        <svg xmlns="http://www.w3.org/2000/svg"
-          alt="written by {{ page.taxonomies.author|first }}"
-          class="w-4 h-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
-        >
-          <path d="m12 19 7-7 3 3-7 7-3-3z"></path><path d="m18 13-1.5-7.5L2 2l3.5 14.5L13 18l5-5z"></path><path d="m2 2 7.586 7.586"></path><circle cx="11" cy="11" r="2"></circle>
-        </svg>
-        <span>
-            {{ page.taxonomies.author|first }}
-        </span>
-      </div>
-      {% if page.taxonomies.tags %}
-      <div class="flex flex-row gap-2 items-center">
-        <svg xmlns="http://www.w3.org/2000/svg" class="w-4 h-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-          <path d="M12 2H2v10l9.29 9.29c.94.94 2.48.94 3.42 0l6.58-6.58c.94-.94.94-2.48 0-3.42L12 2Z"></path><path d="M7 7h.01"></path>
-        </svg>
-        {% for tag in page.taxonomies.tags %}
-          <a class="text-white block bg-sky-600 rounded px-2"
-            href="{{ get_url(path='@/_index.md', lang=lang) }}tags/{{tag}}">
-            {{tag}}
-          </a>
-        {% endfor %}
-      </div>
-      {% endif %}
-    </div>
-    <div class="post-content text-sm mt-2">
-      {% if page.extra.summary %}
-          {{ page.extra.summary | safe | striptags }}
-      {% else %}
-          {{ page.content | safe | striptags | truncate(length=100) }}
-      {% endif %}
-    </div>
-  </section>
+  {% for page in section.pages | sort(attribute="extra.sort") -%}
+    {{ macros::lens_item(page=page) }}
   {% endfor %}
 </div>
 {% endblock content %}

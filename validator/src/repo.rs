@@ -50,11 +50,18 @@ pub fn generate_page(
     if let Ok(lens_config) = ron::from_str::<LensConfig>(&std::fs::read_to_string(&lens.path)?) {
         let file_name = format!("{}.md", lens.name);
 
+        let title = if lens.label.is_empty() {
+            lens.name.to_string()
+        } else {
+            lens.label.to_string()
+        };
+
         let mut taxos: HashMap<String, Value> = HashMap::new();
         taxos.insert("author".to_string(), vec![lens.author.to_string()].into());
         taxos.insert("categories".to_string(), lens_config.categories.into());
 
         let mut extra: HashMap<String, Value> = HashMap::new();
+        extra.insert("sort".to_string(), title.to_lowercase().into());
         extra.insert("domains".to_string(), lens_config.domains.into());
         extra.insert("urls".to_string(), lens_config.urls.into());
         extra.insert(
@@ -66,12 +73,6 @@ pub fn generate_page(
                 .collect::<Vec<String>>()
                 .into(),
         );
-
-        let title = if lens.label.is_empty() {
-            lens.name.to_string()
-        } else {
-            lens.label.to_string()
-        };
 
         let date = if let Ok(metadata) = lens.path.metadata() {
             if let Ok(last_mod) = metadata.modified() {
