@@ -8,11 +8,11 @@
     domains: [],
     urls: [
         "https://docs.splunk.com/Documentation/Splunk/9.0.4/SearchReference/ListOfSearchCommands",
-		"https://docs.splunk.com/Documentation/Splunk/9.0.4/SearchReference",
-		"https://docs.splunk.com/Splexicon",
+        "https://docs.splunk.com/Documentation/Splunk/9.0.4/SearchReference",
+        "https://docs.splunk.com/Splexicon",
     ],
     rules: [
-		SkipURL("https://docs.splunk.com/*action=pdfbook*"),
+        SkipURL("https://docs.splunk.com/*action=pdfbook*"),
         SkipURL("https://docs.splunk.com/*download*"),
         SkipURL("https://www.splunk.com/*"),
     ]
