@@ -1,0 +1,19 @@
+(
+    version: "1",
+    name: "splunk",
+    label: "Splunk SPL commands",
+    author: "TheSelox",
+    description: Some("Find documentation on SPL commands"),
+    categories: ["Log Management"],
+    domains: [],
+    urls: [
+        "https://docs.splunk.com/Documentation/Splunk/latest/SearchReference/ListOfSearchCommands",
+        "https://docs.splunk.com/Documentation/Splunk/latest/SearchReference",
+        "https://docs.splunk.com/Splexicon",
+    ],
+    rules: [
+        SkipURL("https://docs.splunk.com/*action=pdfbook*"),
+        SkipURL("https://docs.splunk.com/*download*"),
+        SkipURL("https://www.splunk.com/*"),
+    ]
+)
