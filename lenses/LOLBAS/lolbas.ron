@@ -1,0 +1,18 @@
+(
+    version: "1",
+    name: "lolbas",
+    label: "LOLBAS Project",
+    author: "TheSelox",
+    description: Some("Living Off The Land Binaries, Scripts and Libraries"),
+    categories: ["Computer Security"],
+    is_enabled: true,
+    domains: [
+        "https://lolbas-project.github.io",
+    ],
+    urls: [
+        "https://lolbas-project.github.io/",
+    ],
+    rules: [
+        SkipURL("https://lolbas-project.github.io/api"),
+    ]
+)
