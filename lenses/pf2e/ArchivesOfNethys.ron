@@ -30,6 +30,11 @@
     rules: [
         SkipURL("https://2e.aonprd.com/*)/*"),
         SkipURL("https://2e.aonprd.com/*AspxAutoDetectCookieSupport*"),
-        SkipURL("https://2e.aonprd.com/*aspx/*")
+        SkipURL("https://2e.aonprd.com/*aspx/*"),
+        SkipURL("https://2e.aonprd.com/*&values*"),
+        SkipURL("https://2e.aonprd.com/*&sort*"),
+        SkipURL("https://2e.aonprd.com/*&display*"),
+        SkipURL("https://2e.aonprd.com/*&q=*"),
+        SkipURL("https://2e.aonprd.com/*?Group*"),
     ]
 )
