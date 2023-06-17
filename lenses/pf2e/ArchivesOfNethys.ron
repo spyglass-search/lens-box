@@ -1,0 +1,35 @@
+(
+    version: "1",
+    author: "HLennart",
+    name: "ArchivesOfNethys",
+    description: Some("Archives of Nethys Pathfinder 2e"),
+    is_enabled: true,
+    domains: [],
+
+    urls: [
+        "https://2e.aonprd.com/Ancestries.aspx",
+        "https://2e.aonprd.com/Archetypes.aspx",
+        "https://2e.aonprd.com/Backgrounds.aspx",
+        "https://2e.aonprd.com/Classes.aspx",
+        "https://2e.aonprd.com/Skills.aspx",
+        "https://2e.aonprd.com/Equipment.aspx",
+        "https://2e.aonprd.com/Feats.aspx",
+        "https://2e.aonprd.com/Afflictions.aspx",
+        "https://2e.aonprd.com/Creatures.aspx",
+        "https://2e.aonprd.com/Hazards.aspx",
+        "https://2e.aonprd.com/Rules.aspx",
+        "https://2e.aonprd.com/Actions.aspx",
+        "https://2e.aonprd.com/Conditions.aspx",
+        "https://2e.aonprd.com/GMScreen.aspx",
+        "https://2e.aonprd.com/PlayersGuide.aspx",
+        "https://2e.aonprd.com/Traits.aspx",
+        "https://2e.aonprd.com/SpellLists.aspx",
+
+    ],
+
+    rules: [
+        SkipURL("https://2e.aonprd.com/*)/*"),
+        SkipURL("https://2e.aonprd.com/*AspxAutoDetectCookieSupport*"),
+        SkipURL("https://2e.aonprd.com/*aspx/*")
+    ]
+)
