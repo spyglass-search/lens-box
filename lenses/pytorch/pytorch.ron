@@ -1,0 +1,13 @@
+(
+    author: "gRox167",
+    name: "pytorch",
+	label: "pytorch",
+    description: Some("pytorch documentation"),
+    categories: ["Programming"],
+    domains: [],
+    urls: [
+        "https://pytorch.org/docs/",
+    ],
+    version: "1",
+    rules: [],
+)
