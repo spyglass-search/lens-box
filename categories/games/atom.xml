@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
+	<title>Spyglass Lenses - Games</title>
+	<link href="https://lenses.spyglass.fyi/categories/games/atom.xml" rel="self" type="application/atom+xml"/>
+  <link href="https://lenses.spyglass.fyi"/>
+	<generator uri="https://www.getzola.org/">Zola</generator>
+	<updated>2023-09-18T00:00:00+00:00</updated>
+	<id>https://lenses.spyglass.fyi/categories/games/atom.xml</id>
+	<entry xml:lang="en">
+		<title>Old School RuneScape (OSRS) wiki</title>
+		<published>2023-09-18T00:00:00+00:00</published>
+		<updated>2023-09-18T00:00:00+00:00</updated>
+		<link rel="alternate" href="https://lenses.spyglass.fyi/lenses/2007scape/" type="text/html"/>
+		<id>https://lenses.spyglass.fyi/lenses/2007scape/</id>
+		<content type="html"></content>
+	</entry>
+	<entry xml:lang="en">
+		<title>Bulbapedia</title>
+		<published>2023-09-18T00:00:00+00:00</published>
+		<updated>2023-09-18T00:00:00+00:00</updated>
+		<link rel="alternate" href="https://lenses.spyglass.fyi/lenses/bulbapedia/" type="text/html"/>
+		<id>https://lenses.spyglass.fyi/lenses/bulbapedia/</id>
+		<content type="html"></content>
+	</entry>
+	<entry xml:lang="en">
+		<title>Disco Elysium</title>
+		<published>2023-09-18T00:00:00+00:00</published>
+		<updated>2023-09-18T00:00:00+00:00</updated>
+		<link rel="alternate" href="https://lenses.spyglass.fyi/lenses/disco-elysium/" type="text/html"/>
+		<id>https://lenses.spyglass.fyi/lenses/disco-elysium/</id>
+		<content type="html"></content>
+	</entry>
+	<entry xml:lang="en">
+		<title>Dungeons &amp; Dragons 5E</title>
+		<published>2023-09-18T00:00:00+00:00</published>
+		<updated>2023-09-18T00:00:00+00:00</updated>
+		<link rel="alternate" href="https://lenses.spyglass.fyi/lenses/dnd/" type="text/html"/>
+		<id>https://lenses.spyglass.fyi/lenses/dnd/</id>
+		<content type="html"></content>
+	</entry>
+	<entry xml:lang="en">
+		<title>Elden Ring</title>
+		<published>2023-09-18T00:00:00+00:00</published>
+		<updated>2023-09-18T00:00:00+00:00</updated>
+		<link rel="alternate" href="https://lenses.spyglass.fyi/lenses/eldenring/" type="text/html"/>
+		<id>https://lenses.spyglass.fyi/lenses/eldenring/</id>
+		<content type="html"></content>
+	</entry>
+	<entry xml:lang="en">
+		<title>Factorio</title>
+		<published>2023-09-18T00:00:00+00:00</published>
+		<updated>2023-09-18T00:00:00+00:00</updated>
+		<link rel="alternate" href="https://lenses.spyglass.fyi/lenses/factorio/" type="text/html"/>
+		<id>https://lenses.spyglass.fyi/lenses/factorio/</id>
+		<content type="html"></content>
+	</entry>
+	<entry xml:lang="en">
+		<title>Hogwarts Legacy Wiki</title>
+		<published>2023-09-18T00:00:00+00:00</published>
+		<updated>2023-09-18T00:00:00+00:00</updated>
+		<link rel="alternate" href="https://lenses.spyglass.fyi/lenses/hogwarts-legacy/" type="text/html"/>
+		<id>https://lenses.spyglass.fyi/lenses/hogwarts-legacy/</id>
+		<content type="html"></content>
+	</entry>
+	<entry xml:lang="en">
+		<title>Luigis Mansion Guide</title>
+		<published>2023-09-18T00:00:00+00:00</published>
+		<updated>2023-09-18T00:00:00+00:00</updated>
+		<link rel="alternate" href="https://lenses.spyglass.fyi/lenses/luigis-mansion/" type="text/html"/>
+		<id>https://lenses.spyglass.fyi/lenses/luigis-mansion/</id>
+		<content type="html"></content>
+	</entry>
+	<entry xml:lang="en">
+		<title>OpenCritic: Games Reviews</title>
+		<published>2023-09-18T00:00:00+00:00</published>
+		<updated>2023-09-18T00:00:00+00:00</updated>
+		<link rel="alternate" href="https://lenses.spyglass.fyi/lenses/opencritic/" type="text/html"/>
+		<id>https://lenses.spyglass.fyi/lenses/opencritic/</id>
+		<content type="html"></content>
+	</entry>
+	<entry xml:lang="en">
+		<title>Rogue Legacy 2 Wiki</title>
+		<published>2023-09-18T00:00:00+00:00</published>
+		<updated>2023-09-18T00:00:00+00:00</updated>
+		<link rel="alternate" href="https://lenses.spyglass.fyi/lenses/roguelegacy2/" type="text/html"/>
+		<id>https://lenses.spyglass.fyi/lenses/roguelegacy2/</id>
+		<content type="html"></content>
+	</entry>
+	<entry xml:lang="en">
+		<title>Magic the Gathering (MtG)</title>
+		<published>2023-09-18T00:00:00+00:00</published>
+		<updated>2023-09-18T00:00:00+00:00</updated>
+		<link rel="alternate" href="https://lenses.spyglass.fyi/lenses/scryfall/" type="text/html"/>
+		<id>https://lenses.spyglass.fyi/lenses/scryfall/</id>
+		<content type="html"></content>
+	</entry>
+	<entry xml:lang="en">
+		<title>Super Mario Galaxy 1 &amp; 2</title>
+		<published>2023-09-18T00:00:00+00:00</published>
+		<updated>2023-09-18T00:00:00+00:00</updated>
+		<link rel="alternate" href="https://lenses.spyglass.fyi/lenses/smg/" type="text/html"/>
+		<id>https://lenses.spyglass.fyi/lenses/smg/</id>
+		<content type="html"></content>
+	</entry>
+	<entry xml:lang="en">
+		<title>Stardew Valley</title>
+		<published>2023-09-18T00:00:00+00:00</published>
+		<updated>2023-09-18T00:00:00+00:00</updated>
+		<link rel="alternate" href="https://lenses.spyglass.fyi/lenses/stardew/" type="text/html"/>
+		<id>https://lenses.spyglass.fyi/lenses/stardew/</id>
+		<content type="html"></content>
+	</entry>
+	<entry xml:lang="en">
+		<title>Steam Store</title>
+		<published>2023-09-18T00:00:00+00:00</published>
+		<updated>2023-09-18T00:00:00+00:00</updated>
+		<link rel="alternate" href="https://lenses.spyglass.fyi/lenses/steam/" type="text/html"/>
+		<id>https://lenses.spyglass.fyi/lenses/steam/</id>
+		<content type="html"></content>
+	</entry>
+	<entry xml:lang="en">
+		<title>Terraria</title>
+		<published>2023-09-18T00:00:00+00:00</published>
+		<updated>2023-09-18T00:00:00+00:00</updated>
+		<link rel="alternate" href="https://lenses.spyglass.fyi/lenses/terraria/" type="text/html"/>
+		<id>https://lenses.spyglass.fyi/lenses/terraria/</id>
+		<content type="html"></content>
+	</entry>
+	<entry xml:lang="en">
+		<title>Vintage Story</title>
+		<published>2023-09-18T00:00:00+00:00</published>
+		<updated>2023-09-18T00:00:00+00:00</updated>
+		<link rel="alternate" href="https://lenses.spyglass.fyi/lenses/vintage-story/" type="text/html"/>
+		<id>https://lenses.spyglass.fyi/lenses/vintage-story/</id>
+		<content type="html"></content>
+	</entry>
+	<entry xml:lang="en">
+		<title>World of Warcraft (WoW) Items</title>
+		<published>2023-09-18T00:00:00+00:00</published>
+		<updated>2023-09-18T00:00:00+00:00</updated>
+		<link rel="alternate" href="https://lenses.spyglass.fyi/lenses/wow-items/" type="text/html"/>
+		<id>https://lenses.spyglass.fyi/lenses/wow-items/</id>
+		<content type="html"></content>
+	</entry>
+	<entry xml:lang="en">
+		<title>World of Warcraft (WoW) NPCs</title>
+		<published>2023-09-18T00:00:00+00:00</published>
+		<updated>2023-09-18T00:00:00+00:00</updated>
+		<link rel="alternate" href="https://lenses.spyglass.fyi/lenses/wow-npcs/" type="text/html"/>
+		<id>https://lenses.spyglass.fyi/lenses/wow-npcs/</id>
+		<content type="html"></content>
+	</entry>
+	<entry xml:lang="en">
+		<title>World of Warcraft (WoW) Quests</title>
+		<published>2023-09-18T00:00:00+00:00</published>
+		<updated>2023-09-18T00:00:00+00:00</updated>
+		<link rel="alternate" href="https://lenses.spyglass.fyi/lenses/wow-quests/" type="text/html"/>
+		<id>https://lenses.spyglass.fyi/lenses/wow-quests/</id>
+		<content type="html"></content>
+	</entry>
+	<entry xml:lang="en">
+		<title>World of Warcraft (WoW) Spells</title>
+		<published>2023-09-18T00:00:00+00:00</published>
+		<updated>2023-09-18T00:00:00+00:00</updated>
+		<link rel="alternate" href="https://lenses.spyglass.fyi/lenses/wow-spells/" type="text/html"/>
+		<id>https://lenses.spyglass.fyi/lenses/wow-spells/</id>
+		<content type="html"></content>
+	</entry>
+	<entry xml:lang="en">
+		<title>World of Warcraft (WoW) Guides &amp; General Info</title>
+		<published>2023-09-18T00:00:00+00:00</published>
+		<updated>2023-09-18T00:00:00+00:00</updated>
+		<link rel="alternate" href="https://lenses.spyglass.fyi/lenses/wow/" type="text/html"/>
+		<id>https://lenses.spyglass.fyi/lenses/wow/</id>
+		<content type="html"></content>
+	</entry>
+	<entry xml:lang="en">
+		<title>Zelda: Twilight Princess</title>
+		<published>2023-09-18T00:00:00+00:00</published>
+		<updated>2023-09-18T00:00:00+00:00</updated>
+		<link rel="alternate" href="https://lenses.spyglass.fyi/lenses/zelda-twilight-princess/" type="text/html"/>
+		<id>https://lenses.spyglass.fyi/lenses/zelda-twilight-princess/</id>
+		<content type="html"></content>
+	</entry>
+</feed>

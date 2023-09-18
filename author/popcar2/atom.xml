@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
+	<title>Spyglass Lenses - popcar2</title>
+	<link href="https://lenses.spyglass.fyi/author/popcar2/atom.xml" rel="self" type="application/atom+xml"/>
+  <link href="https://lenses.spyglass.fyi"/>
+	<generator uri="https://www.getzola.org/">Zola</generator>
+	<updated>2023-09-18T00:00:00+00:00</updated>
+	<id>https://lenses.spyglass.fyi/author/popcar2/atom.xml</id>
+	<entry xml:lang="en">
+		<title>Arch Linux User Repository (AUR)</title>
+		<published>2023-09-18T00:00:00+00:00</published>
+		<updated>2023-09-18T00:00:00+00:00</updated>
+		<link rel="alternate" href="https://lenses.spyglass.fyi/lenses/aur/" type="text/html"/>
+		<id>https://lenses.spyglass.fyi/lenses/aur/</id>
+		<content type="html"></content>
+	</entry>
+	<entry xml:lang="en">
+		<title>Comic Book Roundup</title>
+		<published>2023-09-18T00:00:00+00:00</published>
+		<updated>2023-09-18T00:00:00+00:00</updated>
+		<link rel="alternate" href="https://lenses.spyglass.fyi/lenses/cbr/" type="text/html"/>
+		<id>https://lenses.spyglass.fyi/lenses/cbr/</id>
+		<content type="html"></content>
+	</entry>
+	<entry xml:lang="en">
+		<title>Elden Ring</title>
+		<published>2023-09-18T00:00:00+00:00</published>
+		<updated>2023-09-18T00:00:00+00:00</updated>
+		<link rel="alternate" href="https://lenses.spyglass.fyi/lenses/eldenring/" type="text/html"/>
+		<id>https://lenses.spyglass.fyi/lenses/eldenring/</id>
+		<content type="html"></content>
+	</entry>
+	<entry xml:lang="en">
+		<title>OpenCritic: Games Reviews</title>
+		<published>2023-09-18T00:00:00+00:00</published>
+		<updated>2023-09-18T00:00:00+00:00</updated>
+		<link rel="alternate" href="https://lenses.spyglass.fyi/lenses/opencritic/" type="text/html"/>
+		<id>https://lenses.spyglass.fyi/lenses/opencritic/</id>
+		<content type="html"></content>
+	</entry>
+	<entry xml:lang="en">
+		<title>Rogue Legacy 2 Wiki</title>
+		<published>2023-09-18T00:00:00+00:00</published>
+		<updated>2023-09-18T00:00:00+00:00</updated>
+		<link rel="alternate" href="https://lenses.spyglass.fyi/lenses/roguelegacy2/" type="text/html"/>
+		<id>https://lenses.spyglass.fyi/lenses/roguelegacy2/</id>
+		<content type="html"></content>
+	</entry>
+	<entry xml:lang="en">
+		<title>Steam Store</title>
+		<published>2023-09-18T00:00:00+00:00</published>
+		<updated>2023-09-18T00:00:00+00:00</updated>
+		<link rel="alternate" href="https://lenses.spyglass.fyi/lenses/steam/" type="text/html"/>
+		<id>https://lenses.spyglass.fyi/lenses/steam/</id>
+		<content type="html"></content>
+	</entry>
+	<entry xml:lang="en">
+		<title>Terraria</title>
+		<published>2023-09-18T00:00:00+00:00</published>
+		<updated>2023-09-18T00:00:00+00:00</updated>
+		<link rel="alternate" href="https://lenses.spyglass.fyi/lenses/terraria/" type="text/html"/>
+		<id>https://lenses.spyglass.fyi/lenses/terraria/</id>
+		<content type="html"></content>
+	</entry>
+	<entry xml:lang="en">
+		<title>Vintage Story</title>
+		<published>2023-09-18T00:00:00+00:00</published>
+		<updated>2023-09-18T00:00:00+00:00</updated>
+		<link rel="alternate" href="https://lenses.spyglass.fyi/lenses/vintage-story/" type="text/html"/>
+		<id>https://lenses.spyglass.fyi/lenses/vintage-story/</id>
+		<content type="html"></content>
+	</entry>
+	<entry xml:lang="en">
+		<title>xkcd</title>
+		<published>2023-09-18T00:00:00+00:00</published>
+		<updated>2023-09-18T00:00:00+00:00</updated>
+		<link rel="alternate" href="https://lenses.spyglass.fyi/lenses/xkcd/" type="text/html"/>
+		<id>https://lenses.spyglass.fyi/lenses/xkcd/</id>
+		<content type="html"></content>
+	</entry>
+</feed>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
+	<title>Spyglass Lenses - Comics</title>
+	<link href="https://lenses.spyglass.fyi/categories/comics/atom.xml" rel="self" type="application/atom+xml"/>
+  <link href="https://lenses.spyglass.fyi"/>
+	<generator uri="https://www.getzola.org/">Zola</generator>
+	<updated>2023-09-18T00:00:00+00:00</updated>
+	<id>https://lenses.spyglass.fyi/categories/comics/atom.xml</id>
+	<entry xml:lang="en">
+		<title>Comic Book Roundup</title>
+		<published>2023-09-18T00:00:00+00:00</published>
+		<updated>2023-09-18T00:00:00+00:00</updated>
+		<link rel="alternate" href="https://lenses.spyglass.fyi/lenses/cbr/" type="text/html"/>
+		<id>https://lenses.spyglass.fyi/lenses/cbr/</id>
+		<content type="html"></content>
+	</entry>
+	<entry xml:lang="en">
+		<title>xkcd</title>
+		<published>2023-09-18T00:00:00+00:00</published>
+		<updated>2023-09-18T00:00:00+00:00</updated>
+		<link rel="alternate" href="https://lenses.spyglass.fyi/lenses/xkcd/" type="text/html"/>
+		<id>https://lenses.spyglass.fyi/lenses/xkcd/</id>
+		<content type="html"></content>
+	</entry>
+</feed>

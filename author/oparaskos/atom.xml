@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
+	<title>Spyglass Lenses - oparaskos</title>
+	<link href="https://lenses.spyglass.fyi/author/oparaskos/atom.xml" rel="self" type="application/atom+xml"/>
+  <link href="https://lenses.spyglass.fyi"/>
+	<generator uri="https://www.getzola.org/">Zola</generator>
+	<updated>2023-09-18T00:00:00+00:00</updated>
+	<id>https://lenses.spyglass.fyi/author/oparaskos/atom.xml</id>
+	<entry xml:lang="en">
+		<title>Java Reference Material</title>
+		<published>2023-09-18T00:00:00+00:00</published>
+		<updated>2023-09-18T00:00:00+00:00</updated>
+		<link rel="alternate" href="https://lenses.spyglass.fyi/lenses/java/" type="text/html"/>
+		<id>https://lenses.spyglass.fyi/lenses/java/</id>
+		<content type="html"></content>
+	</entry>
+	<entry xml:lang="en">
+		<title>Kotlin</title>
+		<published>2023-09-18T00:00:00+00:00</published>
+		<updated>2023-09-18T00:00:00+00:00</updated>
+		<link rel="alternate" href="https://lenses.spyglass.fyi/lenses/kotlin/" type="text/html"/>
+		<id>https://lenses.spyglass.fyi/lenses/kotlin/</id>
+		<content type="html"></content>
+	</entry>
+	<entry xml:lang="en">
+		<title>Unity</title>
+		<published>2023-09-18T00:00:00+00:00</published>
+		<updated>2023-09-18T00:00:00+00:00</updated>
+		<link rel="alternate" href="https://lenses.spyglass.fyi/lenses/unity/" type="text/html"/>
+		<id>https://lenses.spyglass.fyi/lenses/unity/</id>
+		<content type="html"></content>
+	</entry>
+	<entry xml:lang="en">
+		<title>Unreal Engine 4.27 Docs</title>
+		<published>2023-09-18T00:00:00+00:00</published>
+		<updated>2023-09-18T00:00:00+00:00</updated>
+		<link rel="alternate" href="https://lenses.spyglass.fyi/lenses/unreal-4/" type="text/html"/>
+		<id>https://lenses.spyglass.fyi/lenses/unreal-4/</id>
+		<content type="html"></content>
+	</entry>
+	<entry xml:lang="en">
+		<title>Unreal Engine 5.2 Docs</title>
+		<published>2023-09-18T00:00:00+00:00</published>
+		<updated>2023-09-18T00:00:00+00:00</updated>
+		<link rel="alternate" href="https://lenses.spyglass.fyi/lenses/unreal-5/" type="text/html"/>
+		<id>https://lenses.spyglass.fyi/lenses/unreal-5/</id>
+		<content type="html"></content>
+	</entry>
+</feed>

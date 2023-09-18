@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
+	<title>Spyglass Lenses - spyglass-search</title>
+	<link href="https://lenses.spyglass.fyi/author/spyglass-search/atom.xml" rel="self" type="application/atom+xml"/>
+  <link href="https://lenses.spyglass.fyi"/>
+	<generator uri="https://www.getzola.org/">Zola</generator>
+	<updated>2023-09-18T00:00:00+00:00</updated>
+	<id>https://lenses.spyglass.fyi/author/spyglass-search/atom.xml</id>
+	<entry xml:lang="en">
+		<title>Akka</title>
+		<published>2023-09-18T00:00:00+00:00</published>
+		<updated>2023-09-18T00:00:00+00:00</updated>
+		<link rel="alternate" href="https://lenses.spyglass.fyi/lenses/akka/" type="text/html"/>
+		<id>https://lenses.spyglass.fyi/lenses/akka/</id>
+		<content type="html"></content>
+	</entry>
+	<entry xml:lang="en">
+		<title>Android</title>
+		<published>2023-09-18T00:00:00+00:00</published>
+		<updated>2023-09-18T00:00:00+00:00</updated>
+		<link rel="alternate" href="https://lenses.spyglass.fyi/lenses/android/" type="text/html"/>
+		<id>https://lenses.spyglass.fyi/lenses/android/</id>
+		<content type="html"></content>
+	</entry>
+	<entry xml:lang="en">
+		<title>Angular</title>
+		<published>2023-09-18T00:00:00+00:00</published>
+		<updated>2023-09-18T00:00:00+00:00</updated>
+		<link rel="alternate" href="https://lenses.spyglass.fyi/lenses/angular/" type="text/html"/>
+		<id>https://lenses.spyglass.fyi/lenses/angular/</id>
+		<content type="html"></content>
+	</entry>
+	<entry xml:lang="en">
+		<title>AngularJS</title>
+		<published>2023-09-18T00:00:00+00:00</published>
+		<updated>2023-09-18T00:00:00+00:00</updated>
+		<link rel="alternate" href="https://lenses.spyglass.fyi/lenses/angularjs/" type="text/html"/>
+		<id>https://lenses.spyglass.fyi/lenses/angularjs/</id>
+		<content type="html"></content>
+	</entry>
+	<entry xml:lang="en">
+		<title>Ansible</title>
+		<published>2023-09-18T00:00:00+00:00</published>
+		<updated>2023-09-18T00:00:00+00:00</updated>
+		<link rel="alternate" href="https://lenses.spyglass.fyi/lenses/ansible/" type="text/html"/>
+		<id>https://lenses.spyglass.fyi/lenses/ansible/</id>
+		<content type="html"></content>
+	</entry>
+	<entry xml:lang="en">
+		<title>Apache HTTP Server</title>
+		<published>2023-09-18T00:00:00+00:00</published>
+		<updated>2023-09-18T00:00:00+00:00</updated>
+		<link rel="alternate" href="https://lenses.spyglass.fyi/lenses/apache-http-server/" type="text/html"/>
+		<id>https://lenses.spyglass.fyi/lenses/apache-http-server/</id>
+		<content type="html"></content>
+	</entry>
+	<entry xml:lang="en">
+		<title>Bootstrap 3.4</title>
+		<published>2023-09-18T00:00:00+00:00</published>
+		<updated>2023-09-18T00:00:00+00:00</updated>
+		<link rel="alternate" href="https://lenses.spyglass.fyi/lenses/bootstrap-3-4/" type="text/html"/>
+		<id>https://lenses.spyglass.fyi/lenses/bootstrap-3-4/</id>
+		<content type="html"></content>
+	</entry>
+	<entry xml:lang="en">
+		<title>Bootstrap 4.6</title>
+		<published>2023-09-18T00:00:00+00:00</published>
+		<updated>2023-09-18T00:00:00+00:00</updated>
+		<link rel="alternate" href="https://lenses.spyglass.fyi/lenses/bootstrap-4-6/" type="text/html"/>
+		<id>https://lenses.spyglass.fyi/lenses/bootstrap-4-6/</id>
+		<content type="html"></content>
+	</entry>
+	<entry xml:lang="en">
+		<title>Bootstrap 5.2</title>
+		<published>2023-09-18T00:00:00+00:00</published>
+		<updated>2023-09-18T00:00:00+00:00</updated>
+		<link rel="alternate" href="https://lenses.spyglass.fyi/lenses/bootstrap-5-2/" type="text/html"/>
+		<id>https://lenses.spyglass.fyi/lenses/bootstrap-5-2/</id>
+		<content type="html"></content>
+	</entry>
+	<entry xml:lang="en">
+		<title>Bourbon 7.0.0</title>
+		<published>2023-09-18T00:00:00+00:00</published>
+		<updated>2023-09-18T00:00:00+00:00</updated>
+		<link rel="alternate" href="https://lenses.spyglass.fyi/lenses/bourbon-7-0-0/" type="text/html"/>
+		<id>https://lenses.spyglass.fyi/lenses/bourbon-7-0-0/</id>
+		<content type="html"></content>
+	</entry>
+	<entry xml:lang="en">
+		<title>Bulbapedia</title>
+		<published>2023-09-18T00:00:00+00:00</published>
+		<updated>2023-09-18T00:00:00+00:00</updated>
+		<link rel="alternate" href="https://lenses.spyglass.fyi/lenses/bulbapedia/" type="text/html"/>
+		<id>https://lenses.spyglass.fyi/lenses/bulbapedia/</id>
+		<content type="html"></content>
+	</entry>
+	<entry xml:lang="en">
+		<title>CMake</title>
+		<published>2023-09-18T00:00:00+00:00</published>
+		<updated>2023-09-18T00:00:00+00:00</updated>
+		<link rel="alternate" href="https://lenses.spyglass.fyi/lenses/cmake/" type="text/html"/>
+		<id>https://lenses.spyglass.fyi/lenses/cmake/</id>
+		<content type="html"></content>
+	</entry>
+	<entry xml:lang="en">
+		<title>CSS</title>
+		<published>2023-09-18T00:00:00+00:00</published>
+		<updated>2023-09-18T00:00:00+00:00</updated>
+		<link rel="alternate" href="https://lenses.spyglass.fyi/lenses/css/" type="text/html"/>
+		<id>https://lenses.spyglass.fyi/lenses/css/</id>
+		<content type="html"></content>
+	</entry>
+	<entry xml:lang="en">
+		<title>Disco Elysium</title>
+		<published>2023-09-18T00:00:00+00:00</published>
+		<updated>2023-09-18T00:00:00+00:00</updated>
+		<link rel="alternate" href="https://lenses.spyglass.fyi/lenses/disco-elysium/" type="text/html"/>
+		<id>https://lenses.spyglass.fyi/lenses/disco-elysium/</id>
+		<content type="html"></content>
+	</entry>
+	<entry xml:lang="en">
+		<title>Go Language Documentation</title>
+		<published>2023-09-18T00:00:00+00:00</published>
+		<updated>2023-09-18T00:00:00+00:00</updated>
+		<link rel="alternate" href="https://lenses.spyglass.fyi/lenses/go/" type="text/html"/>
+		<id>https://lenses.spyglass.fyi/lenses/go/</id>
+		<content type="html"></content>
+	</entry>
+	<entry xml:lang="en">
+		<title>Harry Potter Wiki</title>
+		<published>2023-09-18T00:00:00+00:00</published>
+		<updated>2023-09-18T00:00:00+00:00</updated>
+		<link rel="alternate" href="https://lenses.spyglass.fyi/lenses/harrypotter-wiki/" type="text/html"/>
+		<id>https://lenses.spyglass.fyi/lenses/harrypotter-wiki/</id>
+		<content type="html"></content>
+	</entry>
+	<entry xml:lang="en">
+		<title>Hogwarts Legacy Wiki</title>
+		<published>2023-09-18T00:00:00+00:00</published>
+		<updated>2023-09-18T00:00:00+00:00</updated>
+		<link rel="alternate" href="https://lenses.spyglass.fyi/lenses/hogwarts-legacy/" type="text/html"/>
+		<id>https://lenses.spyglass.fyi/lenses/hogwarts-legacy/</id>
+		<content type="html"></content>
+	</entry>
+	<entry xml:lang="en">
+		<title>HTML</title>
+		<published>2023-09-18T00:00:00+00:00</published>
+		<updated>2023-09-18T00:00:00+00:00</updated>
+		<link rel="alternate" href="https://lenses.spyglass.fyi/lenses/html/" type="text/html"/>
+		<id>https://lenses.spyglass.fyi/lenses/html/</id>
+		<content type="html"></content>
+	</entry>
+	<entry xml:lang="en">
+		<title>Java SE11 Documentation</title>
+		<published>2023-09-18T00:00:00+00:00</published>
+		<updated>2023-09-18T00:00:00+00:00</updated>
+		<link rel="alternate" href="https://lenses.spyglass.fyi/lenses/java-se11/" type="text/html"/>
+		<id>https://lenses.spyglass.fyi/lenses/java-se11/</id>
+		<content type="html"></content>
+	</entry>
+	<entry xml:lang="en">
+		<title>Java SE18 Documentation</title>
+		<published>2023-09-18T00:00:00+00:00</published>
+		<updated>2023-09-18T00:00:00+00:00</updated>
+		<link rel="alternate" href="https://lenses.spyglass.fyi/lenses/java-se18/" type="text/html"/>
+		<id>https://lenses.spyglass.fyi/lenses/java-se18/</id>
+		<content type="html"></content>
+	</entry>
+	<entry xml:lang="en">
+		<title>Java SE19 Documentation</title>
+		<published>2023-09-18T00:00:00+00:00</published>
+		<updated>2023-09-18T00:00:00+00:00</updated>
+		<link rel="alternate" href="https://lenses.spyglass.fyi/lenses/java-se19/" type="text/html"/>
+		<id>https://lenses.spyglass.fyi/lenses/java-se19/</id>
+		<content type="html"></content>
+	</entry>
+	<entry xml:lang="en">
+		<title>NodeJS API Documentation</title>
+		<published>2023-09-18T00:00:00+00:00</published>
+		<updated>2023-09-18T00:00:00+00:00</updated>
+		<link rel="alternate" href="https://lenses.spyglass.fyi/lenses/nodejs/" type="text/html"/>
+		<id>https://lenses.spyglass.fyi/lenses/nodejs/</id>
+		<content type="html"></content>
+	</entry>
+	<entry xml:lang="en">
+		<title>Wikipedia</title>
+		<published>2023-09-18T00:00:00+00:00</published>
+		<updated>2023-09-18T00:00:00+00:00</updated>
+		<link rel="alternate" href="https://lenses.spyglass.fyi/lenses/wikipedia/" type="text/html"/>
+		<id>https://lenses.spyglass.fyi/lenses/wikipedia/</id>
+		<content type="html"></content>
+	</entry>
+</feed>

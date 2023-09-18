@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
+	<title>Spyglass Lenses - TheSelox</title>
+	<link href="https://lenses.spyglass.fyi/author/theselox/atom.xml" rel="self" type="application/atom+xml"/>
+  <link href="https://lenses.spyglass.fyi"/>
+	<generator uri="https://www.getzola.org/">Zola</generator>
+	<updated>2023-09-18T00:00:00+00:00</updated>
+	<id>https://lenses.spyglass.fyi/author/theselox/atom.xml</id>
+	<entry xml:lang="en">
+		<title>GTFOBins</title>
+		<published>2023-09-18T00:00:00+00:00</published>
+		<updated>2023-09-18T00:00:00+00:00</updated>
+		<link rel="alternate" href="https://lenses.spyglass.fyi/lenses/gtfobins/" type="text/html"/>
+		<id>https://lenses.spyglass.fyi/lenses/gtfobins/</id>
+		<content type="html"></content>
+	</entry>
+	<entry xml:lang="en">
+		<title>LOLBAS Project</title>
+		<published>2023-09-18T00:00:00+00:00</published>
+		<updated>2023-09-18T00:00:00+00:00</updated>
+		<link rel="alternate" href="https://lenses.spyglass.fyi/lenses/lolbas/" type="text/html"/>
+		<id>https://lenses.spyglass.fyi/lenses/lolbas/</id>
+		<content type="html"></content>
+	</entry>
+	<entry xml:lang="en">
+		<title>Splunk SPL commands</title>
+		<published>2023-09-18T00:00:00+00:00</published>
+		<updated>2023-09-18T00:00:00+00:00</updated>
+		<link rel="alternate" href="https://lenses.spyglass.fyi/lenses/splunk/" type="text/html"/>
+		<id>https://lenses.spyglass.fyi/lenses/splunk/</id>
+		<content type="html"></content>
+	</entry>
+</feed>
