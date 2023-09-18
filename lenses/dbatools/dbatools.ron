@@ -1,0 +1,13 @@
+(
+    author: "Marco Kleinert",
+    name: "dbatools",
+    label: "dbatools",
+    description: Some("dbatools cmdlet documentation"),
+    categories: ["database administration"],
+    domains: [],
+    urls: [
+        "https://docs.dbatools.io/"
+    ],
+    version: "1",
+    rules: [],
+)
