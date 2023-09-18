@@ -87,6 +87,16 @@
         ],
     ),
     (
+        author: "HLennart",
+        description: "Archives of Nethys Pathfinder 2e",
+        name: "ArchivesOfNethys",
+        label: "ArchivesOfNethys",
+        sha: "5ca0445414282ae8d9c96c2ff9a9f572560c2f9074a29b16a91028e93c5f4cbe",
+        download_url: "https://raw.githubusercontent.com/spyglass-search/lens-box/main/lenses/pf2e/ArchivesOfNethys.ron",
+        html_url: "https://github.com/spyglass-search/lens-box/blob/main/lenses/pf2e/ArchivesOfNethys.ron",
+        categories: [],
+    ),
+    (
         author: "popcar2",
         description: "Arch User Repository, so you can find packages quickly.",
         name: "AUR",
@@ -201,6 +211,18 @@
         ],
     ),
     (
+        author: "Marco Kleinert",
+        description: "dbatools cmdlet documentation",
+        name: "dbatools",
+        label: "dbatools",
+        sha: "6bffc59ea5bd32fa4d546c3e938047c8b57583836ac725f94d86f658b2811f09",
+        download_url: "https://raw.githubusercontent.com/spyglass-search/lens-box/main/lenses/dbatools/dbatools.ron",
+        html_url: "https://github.com/spyglass-search/lens-box/blob/main/lenses/dbatools/dbatools.ron",
+        categories: [
+            "database administration",
+        ],
+    ),
+    (
         author: "spyglass-search",
         description: "Disco Elysium Wiki",
         name: "disco_elysium",
@@ -271,6 +293,18 @@
         html_url: "https://github.com/spyglass-search/lens-box/blob/main/lenses/Go/Go.ron",
         categories: [
             "Programming",
+        ],
+    ),
+    (
+        author: "TheSelox",
+        description: "GTFOBins is a curated list of Unix binaries that can be used to bypass local security restrictions in misconfigured systems.",
+        name: "gtfobins",
+        label: "GTFOBins",
+        sha: "9b33a1aa303d8eb2afc19779dab4fd91e5baaf1b1cdc6d6c8d94307256f61533",
+        download_url: "https://raw.githubusercontent.com/spyglass-search/lens-box/main/lenses/GTFOBins/gtfobins.ron",
+        html_url: "https://github.com/spyglass-search/lens-box/blob/main/lenses/GTFOBins/gtfobins.ron",
+        categories: [
+            "Computer Security",
         ],
     ),
     (
@@ -385,6 +419,18 @@
         ],
     ),
     (
+        author: "TheSelox",
+        description: "Living Off The Land Binaries, Scripts and Libraries",
+        name: "lolbas",
+        label: "LOLBAS Project",
+        sha: "a1492c14d1c43591b240eb4d082f79d1e724059b5119f63097e437772374929c",
+        download_url: "https://raw.githubusercontent.com/spyglass-search/lens-box/main/lenses/LOLBAS/lolbas.ron",
+        html_url: "https://github.com/spyglass-search/lens-box/blob/main/lenses/LOLBAS/lolbas.ron",
+        categories: [
+            "Computer Security",
+        ],
+    ),
+    (
         author: "pknessness",
         description: "Luigi\'s Mansion Walkthrough",
         name: "luigis_mansion",
@@ -457,6 +503,18 @@
         categories: [
             "Programming",
             "Game Development",
+        ],
+    ),
+    (
+        author: "gRox167",
+        description: "pytorch documentation",
+        name: "pytorch",
+        label: "pytorch",
+        sha: "6ce19b8be533ad99d147b1581095bf506d92c8a56c41ddbaf5276d4d3436c79d",
+        download_url: "https://raw.githubusercontent.com/spyglass-search/lens-box/main/lenses/pytorch/pytorch.ron",
+        html_url: "https://github.com/spyglass-search/lens-box/blob/main/lenses/pytorch/pytorch.ron",
+        categories: [
+            "Programming",
         ],
     ),
     (
@@ -657,10 +715,10 @@
     ),
     (
         author: "oparaskos",
-        description: "Unreal Engine 5.1 editor/engine documentation",
+        description: "Unreal Engine 5.2 editor/engine documentation",
         name: "unreal_5",
-        label: "Unreal Engine 5.1 Docs",
-        sha: "54dfdc4b884addcaa08e86fcdabc09e70c610a56bbb7eff17748914726cfaaf5",
+        label: "Unreal Engine 5.2 Docs",
+        sha: "db75eb63ef5a9466dfb0194351b0aadad3282d9e306cfb8d9b9dc9b9119df9dd",
         download_url: "https://raw.githubusercontent.com/spyglass-search/lens-box/main/lenses/unreal_5/unreal_5.ron",
         html_url: "https://github.com/spyglass-search/lens-box/blob/main/lenses/unreal_5/unreal_5.ron",
         categories: [
