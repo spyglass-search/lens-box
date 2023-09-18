@@ -1,0 +1,16 @@
+(
+    version: "1",
+    name: "gtfobins",
+    label: "GTFOBins",
+    author: "TheSelox",
+    description: Some("GTFOBins is a curated list of Unix binaries that can be used to bypass local security restrictions in misconfigured systems."),
+    categories: ["Computer Security"],
+    is_enabled: true,
+    domains: [
+        "https://gtfobins.github.io",
+    ],
+    urls: [
+        "https://gtfobins.github.io/",
+    ],
+    rules: []
+)
