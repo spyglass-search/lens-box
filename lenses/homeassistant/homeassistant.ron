@@ -1,0 +1,22 @@
+(
+    author: "nothingmn",
+    name: "HOMEASSISTANT",
+    description: Some("Home Assistant"),
+    domains: [],
+    urls: [
+        "https://www.home-assistant.io/",
+        "https://www.home-assistant.io/docs/",
+        "https://www.home-assistant.io/blog/",
+        "https://www.home-assistant.io/examples/",
+        "https://www.home-assistant.io/integrations/",
+        "https://nixos.wiki/wiki/Home_Assistant",
+        "https://github.com/home-assistant/core",
+        "https://github.com/home-assistant/frontend",
+        "https://github.com/home-assistant/supervisor",
+        "https://github.com/home-assistant/operating-system",
+        "https://developers.home-assistant.io/",
+        "https://hacs.xyz/"
+    ],
+    version: "1",
+    rules: [],
+)

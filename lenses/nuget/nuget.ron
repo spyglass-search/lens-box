@@ -1,0 +1,11 @@
+(
+    author: "nothingmn",
+    name: "NUGET",
+    description: Some("Nuget.org - .NET Packages"),
+    domains: [],
+    urls: [
+        "https://www.nuget.org/"
+    ],
+    version: "1",
+    rules: [],
+)
